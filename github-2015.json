@@ -1,0 +1,4680 @@
+[
+  [
+    "tmpvar/jsdom",
+    [
+      {
+        "title": "jsdom/Changelog.md at 4.0.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/4.0.0/Changelog.md",
+        "content": "jsdom 4.0.0リリース。\nio.jsの新しいvmモジュールに依存するため、4.xはio.jsでの動作のみで、Nodeの場合は3.xを使うように推奨されてる。",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library"
+        ],
+        "date": "2015-02-23T05:55:09.014Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at master · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/master/Changelog.md#500",
+        "content": "jsdom 5.0.0リリース。\n`document.cookie`周りの修正が中心",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-16T05:19:03.253Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at master · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/master/Changelog.md#550",
+        "content": "jsdom 5.5.0リリース。\npostMessageのサポート、`cloneNode`と`importNode`の問題を修正など",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-30T07:04:26.562Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at 6.0.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/6.0.0/Changelog.md",
+        "content": "jsdom 6.0.0リリース。\nio.js 2.0以上が必要に、パフォーマンスの改善、`window.onerror`が動くように、`URL`オブジェクトのサポートなど",
+        "tags": [
+          "DOM",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-08T05:57:23.568Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at 6.2.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/6.2.0/Changelog.md",
+        "content": "jsdom 6.2.0リリース。\n`Element.prototype.classList`のサポートやバグ修正",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-25T06:42:32.265Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at 6.4.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/6.4.0/Changelog.md",
+        "content": "jsdom 6.4.0リリース。\n`jsdom.nodeLocation`の追加、\n`getElementsByClassName`でスペースが区切られた文字列に対応など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-14T08:13:56.590Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jsdom/Changelog.md at 7.0.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/7.0.0/Changelog.md",
+        "content": "jsdom 7.0.0リリース。\nNode.js 4.0以降が必要になった。\nXMLHttpRequestの再実装、`HTMLTemplateElement.prototype.content`の追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-18T01:33:56.696Z"
+      },
+      {
+        "title": "jsdom/Changelog.md at 7.2.0 · tmpvar/jsdom",
+        "url": "https://github.com/tmpvar/jsdom/blob/7.2.0/Changelog.md",
+        "content": "jsdom 7.2.0リリース。\n`<input>`と`<textarea>`のselection APIがサポートされた",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-07T09:49:02.607Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "babel/babel",
+    [
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#510",
+        "content": "Babel 5.1.0リリース。\ntrailing-function-commasのサポート、オブジェクトリテラルのメソッドに対するdecoratorsのサポートなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-13T13:24:19.594Z",
+        "relatedLinks": [
+          {
+            "title": "Decorators in object literals trigger SyntaxError · Issue #1154 · babel/babel",
+            "url": "https://github.com/babel/babel/issues/1154"
+          }
+        ]
+      },
+      {
+        "title": "babel/CHANGELOG.md at v5.3.0 · babel/babel",
+        "url": "https://github.com/babel/babel/blob/v5.3.0/CHANGELOG.md#530",
+        "content": "Babel 5.3.0リリース。\n5.2.0からの主な変更点としては`es7.trailingCommas` transformerの仕様追従、`retainLines`のオプション追加など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-05-13T01:40:42.980Z",
+        "relatedLinks": [
+          {
+            "title": "retainLines",
+            "url": "http://babeljs.io/docs/usage/options/"
+          }
+        ]
+      },
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#550",
+        "content": "Babel 5.5.0リリース。\nバグ修正が中心。",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-06-06T08:05:32.319Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#560",
+        "content": "Babel 5.6.0リリース。\n`--watch` 開始時にパースエラーが起きてもCLIを停止しないように、transformerの一部をpluginとして分離するなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-21T05:46:23.138Z",
+        "relatedLinks": [
+          {
+            "title": "transformers",
+            "url": "https://github.com/babel/babel/commit/3247851019dd350504689ad57c42ef45eb2381c7"
+          },
+          {
+            "title": "Babel Plugins",
+            "url": "https://github.com/babel-plugins"
+          }
+        ]
+      },
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#614",
+        "content": "Babel 6.1.4リリース。\n`babel/register`が`babel-register`というパッケージに分離、ブラウザ向けの`babel-browser`パッケージの追加、バグ修正など",
+        "tags": [
+          "babel",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-12T07:50:47.241Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#620",
+        "content": "Babel 6.2.0リリース。\nES.next Stage 2の`function.sent`のサポート、コメントに関するバグの修正など",
+        "tags": [
+          "babel",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-19T10:04:58.667Z",
+        "relatedLinks": [
+          {
+            "title": "ESideas/Generator metaproperty.md at master · allenwb/ESideas",
+            "url": "https://github.com/allenwb/ESideas/blob/master/Generator%20metaproperty.md"
+          }
+        ]
+      },
+      {
+        "title": "babel/CHANGELOG.md at master · babel/babel",
+        "url": "https://github.com/babel/babel/blob/master/CHANGELOG.md#630",
+        "content": "Babel 6.3.0リリース。\n",
+        "tags": [
+          "babel",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-03T09:38:04.774Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jscs-dev/node-jscs",
+    [
+      {
+        "title": "Release v1.10.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.10.0",
+        "content": "JavaScriptコードスタイルチェックツール jscs 1.10.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-15T20:52:31.992Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v1.11.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.11.0",
+        "content": "jscs v1.11.0リリース。\n既存のファイルの用意されてるプリセットでチェックして、自動で設定ファイルを作成出来る`--auto-configure`のオプションの追加、ルールの追加修正など。",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-14T13:33:20.790Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v1.12.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v1.12.0",
+        "content": "JSCS 1.12.0リリース。\n自動整形機能のサポート(`-x` オプション)、ルールの追加、Auto-configurationのエラー表示の改善など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-01T08:07:32.809Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release 2.0.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.0.0",
+        "content": "JavaScriptスタイルチェックツールjscs 2.0.0リリース。\nES.nextをサポートする`--esnext`フラグの追加、CSTを実装しAutofixingに利用するように、ES6に対応したルールの追加、コメントによるルールの無効化のサポートなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-07-30T15:47:29.902Z",
+        "relatedLinks": [
+          {
+            "title": "mdevils/cst",
+            "url": "https://github.com/mdevils/cst"
+          }
+        ]
+      },
+      {
+        "title": "Release v2.2.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.2.0",
+        "content": "JSCS 2.2.0リリース。\n設定ファイルにYAMLを使えるように、HTML内のJavaScriptをチェックできるように、ルールやプリセットの追加と修正など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-29T06:42:43.521Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v2.3.0 · jscs-dev/node-jscs",
+        "url": "https://github.com/jscs-dev/node-jscs/releases/tag/v2.3.0",
+        "content": "JSCS 2.3.0リリース。\n`disallowIdenticalDestructuringNames `、`disallowNestedTernaries`、`requireSpaceAfterComma`のルールを追加",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-08T09:04:13.200Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/flow",
+    [
+      {
+        "title": "flow/Changelog at v0.2.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.2.0/Changelog",
+        "content": "Flow v0.2.0リリース。",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-06T12:13:48.588Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "flow/Changelog at v0.7.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.7.0/Changelog",
+        "content": "FlowType 0.7.0リリース。\nES6 modulesのサポート開始、null/undefinedとの比較するケースの改善、`hasOwnProperty`を呼び出してるケースの改善",
+        "tags": [
+          "JavaScript",
+          "flowtype",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-03-22T15:57:17.933Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "flow/Changelog at v0.8.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.8.0/Changelog",
+        "content": "FlowType 0.8.0リリース。\n",
+        "tags": [
+          "flowtype",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-04T03:39:05.344Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "flow/Changelog.md at v0.12.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/v0.12.0/Changelog.md",
+        "content": "Flow 0.12.0リリース。\nfor-of、async/await、Structural Subtypingなどのサポート、typeofでの型指定、`module.name_mapper`オプションの追加など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-12T02:53:08.251Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "flow/Changelog.md at master · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/master/Changelog.md#v0131",
+        "content": "Flow v0.13.1リリース。\n`fiow ast`でESTree ASTを出力するように。class式、binary/octal integer literalのサポートなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-30T10:22:16.549Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "flow/Changelog.md at master · facebook/flow",
+        "url": "https://github.com/facebook/flow/blob/master/Changelog.md#v0200",
+        "content": "Flow 0.20.0リリース。\n`this`型のサポート、`.json`ファイルロードの解釈に対応、エラーメッセージの改善など",
+        "tags": [
+          "flowtype",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-17T04:20:02.965Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "zloirock/core-js",
+    [
+      {
+        "title": "Release 1.0.0 - 2015.07.22 · zloirock/core-js · GitHub",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.0.0",
+        "content": "Babelにも同梱されてるES5、ES6、ES.nextのpolyfillであるcore-js 1.0.0リリース。",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-07-28T12:54:40.005Z",
+        "relatedLinks": [
+          {
+            "title": "Polyfill · Babel",
+            "url": "https://babeljs.io/docs/usage/polyfill/"
+          }
+        ]
+      },
+      {
+        "title": "Release 1.0.0 - 2015.07.22 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.0.0",
+        "content": "Babelでも使われているES5、ES6、ES.nextのpolyfillであるcore-js 1.0.0リリース。",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-07-27T23:42:42.284Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release 1.1.0 - 2015.08.17 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.1.0",
+        "content": "core-js 1.1.0 リリース。\nstring paddingのプロポーサルへの追従、trimLeft/trimRightの追加、Reflect.enumerateはキャッシュされたkeyをiterateするようになるなど",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-21T00:31:56.149Z",
+        "relatedLinks": [
+          {
+            "title": "Question about [[Enumerate]] and property decision timing",
+            "url": "https://esdiscuss.org/topic/question-about-enumerate-and-property-decision-timing"
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0 - 2015.09.27 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v1.2.0",
+        "content": "core-js 1.2.0リリース。\nPromiseにUnhandled Rejection Trackingを実装、`IsRegExp`のalgorithmの修正、`String#leftPad`のプロポーザルへの追従など",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-27T01:14:45.936Z",
+        "relatedLinks": []
+      },
+      {
+        "date": "2015-12-25T05:06:28.830Z",
+        "title": "Release 2.0.0 - 2015.12.24 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v2.0.0",
+        "content": "core-js 2.0.0リリース。 Typed Arrayの実装追加、`System.global`、`Error.isError`、MathのProposal実装を追加。 Promiseの仕様追従、`String#{padStart, padEnd}`へリネーム。 \n`NodeList`、`DOMTokenList`、`MediaList`、`StyleSheetList`、`CSSRuleList`をIterableとする再定義の追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tc39/ecma262",
+    [
+      {
+        "title": "Release ES2016 Draft 1 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-1",
+        "content": "ES2016 Draft 1リリース。\n仕様書がWordからEcmarkupで書かれるようになり、GitHubでリリースされた。",
+        "tags": [
+          "ECMAScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-23T06:00:49.943Z",
+        "relatedLinks": [
+          {
+            "title": "New in ECMAScript 2016, JavaScript's First Yearly Release",
+            "url": "http://www.infoq.com/presentations/ecmascript-2016"
+          }
+        ]
+      },
+      {
+        "title": "Release ES2016 Draft 2015-11-03 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151103",
+        "content": "ES2016 Draft 2015-11-03リリース。\nabstract operationであるReturnIfAbruptのシンタックスシュガーである`?`の導入。\n仕様書のバグ修正や実際の実装に合わせて`__proto__`がstrict modeでも許可されるようになるなど",
+        "tags": [
+          "ECMAScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-04T06:09:49.180Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release ES2016 Draft 2015-12-01 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151201",
+        "content": "ES2016 Draft 2015-12-01リリース。\n`Promise.all/race`が`@@species`を参照しなくなった。\nPromiseのUnhandled Rejectionを検知するために必要な仕様がECMAScript側にも追加された",
+        "tags": [
+          "ECMAScript",
+          "spec",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-03T09:12:13.425Z",
+        "relatedLinks": [
+          {
+            "title": "domenic/unhandled-rejections-browser-spec",
+            "url": "https://github.com/domenic/unhandled-rejections-browser-spec"
+          },
+          {
+            "title": "Promise Error Handling",
+            "url": "http://azu.github.io/slide/error-handling/promise-error-handling.html"
+          }
+        ]
+      },
+      {
+        "title": "Release ES2016 Draft 2015-12-10 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151210",
+        "content": "ES2016 Draft 2015-12-10リリース。\n`Array.prototype.includes`が追加された。\nES2016から採用された仕様策定プロセスに則った形のものとして、初めて追加された新しい機能となる。",
+        "tags": [
+          "ECMAScript",
+          "spec",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-11T03:32:52.186Z",
+        "relatedLinks": [
+          {
+            "title": "The TC39 Process",
+            "url": "https://tc39.github.io/process-document/"
+          },
+          {
+            "title": "ECMAScriptの仕様策定に関するカンニングペーパー | Web Scratch",
+            "url": "http://efcl.info/2015/10/18/ecmascript-paper/"
+          }
+        ]
+      },
+      {
+        "title": "Release ES2016 Draft 2015-12-20 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2016-draft-20151220",
+        "content": "ES2016 Draft 2015-12-20 リリース",
+        "tags": [
+          "ECMAScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-21T07:40:34.536Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "iojs/io.js",
+    [
+      {
+        "title": "io.js/CHANGELOG.md at v1.x · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.x/CHANGELOG.md#2015-01-14-version-101",
+        "content": "Node.jsのforkであるio.js 1.0リリース。",
+        "tags": [
+          "node.js",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-15T21:45:27.727Z",
+        "relatedLinks": [
+          {
+            "title": "IO.js Overview",
+            "url": "http://blog.risingstack.com/iojs-overview/"
+          },
+          {
+            "title": "io.js-v1.0.0のリリースによせて - ぼちぼち日記",
+            "url": "http://d.hatena.ne.jp/jovi0608/20150115/1421312947"
+          }
+        ]
+      },
+      {
+        "title": "io.js/CHANGELOG.md at v1.1.0 · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.1.0/CHANGELOG.md",
+        "content": "io.js 1.1.0リリース。\ncryptoのパフォーマンス改善、エラーメッセージを作るときに`JSON.stringify()`だと循環参照でエラーとなるため、`util.inspect()`を使うように変更された",
+        "tags": [
+          "node.js",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-05T15:22:48.285Z",
+        "relatedLinks": [
+          {
+            "title": "DailyJS | Node 0.11.16 と io.js 1.1.0 がリリース | JSお散歩",
+            "url": "http://panda.node.ws/?p=2152"
+          },
+          {
+            "title": "assert: use util.inspect() to create error messages by cjihrig · Pull Request #668 · iojs/io.js",
+            "url": "https://github.com/iojs/io.js/pull/668"
+          },
+          {
+            "title": "iojs-jp/2015-02-06.md at master · iojs/iojs-jp",
+            "url": "https://github.com/iojs/iojs-jp/blob/master/weekly/2015-02-06.md"
+          }
+        ]
+      },
+      {
+        "title": "io.js/CHANGELOG.md at v1.5.0 · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/v1.5.0/CHANGELOG.md",
+        "content": "io.js 1.5.0リリース。\n",
+        "tags": [
+          "node.js",
+          "ReleaseNote"
+        ],
+        "date": "2015-03-07T09:12:05.720Z",
+        "relatedLinks": [
+          {
+            "title": "io.js ウィークリーアップデート 2015/03/06",
+            "url": "http://blog.iojs.jp/2015-03-06.html"
+          },
+          {
+            "title": "Release v2.7.0 · npm/npm",
+            "url": "https://github.com/npm/npm/releases/tag/v2.7.0"
+          }
+        ]
+      },
+      {
+        "title": "io.js/CHANGELOG.md at master · iojs/io.js",
+        "url": "https://github.com/iojs/io.js/blob/master/CHANGELOG.md#2015-05-04-version-200-rvagg",
+        "content": "io.js 2.0.0リリース。\nBreaking changesはV8のC++ APIの変更と`os.tmpdir()`のみ。\nV8のアップデートによるES6対応の追加など",
+        "tags": [
+          "node.js",
+          "ReleaseNote"
+        ],
+        "date": "2015-05-05T12:28:26.710Z",
+        "relatedLinks": [
+          {
+            "title": "yosuke-furukawa/iojs-new-features",
+            "url": "https://github.com/yosuke-furukawa/iojs-new-features"
+          },
+          {
+            "title": "io.js の v2.0 が出ました。 - from scratch",
+            "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/05/06/170034"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jquery/esprima",
+    [
+      {
+        "title": "esprima/ChangeLog at 1.2.4 · jquery/esprima",
+        "url": "https://github.com/jquery/esprima/blob/1.2.4/ChangeLog",
+        "content": "esprima 1.2.4リリース",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-06T12:13:22.270Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "esprima/ChangeLog at 2.4.1 · jquery/esprima",
+        "url": "https://github.com/jquery/esprima/blob/2.4.1/ChangeLog",
+        "content": "esprima 2.4.0リリース。\nfor-of、spread elementのサポート",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-07-02T01:34:57.276Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release 2.5.0 · jquery/esprima",
+        "url": "https://github.com/jquery/esprima/releases/tag/2.5.0",
+        "content": "esprima 2.5.0リリース。\nES6の全ての機能をパースできるように",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-03T07:59:32.167Z",
+        "relatedLinks": [
+          {
+            "title": "esprima/ChangeLog at 2.5.0 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/blob/2.5.0/ChangeLog"
+          },
+          {
+            "title": "ES6 Main Tracking Issue · Issue #1099 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/issues/1099"
+          },
+          {
+            "title": "Esprima Meeting Agenda - Google ドキュメント",
+            "url": "https://docs.google.com/document/d/1l02VT94tdphwUUZfPJorRYOY0Q_v41R_TyYhKayiP9M/edit"
+          }
+        ]
+      },
+      {
+        "title": "esprima/ChangeLog at 2.7.0 · jquery/esprima",
+        "url": "https://github.com/jquery/esprima/blob/2.7.0/ChangeLog",
+        "content": "esprima 2.7.0リリース。\n`esprima.tokenize`にdelegatorオプションの追加など",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-23T01:33:40.279Z",
+        "relatedLinks": [
+          {
+            "title": "API: Token delegator · Issue #1332 · jquery/esprima",
+            "url": "https://github.com/jquery/esprima/issues/1332"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jquery/qunit",
+    [
+      {
+        "title": "Release 1.17.0 · jquery/qunit",
+        "url": "https://github.com/jquery/qunit/releases/tag/1.17.0",
+        "content": "QUnit 1.17.0リリース。\nHTMLレポータの改善。",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-20T03:31:17.510Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release 1.19.0 · jquery/qunit",
+        "url": "https://github.com/jquery/qunit/releases/tag/1.19.0",
+        "content": "QUnit 1.19.0リリース。\nES6 MapとSetを対象としたassertのサポート、`QUnit.stack`の実装など",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-03T08:52:58.433Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release 1.20.0 · jquery/qunit",
+        "url": "https://github.com/jquery/qunit/releases/tag/1.20.0",
+        "content": "QUnit 1.20.0リリース\n`assert.raises()`の追加、`Symbol`の比較をサポート、`QUnit.module`のネストに対応するなど\n",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-28T06:30:57.578Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jshint/jshint",
+    [
+      {
+        "title": "Release JSHint 2.6.0 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/releases/tag/2.6.0",
+        "content": "JSHint 2.6.0リリース。",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-22T02:04:19.834Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release JSHint 2.8.0 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/releases/tag/2.8.0",
+        "content": "JSHint 2.8.0リリース。\n`module`でコードをES6 moduleとみなしてチェック出来るように、バグ修正など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-16T16:03:46.596Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "jshint/CHANGELOG.md at 2.9.0 · jshint/jshint",
+        "url": "https://github.com/jshint/jshint/blob/2.9.0/CHANGELOG.md",
+        "content": "JSHint 2.9.0リリース。\n`esversion`のオプション追加、\"use strict\"をグローバルか関数かどこに書くかの設定を`strict: global`と指定できるように",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-04T05:56:45.498Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "airportyh/testem",
+    [
+      {
+        "title": "Release 0.7.0 · airportyh/testem",
+        "url": "https://github.com/airportyh/testem/releases/tag/v0.7.0",
+        "content": "testem 0.7.0リリース。\niojsやNode 0.12のサポート、Windowsでもci-modeが動くように修正、実行ページをよりisolateに",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-17T02:50:48.123Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v0.8.0 · airportyh/testem",
+        "url": "https://github.com/airportyh/testem/releases/tag/v0.8.0",
+        "content": "Testem 0.8.0リリース。\nSauceLabsのようにリモートとつないで実行する場合の挙動を改善",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-17T02:20:20.502Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v0.9.0 · airportyh/testem",
+        "url": "https://github.com/airportyh/testem/releases/tag/v0.9.0",
+        "content": "testem 0.9.0リリース",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-07-21T23:01:30.786Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "substack/node-browserify",
+    [
+      {
+        "title": "node-browserify/changelog.markdown at 9.0.3 · substack/node-browserify",
+        "url": "https://github.com/substack/node-browserify/blob/9.0.3/changelog.markdown",
+        "content": "Browserify 9.0.0リリース。\numd 3.0.0へのアップデート。`$`や`_`もモジュール名として利用できるようになったため`--standalone $foo_bar`のような指定した時の挙動がbreaking changeとなる",
+        "tags": [
+          "browserify",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-21T17:23:32.414Z",
+        "relatedLinks": [
+          {
+            "title": "umd/HISTORY.md at 3.0.0 · ForbesLindesay/umd",
+            "url": "https://github.com/ForbesLindesay/umd/blob/3.0.0/HISTORY.md"
+          }
+        ]
+      },
+      {
+        "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
+        "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1100",
+        "content": "Browserify 11.0.0リリース。\nブラウザ向けの`stream`として使うreadable-streamをアップデートしStreams3ベースに。\nブラウザ向け`http`モジュールをFetch APIをベースとしたstream-httpへ変更しstreamをサポートできるように",
+        "tags": [
+          "browserify",
+          "ReleaseNote"
+        ],
+        "date": "2015-07-17T10:47:54.987Z",
+        "relatedLinks": [
+          {
+            "title": "nodejs/readable-stream",
+            "url": "https://github.com/nodejs/readable-stream"
+          },
+          {
+            "title": "jhiesey/stream-http",
+            "url": "https://github.com/jhiesey/stream-http"
+          }
+        ]
+      },
+      {
+        "title": "node-browserify/changelog.markdown at master · substack/node-browserify",
+        "url": "https://github.com/substack/node-browserify/blob/master/changelog.markdown#1200",
+        "content": "Browserify 12.0.0リリース。\nNode.js 4.xが対象となり、0.8はサポートから外れた。\nSource Mapで日本語などが化けないように、シンボリックリンクされたモジュールは変換の対象外へと変更など",
+        "tags": [
+          "browser",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-27T06:48:02.417Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rackt/redux",
+    [
+      {
+        "title": "Release v1.0.0 · rackt/redux",
+        "url": "https://github.com/rackt/redux/releases/tag/v1.0.0",
+        "content": "Redux 1.0.0リリース。\nStateを管理するコンテナを提供することでFluxのActionCreatorとStoreにあたるものをただの関数として書けるようにし、単方向データの流れを行うライブラリ。",
+        "tags": [
+          "JavaScript",
+          "Flux",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-15T04:12:11.747Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v2.0.0 · rackt/redux",
+        "url": "https://github.com/rackt/redux/releases/tag/v2.0.0",
+        "content": "Redux 2.0.0リリース。\nHot Reloadingのためだけにあった`getReducer()`を削除、`compose()`の動作を修正するなど",
+        "tags": [
+          "JavaScript",
+          "Flux",
+          "library"
+        ],
+        "date": "2015-09-01T01:48:39.394Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release v3.0.1 · rackt/redux",
+        "url": "https://github.com/rackt/redux/releases/tag/v3.0.1",
+        "content": "Redux 3.0.1リリース。\nActionオブジェクトは`type`を持つことを必須とする破壊的な変更が含まれている。\n`combineReducers()`にチェックする仕組みを追加。",
+        "tags": [
+          "JavaScript",
+          "Flux",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-26T06:09:01.816Z",
+        "relatedLinks": [
+          {
+            "title": "Release v3.0.0 · rackt/redux",
+            "url": "https://github.com/rackt/redux/releases/tag/v3.0.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "angular/protractor",
+    [
+      {
+        "title": "protractor/CHANGELOG.md at 2.4.0 · angular/protractor",
+        "url": "https://github.com/angular/protractor/blob/2.4.0/CHANGELOG.md",
+        "content": "Protractor 2.4.0リリース。\n依存する`selenium-webdriver`モジュールのアップデート",
+        "tags": [
+          "Angular",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-01T06:45:03.434Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "protractor/CHANGELOG.md at 2.5.0 · angular/protractor",
+        "url": "https://github.com/angular/protractor/blob/2.5.0/CHANGELOG.md",
+        "content": "protractor 2.5.0リリース。\nAngular2のサポート、`useAllAngularAppRoots`オプションの追加",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "E2E",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-08T13:46:19.260Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "protractor/CHANGELOG.md at 3.0.0 · angular/protractor",
+        "url": "https://github.com/angular/protractor/blob/3.0.0/CHANGELOG.md",
+        "content": "E2EテストフレームワークのProtractor 3.0.0リリース。\njasmine 2.xへのアップデート、Cucumberはデフォルトではなくなり、BrowserStackのサポートなど",
+        "tags": [
+          "E2E",
+          "testing",
+          "Angular",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-18T12:19:57.550Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "less/less.js",
+    [
+      {
+        "title": "Release v2.2.0 · less/less.js",
+        "url": "https://github.com/less/less.js/releases/tag/v2.2.0",
+        "content": "less 2.2.0リリース。\n",
+        "tags": [
+          "CSS",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-05T01:16:41.466Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "less.js/CHANGELOG.md at v2.5.0 · less/less.js",
+        "url": "https://github.com/less/less.js/blob/v2.5.0/CHANGELOG.md",
+        "content": "less.js 2.5.0 リリース。\nスコープ内でも`@plugin`を動作するように、パーサのパフォーマンス改善や細かい警告の修正など",
+        "tags": [
+          "CSS",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-04T03:20:54.455Z",
+        "relatedLinks": [
+          {
+            "title": "Fix `@plugin` scoping rules by rjgotten · Pull Request #2522 · less/less.js",
+            "url": "https://github.com/less/less.js/pull/2522"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "lodash/lodash",
+    [
+      {
+        "title": "Release 3.0.0 · lodash/lodash",
+        "url": "https://github.com/lodash/lodash/releases/tag/3.0.0",
+        "content": "lodash v3.0.0リリース。\nString関係のメソッドの追加、関数型スタイルで使いやすいメソッドの追加、個々のモジュールとして入れた時の依存関係をシンプルに、パフォーマンスの改善、lazy chainingの導入等",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-27T09:11:18.249Z",
+        "relatedLinks": [
+          {
+            "title": "Changelog · lodash/lodash Wiki",
+            "url": "https://github.com/lodash/lodash/wiki/Changelog#compatibility-warnings"
+          },
+          {
+            "title": "How to Speed Up Lo-Dash ×100? Introducing Lazy Evaluation. | Filip Zawada",
+            "url": "http://filimanjaro.com/blog/2014/introducing-lazy-evaluation/"
+          }
+        ]
+      },
+      {
+        "title": "Changelog · lodash/lodash Wiki",
+        "url": "https://github.com/lodash/lodash/wiki/Changelog#v320",
+        "content": "lodash v3.2.0リリース。\n`_.fill`や`_.spread`等の追加、lazyサポートの修正や対応メソッドの追加",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-12T22:43:38.085Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "estree/estree",
+    [
+      {
+        "title": "estree/estree",
+        "url": "https://github.com/estree/estree",
+        "content": "SpiderMonkey Parser APIのASTについてがGitHubに移行し、ES6についてのドキュメント化が開始された",
+        "tags": [
+          "ECMAScript",
+          "JavaScript",
+          "AST"
+        ],
+        "date": "2015-02-12T22:46:46.664Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "estree/estree · GitHub",
+        "url": "https://github.com/estree/estree",
+        "content": "SpiderMonkey Parser APIのASTのドキュメントがGitHubに移行し、ES6についてのドキュメント化が開始された。\n現行の多くのツールがこれに依存していて、明文化されてないASTについてを仕様に落とすのが目的。",
+        "tags": [
+          "ECMAScript",
+          "JavaScript",
+          "AST"
+        ],
+        "date": "2015-02-16T03:21:08.234Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mochajs/mocha",
+    [
+      {
+        "title": "mocha/HISTORY.md at 2.2.0 · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/blob/2.2.0/HISTORY.md",
+        "content": "Mocha 2.2.0リリース",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-03-09T14:02:57.048Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "mocha/HISTORY.md at master · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/blob/master/HISTORY.md#230--2015-08-30",
+        "content": "Mocha 2.3.0リリース。 テストのエラーが起きた時に自動的にキャッチしないでスルーできる`--allowUncaught`の追加、非同期のテストのみ許可する`--async-only`でのPromiseの動作を修正",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-01T06:16:14.136Z",
+        "relatedLinks": [
+          {
+            "title": "Added option to allow unhandled exceptions to propagate in the browser by amsul · Pull Request #1659 · mochajs/mocha",
+            "url": "https://github.com/mochajs/mocha/pull/1659"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Reactive-Extensions/RxJS",
+    [
+      {
+        "title": "Release RxJS Version 3.0 · Reactive-Extensions/RxJS",
+        "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.0.0",
+        "content": "RxJS 3.0リリース。\nCoreパッケージとLiteパッケージへの追加。\n`Rx.Observable.fromEvent`/`Rx.Observable.spawn`/`Rx.Observable.prototype.scan`の引数の破壊的な変更など",
+        "tags": [
+          "JavaScript",
+          "Rx",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-04T03:56:21.186Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "Release RxJS Version 3.1 · Reactive-Extensions/RxJS",
+        "url": "https://github.com/Reactive-Extensions/RxJS/releases/tag/v3.1.0",
+        "content": "RxJS 3.1 リリース。\n`resultSelector`がオプショナルに、TypeScript定義ファイルが書き直されるなど",
+        "tags": [
+          "Rx",
+          "JavaScript",
+          "library",
+          "Electron"
+        ],
+        "date": "2015-08-19T08:07:53.615Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ReactiveX/RxJS",
+    [
+      {
+        "title": "RxJS/CHANGELOG.md at 5.0.0-alpha.1 · ReactiveX/RxJS",
+        "url": "https://github.com/ReactiveX/RxJS/blob/5.0.0-alpha.1/CHANGELOG.md",
+        "content": "ReactiveX/RxJS 5.0.0αリリース\n",
+        "tags": [
+          "Rx",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-24T05:30:07.771Z",
+        "relatedLinks": []
+      },
+      {
+        "title": "RxJS/CHANGELOG.md at 5.0.0-beta.0 · ReactiveX/RxJS",
+        "url": "https://github.com/ReactiveX/RxJS/blob/5.0.0-beta.0/CHANGELOG.md",
+        "content": "RxJS 5.0.0-beta.0リリース",
+        "tags": [
+          "JavaScript",
+          "Rx",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-16T02:08:04.040Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sass/libsass",
+    [
+      {
+        "title": "Release Bulleit Bottle · sass/libsass",
+        "url": "https://github.com/sass/libsass/releases/tag/3.1.0",
+        "content": "libsass 3.1.0リリース。\n`@debug`、`@error`等のデバッグ系の実装、`random()`等の関数の実装や修正など。",
+        "tags": [
+          "Sass",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-02T12:27:47.752Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fraction/set-timer",
+    [
+      {
+        "title": "fraction/set-timer",
+        "url": "https://github.com/fraction/set-timer",
+        "content": "setTimeout、setIntervalをラップしたTimer APIライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-03T15:01:14.321Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "STRML/JSXHint",
+    [
+      {
+        "title": "STRML/JSXHint",
+        "url": "https://github.com/STRML/JSXHint",
+        "content": "JSXシンタックスを含んだファイルもLint出来るJSHintラッパツール",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-01-06T02:14:47.704Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "conceptsandtraining/modernie_selenium",
+    [
+      {
+        "title": "conceptsandtraining/modernie_selenium",
+        "url": "https://github.com/conceptsandtraining/modernie_selenium",
+        "content": "modern.ieを使ったSeleniumの設定ツール。\n自動で必要なものをインストール + Windowsの余計な設定をオフにしてくれる",
+        "tags": [
+          "IE",
+          "Selenium"
+        ],
+        "date": "2015-01-07T13:55:41.418Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "es-shims/es7-shim",
+    [
+      {
+        "title": "es-shims/es7-shim",
+        "url": "https://github.com/es-shims/es7-shim",
+        "content": "ES7のpolyfillライブラリ",
+        "tags": [
+          "ECMAScript",
+          "library"
+        ],
+        "date": "2015-01-07T23:39:50.001Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "azu/espower-6to5",
+    [
+      {
+        "title": "azu/espower-6to5 · GitHub",
+        "url": "https://github.com/azu/espower-6to5",
+        "content": "power-assert + 6to5 ES6でpower-assertのテストを書ける。\n使用例: https://github.com/azu/textlint-rule-helper",
+        "tags": [
+          "ECMAScript",
+          "testing",
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-08T10:01:56.532Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bevacqua/local-storage",
+    [
+      {
+        "title": "bevacqua/local-storage",
+        "url": "https://github.com/bevacqua/local-storage",
+        "content": "localStorageのAPIをシンプルにしたライブラリ\nタブ間のコミュニケーションに使うような監視機能も持ってる",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-08T13:47:15.329Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mirek/node-unused-deps",
+    [
+      {
+        "title": "mirek/node-unused-deps",
+        "url": "https://github.com/mirek/node-unused-deps",
+        "content": "使用してないNode モジュールがあるかどうかをチェックするコマンドラインツール",
+        "tags": [
+          "node.js",
+          "module",
+          "Tools",
+          "console"
+        ],
+        "date": "2015-01-09T01:21:58.136Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Zhouzi/TheaterJS",
+    [
+      {
+        "title": "Zhouzi/TheaterJS",
+        "url": "https://github.com/Zhouzi/TheaterJS",
+        "content": "タイプライター的な文字表示効果等を行えるライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-09T01:24:05.745Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tejasmanohar/npm-algos",
+    [
+      {
+        "title": "tejasmanohar/npm-algos",
+        "url": "https://github.com/tejasmanohar/npm-algos",
+        "content": "コンピュータサイエンス、アルゴリズムの実装ライブラリのまとめ",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "library",
+          "アルゴリズム"
+        ],
+        "date": "2015-01-09T07:26:13.949Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fdecampredon/rx-flux",
+    [
+      {
+        "title": "fdecampredon/rx-flux",
+        "url": "https://github.com/fdecampredon/rx-flux",
+        "content": "RxJSベースのFluxアーキテクチャの実装ライブラリ",
+        "tags": [
+          "Flux",
+          "library"
+        ],
+        "date": "2015-01-14T15:36:09.486Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "postcss/autoprefixer",
+    [
+      {
+        "title": "Release 5.0 “Pravda vítězí” · postcss/autoprefixer",
+        "url": "https://github.com/postcss/autoprefixer/releases/tag/5.0.0",
+        "content": "autoprefixer 5.0リリース。\nPostCSS 4.0とBrowserslistを使用するように、`object-fit`やCSS Shapesなどの新しいプロパティに対応",
+        "tags": [
+          "CSS",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-15T03:29:38.405Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "petkaantonov/bluebird",
+    [
+      {
+        "title": "Release v2.7.0 · petkaantonov/bluebird",
+        "url": "https://github.com/petkaantonov/bluebird/releases/tag/v2.7.0",
+        "content": "bluebird 2.7.0リリース。\n`process.on(\"unhandledRejection\", fn)` という感じでグローバルにunhandled Rejectionをキャッチ出来るイベントを登録できるように。",
+        "tags": [
+          "Promises",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-15T21:17:07.781Z",
+        "relatedLinks": [
+          {
+            "title": "Promise unhandled rejection tracking global handler hook",
+            "url": "https://gist.github.com/benjamingr/0237932cee84712951a2"
+          },
+          {
+            "title": "[whatwg] An API for unhandled promise rejections from Domenic Denicola on 2014-09-12 (public-whatwg-archive@w3.org from September 2014)",
+            "url": "http://lists.w3.org/Archives/Public/public-whatwg-archive/2014Sep/0024.html"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "winterbe/streamjs",
+    [
+      {
+        "title": "winterbe/streamjs",
+        "url": "https://github.com/winterbe/streamjs",
+        "content": "Java 8 Streams APIをインスパイアなStreamライブラリ",
+        "tags": [
+          "JavaScript",
+          "Java",
+          "library"
+        ],
+        "date": "2015-01-17T05:25:01.925Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "RubaXa/Sortable",
+    [
+      {
+        "title": "RubaXa/Sortable",
+        "url": "https://github.com/RubaXa/Sortable",
+        "content": "D&Dで要素を動かせるsortableライブラリ。\njQuery等の依存がないライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-17T07:35:00.821Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gobblejs/gobble",
+    [
+      {
+        "title": "gobblejs/gobble",
+        "url": "https://github.com/gobblejs/gobble",
+        "content": "JavaScriptビルドツール。\nGruntはビルドツールではないため、Gruntと共存する形でも使える。\nまたデバッガビリティを優先して開発していて、pluginも変に複雑化しないように役割をシンプルにしてる",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "Grunt"
+        ],
+        "date": "2015-01-19T13:51:18.994Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "eventualbuddha/decaffeinate",
+    [
+      {
+        "title": "eventualbuddha/decaffeinate",
+        "url": "https://github.com/eventualbuddha/decaffeinate",
+        "content": "CoffeeScript to ES6に変換するツール",
+        "tags": [
+          "CoffeeScript",
+          "JavaScript"
+        ],
+        "date": "2015-01-19T14:00:01.882Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ForbesLindesay/sync-request",
+    [
+      {
+        "title": "ForbesLindesay/sync-request",
+        "url": "https://github.com/ForbesLindesay/sync-request",
+        "content": "同期的なHTTPリクエストを行うライブラリ",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "HTTP",
+          "library"
+        ],
+        "date": "2015-01-20T08:20:47.533Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "shiwano/typhen",
+    [
+      {
+        "title": "shiwano/typhen",
+        "url": "https://github.com/shiwano/typhen",
+        "content": "d.tsからJSON Schemaを作ったり、Handlebarsを使ったテンプレートでコードやドキュメントを出力できるツール",
+        "tags": [
+          "TypeScript",
+          "Tools"
+        ],
+        "date": "2015-01-21T07:29:43.189Z",
+        "relatedLinks": [
+          {
+            "title": "TypeScript の型定義からコードを自動生成するツールを作った - Qiita",
+            "url": "http://qiita.com/shiwano/items/dd769ead84e0da2d349a"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "addyosmani/es6-equivalents-in-es5",
+    [
+      {
+        "title": "addyosmani/es6-equivalents-in-es5",
+        "url": "https://github.com/addyosmani/es6-equivalents-in-es5",
+        "content": "ES6で書かれたものとES5で同等の事を行うコードを並べて、ES6の機能について紹介",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "tutorial",
+          "document"
+        ],
+        "date": "2015-01-21T11:26:58.402Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yoshuawuyts/promise-each",
+    [
+      {
+        "title": "yoshuawuyts/promise-each",
+        "url": "https://github.com/yoshuawuyts/promise-each",
+        "content": "Promiseと組み合わせて使えるeach、every、filter、map、reduce、some等の関数をそれぞれモジュール化したもの",
+        "tags": [
+          "Promises",
+          "library"
+        ],
+        "date": "2015-01-25T15:20:45.143Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "groupon-testium/testium",
+    [
+      {
+        "title": "Release 2.5.0 · groupon-testium/testium",
+        "url": "https://github.com/groupon-testium/testium/releases/tag/v2.5.0",
+        "content": "Integration Testフレームワークのtestium 2.5.0リリース。\n日本語などの入力ができない問題の修正やエラー表示の改善、`Element.prototype.getElement`の実装など",
+        "tags": [
+          "E2E",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-01-27T07:17:54.374Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "MaxArt2501/object-observe",
+    [
+      {
+        "title": "MaxArt2501/object-observe",
+        "url": "https://github.com/MaxArt2501/object-observe",
+        "content": "Object.observeの限定的なpolyfill",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-01-30T02:57:50.116Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "israelidanny/ie8linter",
+    [
+      {
+        "title": "israelidanny/ie8linter",
+        "url": "https://github.com/israelidanny/ie8linter",
+        "content": "IE8でサポートしてないタグやCSSプロパティ等を検出するツール。",
+        "tags": [
+          "IE",
+          "Tools",
+          "browser"
+        ],
+        "date": "2015-01-31T04:28:42.985Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "douglasduteil/isparta",
+    [
+      {
+        "title": "douglasduteil/isparta",
+        "url": "https://github.com/douglasduteil/isparta",
+        "content": "istanbulと6to5を使ったES6のコードカバレッジツール。\n",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-01-31T08:40:29.023Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "timoxley/pkgfiles",
+    [
+      {
+        "title": "timoxley/pkgfiles",
+        "url": "https://github.com/timoxley/pkgfiles",
+        "content": "npm publishでどのファイルが公開されるのかをチェック出来るツール",
+        "tags": [
+          "npm",
+          "Tools"
+        ],
+        "date": "2015-01-31T08:47:12.551Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jquense/react-widgets",
+    [
+      {
+        "title": "jquense/react-widgets",
+        "url": "https://github.com/jquense/react-widgets",
+        "content": "Reactを使ったUI widgets。\nカレンダーやドロップダウンリスト等のUIコンポーネント集",
+        "tags": [
+          "React",
+          "UI",
+          "library"
+        ],
+        "date": "2015-02-03T13:31:16.244Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Muscula/json-schema-benchmark",
+    [
+      {
+        "title": "Muscula/json-schema-benchmark",
+        "url": "https://github.com/Muscula/json-schema-benchmark",
+        "content": "JSONスキーマバリデーターのベンチマーク比較。\n",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "JSON",
+          "benchmark"
+        ],
+        "date": "2015-02-03T14:31:20.856Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "google/closure-compiler",
+    [
+      {
+        "title": "Releases · google/closure-compiler Wiki",
+        "url": "https://github.com/google/closure-compiler/wiki/Releases#february-2-2015-v20150126",
+        "content": "closure-compiler v20150126リリース。\nTypeScript的な型アノテーションのサポートを開始、ES6のサポート改善",
+        "tags": [
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-05T13:08:32.165Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "voronianski/flux-comparison",
+    [
+      {
+        "title": "voronianski/flux-comparison",
+        "url": "https://github.com/voronianski/flux-comparison",
+        "content": "FluxライブラリのTodoMVCみたいな感じのサンプル実装集。\nオンラインショップカートをサンプルケースとして実装されてる",
+        "tags": [
+          "Flux",
+          "library",
+          "サンプル"
+        ],
+        "date": "2015-02-05T13:31:57.180Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "js-data/js-data",
+    [
+      {
+        "title": "js-data/js-data",
+        "url": "https://github.com/js-data/js-data",
+        "content": "データストア部分をadapterで変更出来るモデルライブラリ。\nobserve-jsを使ってdirtyチェックをするため、特別なgetter/settterなしでバインディングを行える。\nEmber DataのようなREST APIをバックエンドとするhttp adapterも持っている。",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-02-05T15:32:46.898Z",
+        "relatedLinks": [
+          {
+            "title": "Polymer/observe-js",
+            "url": "https://github.com/Polymer/observe-js"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "yyx990803/vue",
+    [
+      {
+        "title": "Release 0.11.5 · yyx990803/vue",
+        "url": "https://github.com/yyx990803/vue/releases/tag/0.11.5",
+        "content": "Vue.js 0.11.5 リリース。\n`Vue.nextTick`でMutationObserverが使える時は使うように、`v-with`で親子間でバインディングが働くように",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-06T02:28:57.871Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jareware/flotate",
+    [
+      {
+        "title": "jareware/flotate",
+        "url": "https://github.com/jareware/flotate",
+        "content": "FlowTypeの型アノテーションをコメントで書けるようにするツールとライブラリ",
+        "tags": [
+          "JavaScript",
+          "flowtype",
+          "Tools"
+        ],
+        "date": "2015-02-06T02:38:08.377Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Phoenixmatrix/phoenixmatrix-proxy",
+    [
+      {
+        "title": "Phoenixmatrix/phoenixmatrix-proxy",
+        "url": "https://github.com/Phoenixmatrix/phoenixmatrix-proxy",
+        "content": "node-webkit(nw.js)で書かれたプロキシアプリ。\nSSLにもCharlesみたいに証明書を使ってプロキシ出来る。Fiddlerとかみたいにスクリプタブルなデバッグプロキシとなるのが目的",
+        "tags": [
+          "node-webkit",
+          "proxy",
+          "app"
+        ],
+        "date": "2015-02-09T15:52:34.722Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "wooorm/eslint-md",
+    [
+      {
+        "title": "wooorm/eslint-md",
+        "url": "https://github.com/wooorm/eslint-md",
+        "content": "Markdownの中にあるCodeBlockのJavaScriptをESLintでチェックできるツール",
+        "tags": [
+          "JavaScript",
+          "Markdown",
+          "Tools"
+        ],
+        "date": "2015-02-10T10:31:04.586Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fdecampredon/jsx-typescript",
+    [
+      {
+        "title": "fdecampredon/jsx-typescript",
+        "url": "https://github.com/fdecampredon/jsx-typescript",
+        "content": "TypeScript + React(JSX)なTypeScript fork.",
+        "tags": [
+          "TypeScript",
+          "React"
+        ],
+        "date": "2015-02-11T04:31:52.947Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "flipboard/react-canvas",
+    [
+      {
+        "title": "Flipboard/react-canvas",
+        "url": "https://github.com/flipboard/react-canvas",
+        "content": "CavasのレンダリングをするReact components。\n基本的な要素、Events、Text sizing、css-layout(パフォーマンス優先なのでなくなるかも?)、Accessibilityへの配慮が予定されてる",
+        "tags": [
+          "React",
+          "canvas",
+          "library"
+        ],
+        "date": "2015-02-11T06:12:26.039Z",
+        "relatedLinks": [
+          {
+            "title": "60fps on the mobile web — Flipboard Engineering",
+            "url": "http://engineering.flipboard.com/2015/02/mobile-web/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "yahoo/pure",
+    [
+      {
+        "title": "Release Pure 0.6.0-rc-1 – New Pure Menus · yahoo/pure",
+        "url": "https://github.com/yahoo/pure/releases/tag/v0.6.0-rc-1",
+        "content": "Pure 0.6.0-rc-1リリース。\nMenusの書き直し、Normalizeのアップデート(IE7以下はサポート廃止)など",
+        "tags": [
+          "CSS",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-11T08:13:55.129Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "maxogden/wzrd",
+    [
+      {
+        "title": "maxogden/wzrd",
+        "url": "https://github.com/maxogden/wzrd",
+        "content": "beefyみたいなBrowserifyを使ったローカルサーバを立てるコマンドラインツール",
+        "tags": [
+          "JavaScript",
+          "browserify",
+          "debug",
+          "library"
+        ],
+        "date": "2015-02-11T23:05:41.374Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "maxogden/maintenance-modules",
+    [
+      {
+        "title": "maxogden/maintenance-modules",
+        "url": "https://github.com/maxogden/maintenance-modules",
+        "content": "npmでモジュールを公開するのを補助する色々なツールの紹介。\nTravisCIの設定、gh-pagesへのデプロイスクリプト、package.jsonの整形、npm release、依存パッケージのチェックなど",
+        "tags": [
+          "JavaScript",
+          "npm",
+          "Tools"
+        ],
+        "date": "2015-02-12T09:29:25.475Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "wix/react-templates",
+    [
+      {
+        "title": "wix/react-templates",
+        "url": "https://github.com/wix/react-templates",
+        "content": "ReactのJSXへ変換できるテンプレートとコンパイラ。\nJetBrains IDEで動くプラグインが用意されている\nhttps://github.com/idok/react-templates-plugin\n",
+        "tags": [
+          "React",
+          "template",
+          "library"
+        ],
+        "date": "2015-02-14T02:50:20.677Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "typicode/jsop",
+    [
+      {
+        "title": "typicode/jsop",
+        "url": "https://github.com/typicode/jsop",
+        "content": "Object.observe を使って読み込んだJSONを書き換えたら自動的に保存するNodeモジュール",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "date": "2015-02-14T02:59:17.531Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "acdlite/flummox",
+    [
+      {
+        "title": "acdlite/flummox",
+        "url": "https://github.com/acdlite/flummox",
+        "content": "Flux実装ライブラリ。\nコアとなるFlummoxクラスをを継承して、そこにStoreとActionを登録することでシングルトンを避ける作りになっている。ES6 classやasync/awaitを使った書き方等が考慮されている。\n",
+        "tags": [
+          "Flux",
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-02-14T10:05:22.304Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "js2coffee/js2coffee",
+    [
+      {
+        "title": "js2coffee/New_in_2.0.md at master · js2coffee/js2coffee",
+        "url": "https://github.com/js2coffee/js2coffee/blob/master/notes/New_in_2.0.md",
+        "content": "JavaScriptをCoffeeScriptに変換するJs2coffee 2.0リリース。\nエディタや警告の表示、ASTの表示、SourceMap対応など",
+        "tags": [
+          "JavaScript",
+          "CoffeeScript",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-14T13:37:21.326Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "npm/how-to-npm",
+    [
+      {
+        "title": "npm/how-to-npm",
+        "url": "https://github.com/npm/how-to-npm",
+        "content": "npmについてコマンドラインで学べるインタラクティブな教材",
+        "tags": [
+          "node.js",
+          "npm",
+          "tutorial"
+        ],
+        "date": "2015-02-16T03:11:33.279Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mking/react-hn",
+    [
+      {
+        "title": "mking/react-hn",
+        "url": "https://github.com/mking/react-hn",
+        "content": "Reactを使ったHackerNewsのクローン。\nどういうComponentの粒度になってるかや構造についての解説が書かれている",
+        "tags": [
+          "React",
+          "サンプル",
+          "tutorial"
+        ],
+        "date": "2015-02-17T02:02:37.354Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mzabriskie/axios",
+    [
+      {
+        "title": "mzabriskie/axios",
+        "url": "https://github.com/mzabriskie/axios",
+        "content": "Node/ブラウザどちらでも動くPromiseベースのHTTPリクエストライブラリ。\nリクエスト/レスポンスに対してコールバックを呼ばれる前に処理を挟んだりすることも出来る",
+        "tags": [
+          "JavaScript",
+          "library",
+          "XHR"
+        ],
+        "date": "2015-02-17T14:58:19.528Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yahoo/kobold",
+    [
+      {
+        "title": "yahoo/kobold",
+        "url": "https://github.com/yahoo/kobold",
+        "content": "スクリーンショットを比較して視覚的なレグレッションがないかをテストするコマンドラインツール",
+        "tags": [
+          "JavaScript",
+          "browserify",
+          "testing"
+        ],
+        "date": "2015-02-19T08:43:18.525Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yahoo/preceptor",
+    [
+      {
+        "title": "yahoo/preceptor",
+        "url": "https://github.com/yahoo/preceptor",
+        "content": "Mocha、Cucumberなどに対応したTest Runner。\n設定によりレポーターやテスト対象などを細かく設定することができ、何をテストするかはTaskという塊で定義でき、Taskを並列で動かすこともできる。",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "testing",
+          "library"
+        ],
+        "date": "2015-02-19T08:53:53.324Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "hughsk/disc",
+    [
+      {
+        "title": "hughsk/disc",
+        "url": "https://github.com/hughsk/disc",
+        "content": "Browserifyでビルドしたコードから、ディレクトリ別(モジュール別)でファイルサイズやファイル数をグラフで可視化してくれるツール",
+        "tags": [
+          "JavaScript",
+          "browserify",
+          "Tools",
+          "gurai"
+        ],
+        "date": "2015-02-22T12:23:10.528Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gabelerner/canvg",
+    [
+      {
+        "title": "gabelerner/canvg",
+        "url": "https://github.com/gabelerner/canvg",
+        "content": "SVGをCanvasでレンダリングするライブラリ",
+        "tags": [
+          "JavaScript",
+          "SVG",
+          "canvas"
+        ],
+        "date": "2015-02-23T03:48:11.000Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "diafygi/webcrypto-examples",
+    [
+      {
+        "title": "diafygi/webcrypto-examples",
+        "url": "https://github.com/diafygi/webcrypto-examples",
+        "content": "Web Cryptography APIのサンプル集",
+        "tags": [
+          "JavaScript",
+          "セキュリティ",
+          "サンプル"
+        ],
+        "date": "2015-02-24T09:35:56.007Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "marionettejs/backbone.marionette",
+    [
+      {
+        "title": "Release v2.4.0 · marionettejs/backbone.marionette",
+        "url": "https://github.com/marionettejs/backbone.marionette/releases/tag/v2.4.0",
+        "content": "Marionette 2.4.0リリース。\nCollectionViewとCompositeViewのパフォーマンスや機能強化が中心。\n`Marionette.Controller`が非推奨となり`Marionette.Object`を利用するようになった",
+        "tags": [
+          "backbone.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-02-24T13:51:36.925Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "olahol/eselement",
+    [
+      {
+        "title": "olahol/eselement",
+        "url": "https://github.com/olahol/eselement",
+        "content": "ASTをDOMライクなAPIで操作出来るライブラリ。\nquerySelector、childNodes、removeChild、createElementのようなAPIが用意されてる",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library"
+        ],
+        "date": "2015-02-24T14:52:50.349Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mattpodwysocki/applicative-2015",
+    [
+      {
+        "title": "mattpodwysocki/applicative-2015",
+        "url": "https://github.com/mattpodwysocki/applicative-2015",
+        "content": "RxJSについてのスライド。\nFirst class async value、RxのonNext, onError, onComplete、どういう流れで処理を書けるかについてなど",
+        "tags": [
+          "JavaScript",
+          "Rx",
+          "slide"
+        ],
+        "date": "2015-03-02T12:44:39.035Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jeffposnick/sw-precache",
+    [
+      {
+        "title": "jeffposnick/sw-precache · GitHub",
+        "url": "https://github.com/jeffposnick/sw-precache",
+        "content": "ServiceWorkerでキャッシュするデータを定義したコードを生成してくれるNodeモジュール",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ServiceWorker"
+        ],
+        "date": "2015-03-03T06:12:33.457Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "royriojas/eslint-friendly-formatter",
+    [
+      {
+        "title": "royriojas/eslint-friendly-formatter",
+        "url": "https://github.com/royriojas/eslint-friendly-formatter",
+        "content": "ESLintのLint結果を該当コードの行と合わせて表示できるESLintのformatter",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-03-04T02:26:32.481Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "timoxley/chimes",
+    [
+      {
+        "title": "timoxley/chimes",
+        "url": "https://github.com/timoxley/chimes",
+        "content": "Iterableなオブジェクトに対するArray.forEachやsome、reduce等の関数を提供するライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-03-07T08:45:20.716Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "poteto/emberconf-2015",
+    [
+      {
+        "title": "poteto/emberconf-2015",
+        "url": "https://github.com/poteto/emberconf-2015",
+        "content": "EmberConf 2015のスライドや動画、ブログのまとめ",
+        "tags": [
+          "JavaScript",
+          "Conference",
+          "slide"
+        ],
+        "date": "2015-03-08T15:31:33.027Z",
+        "relatedLinks": [
+          {
+            "title": "EmberConf 2015",
+            "url": "http://emberconf.com/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "visionmedia/superagent",
+    [
+      {
+        "title": "superagent/History.md at 1.0.0 · visionmedia/superagent",
+        "url": "https://github.com/visionmedia/superagent/blob/1.0.0/History.md",
+        "content": "superagent 1.0.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "HTTP",
+          "library"
+        ],
+        "date": "2015-03-13T16:41:46.072Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ecomfe/fontmin",
+    [
+      {
+        "title": "ecomfe/fontmin",
+        "url": "https://github.com/ecomfe/fontmin",
+        "content": "ウェブフォントのMinifyを行うNodeモジュール。\nttfやotfからeot、woff、svgへの変換を行う。また使用する文字だけのサブセットも作成出来る",
+        "tags": [
+          "node.js",
+          "fonts",
+          "Tools",
+          "library"
+        ],
+        "date": "2015-03-14T07:07:26.710Z",
+        "relatedLinks": [
+          {
+            "title": "中文字体 webfont 自动化构建 | EFE Tech",
+            "url": "http://efe.baidu.com/blog/chinese-font-build/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "rackt/react-a11y",
+    [
+      {
+        "title": "rackt/react-a11y · GitHub",
+        "url": "https://github.com/rackt/react-a11y",
+        "content": "React Elementにアクセシビリティ的な問題がないかを警告してくれるライブラリ。\nまたどうすればいいかも表示してくれる",
+        "tags": [
+          "React",
+          "library",
+          "アクセシビリティ"
+        ],
+        "date": "2015-03-14T07:13:23.859Z",
+        "relatedLinks": [
+          {
+            "title": "▶ React.js Conf 2015 - Hype! - YouTube",
+            "url": "https://www.youtube.com/watch?v=z5e7kWSHWTg#t=631"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "bvaughn/jasmine-es6-promise-matchers",
+    [
+      {
+        "title": "bvaughn/jasmine-es6-promise-matchers",
+        "url": "https://github.com/bvaughn/jasmine-es6-promise-matchers",
+        "content": "JasmineのPromiseテストmatcher",
+        "tags": [
+          "JavaScript",
+          "Promises",
+          "testing"
+        ],
+        "date": "2015-03-14T14:07:43.555Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Kikobeats/acho#acho",
+    [
+      {
+        "title": "Kikobeats/acho",
+        "url": "https://github.com/Kikobeats/acho#acho",
+        "content": "Node.jsとブラウザで動くログレベル等を持つシンプルなロガーライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "node.js"
+        ],
+        "date": "2015-03-14T14:43:58.084Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "zewish/rmodal.js",
+    [
+      {
+        "title": "zewish/rmodal.js",
+        "url": "https://github.com/zewish/rmodal.js",
+        "content": "依存がないシンプルなモーダルダイアログUIライブラリ",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "date": "2015-03-15T10:00:21.419Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "eatcodeplay/Konsole.js",
+    [
+      {
+        "title": "eatcodeplay/Konsole.js",
+        "url": "https://github.com/eatcodeplay/Konsole.js",
+        "content": "画面内にコンソールを表示できるFirebug Lite的なライブラリ。\nconsole APIの上書き、DOMのインスペクト、CSSの操作、FPSの表示など",
+        "tags": [
+          "JavaScript",
+          "debug",
+          "library"
+        ],
+        "date": "2015-03-17T23:06:58.004Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "operasoftware/operachromiumdriver",
+    [
+      {
+        "title": "operasoftware/operachromiumdriver",
+        "url": "https://github.com/operasoftware/operachromiumdriver",
+        "content": "OperaのWebDriver実装",
+        "tags": [
+          "Opera",
+          "Chrome",
+          "webdriver"
+        ],
+        "date": "2015-03-24T15:40:23.842Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mikechau/react-primer-draft",
+    [
+      {
+        "title": "mikechau/react-primer-draft",
+        "url": "https://github.com/mikechau/react-primer-draft",
+        "content": "Reactでシングルページアプリケーションを作るチュートリアル的な文章。\nReact.Component について詳しく書かれている",
+        "tags": [
+          "React",
+          "tutorial",
+          "book"
+        ],
+        "date": "2015-03-25T07:08:47.646Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Microsoft/IEDiagnosticsAdapter",
+    [
+      {
+        "title": "Microsoft/IEDiagnosticsAdapter",
+        "url": "https://github.com/Microsoft/IEDiagnosticsAdapter",
+        "content": "Chrome remote debug protocolを使ってIEをデバッグできるプロキシ。\nChromeでIEで見てるサイトをデバッグ出来る",
+        "tags": [
+          "Chrome",
+          "IE",
+          "debug",
+          "proxy",
+          "software"
+        ],
+        "date": "2015-03-26T13:19:07.982Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bloomberg/brisket",
+    [
+      {
+        "title": "bloomberg/brisket",
+        "url": "https://github.com/bloomberg/brisket",
+        "content": "Bloombergのisomorphic JavaScriptフレームワーク。\nRendrと同じくBackboneをベースとしたサーバサイドレンダリングの仕組みを持つ。\n",
+        "tags": [
+          "JavaScript",
+          "backbone.js",
+          "library"
+        ],
+        "date": "2015-03-29T03:14:37.757Z",
+        "relatedLinks": [
+          {
+            "title": "At Bloomberg We’ve Made Brisket. And It Can Make Anything. | Bloomberg L.P.",
+            "url": "http://www.bloomberg.com/company/2015-03-24/bloomberg-weve-made-brisket-can-make-anything/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "cssnext/cssnext",
+    [
+      {
+        "title": "cssnext/cssnext",
+        "url": "https://github.com/cssnext/cssnext",
+        "content": "CSS4などの仕様をCSS3相当に変換するツールとライブラリ。\n",
+        "tags": [
+          "CSS",
+          "Tools",
+          "library"
+        ],
+        "date": "2015-03-29T05:59:34.561Z",
+        "relatedLinks": [
+          {
+            "title": "Myth - CSS the way it was imagined.",
+            "url": "http://www.myth.io/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "facebook/immutable-js",
+    [
+      {
+        "title": "Release 3.7.0 · facebook/immutable-js",
+        "url": "https://github.com/facebook/immutable-js/releases/tag/3.7.0",
+        "content": "immutable-js 3.7.0リリース",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-03-27T07:35:40.636Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bower/bower",
+    [
+      {
+        "title": "Release v1.4.0 · bower/bower",
+        "url": "https://github.com/bower/bower/releases/tag/v1.4.0",
+        "content": "Bower 1.4.0リリース。\nloginとunregisterコマンドをサポート、pacakge.jsonにBowerの設定を書けるように、`--save-exact`のサポートなど",
+        "tags": [
+          "JavaScript",
+          "package",
+          "ReleaseNote"
+        ],
+        "date": "2015-03-31T15:49:01.451Z",
+        "relatedLinks": [
+          {
+            "title": "Unregister and login commands (rebased) by sheerun · Pull Request #1719 · bower/bower",
+            "url": "https://github.com/bower/bower/pull/1719"
+          },
+          {
+            "title": "Accept npm's config variables in package.json · Issue #1711 · bower/bower",
+            "url": "https://github.com/bower/bower/issues/1711"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Jam3/jam3-lesson-module-basics",
+    [
+      {
+        "title": "Jam3/jam3-lesson-module-basics",
+        "url": "https://github.com/Jam3/jam3-lesson-module-basics",
+        "content": "小さいnpmのモジュールを使ってクライアントサイドの開発をしようという紹介記事。\n実際にBrowserifyなどを使ってどうやって開発するかについて紹介している\n",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "npm"
+        ],
+        "date": "2015-04-02T06:10:50.900Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kuu/the-offline-cookbook-ja",
+    [
+      {
+        "title": "the-offline-cookbook-ja/ja.md at master · kuu/the-offline-cookbook-ja",
+        "url": "https://github.com/kuu/the-offline-cookbook-ja/blob/master/ja.md",
+        "content": "The offline cookbookの翻訳。\nService Workerのパターンについて書かれている",
+        "tags": [
+          "ServiceWorker",
+          "translate",
+          "JavaScript"
+        ],
+        "date": "2015-04-04T09:35:38.621Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "azu/wait-for-element.js",
+    [
+      {
+        "title": "azu/wait-for-element.js",
+        "url": "https://github.com/azu/wait-for-element.js",
+        "content": "CSSセレクタにマッチする要素が表示されるまで待つライブラリ。\nMutationObserverを使った実装とsetTimeoutを使った実装を持ってる",
+        "tags": [
+          "JavaScript",
+          "library",
+          "DOM"
+        ],
+        "date": "2015-04-04T09:37:01.395Z",
+        "relatedLinks": [
+          {
+            "title": "ある要素が表示されるまで待つJSライブラリを書いた(MutationObserver) | Web Scratch",
+            "url": "http://efcl.info/2015/04/06/wait-for-element/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "eslint/espree",
+    [
+      {
+        "title": "Release v2.0.0 · eslint/espree",
+        "url": "https://github.com/eslint/espree/releases/tag/v2.0.0",
+        "content": "ESLintが使うASTパーサであるespree 2.0.0リリース。\nESTree仕様への追従のためにBreaking Change、`super`の対応、RestElementへの対応など",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-05T05:04:53.244Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mohebifar/xto6",
+    [
+      {
+        "title": "mohebifar/xto6",
+        "url": "https://github.com/mohebifar/xto6",
+        "content": "ES5のコードをES6へ変換するTranspiler",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "Tools"
+        ],
+        "date": "2015-04-06T11:39:17.212Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mojo-js/obj-stream",
+    [
+      {
+        "title": "mojo-js/obj-stream",
+        "url": "https://github.com/mojo-js/obj-stream",
+        "content": "Stream的なAPIを持ったライブラリ。\nオブジェクトをStreamに流すことができ、EventEmitterを使ったStream的なものなのでブラウザでも動作する",
+        "tags": [
+          "JavaScript",
+          "library",
+          "browser"
+        ],
+        "date": "2015-04-09T01:43:55.280Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "alfredkam/yakojs",
+    [
+      {
+        "title": "alfredkam/yakojs",
+        "url": "https://github.com/alfredkam/yakojs",
+        "content": "DOM-lessなグラフライブラリ。\nSVGグラフを吐き出せるようにすることでサーバサイドでも同じ出力結果を出せるようにする目的",
+        "tags": [
+          "JavaScript",
+          "グラフ",
+          "SVG"
+        ],
+        "date": "2015-04-10T01:58:43.391Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cburgmer/csscritic",
+    [
+      {
+        "title": "cburgmer/csscritic",
+        "url": "https://github.com/cburgmer/csscritic",
+        "content": "CSSのレグレッションテストフレームワーク",
+        "tags": [
+          "CSS",
+          "testing",
+          "library"
+        ],
+        "date": "2015-04-11T13:13:06.263Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yahoo/blink-diff",
+    [
+      {
+        "title": "yahoo/blink-diff",
+        "url": "https://github.com/yahoo/blink-diff",
+        "content": "画像の比較してその差を出したり、一致するかをテストできるJavaScriptライブラリ。\nどれくらいの差を許すか等も設定できる",
+        "tags": [
+          "画像",
+          "testing",
+          "library",
+          "JavaScript",
+          "node.js"
+        ],
+        "date": "2015-04-11T14:00:40.528Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mattdesl/budo",
+    [
+      {
+        "title": "mattdesl/budo",
+        "url": "https://github.com/mattdesl/budo",
+        "content": "Live Reloadする開発用のローカルサーバ。\nhttps://github.com/caspervonb/amok のように、ブラウザの更新なしで変更を反映するHot Reloadingを行う拡張も持っている。",
+        "tags": [
+          "JavaScript",
+          "server",
+          "開発環境",
+          "Tools"
+        ],
+        "date": "2015-04-14T13:44:32.565Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "caiogondim/logdown",
+    [
+      {
+        "title": "caiogondim/logdown",
+        "url": "https://github.com/caiogondim/logdown",
+        "content": "ロガー + Markdownなライブラリ。\nブラウザ、Node.jsどちらでも動作する",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library"
+        ],
+        "date": "2015-04-15T07:25:19.180Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "atom/electron",
+    [
+      {
+        "title": "Release electron v0.24.0 · atom/electron",
+        "url": "https://github.com/atom/electron/releases/tag/v0.24.0",
+        "content": "Atom Shell 0.24.0リリース。\nAtom ShellはElectronにリネームされた",
+        "tags": [
+          "atom",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-17T09:41:12.988Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vdemedes/interaptor",
+    [
+      {
+        "title": "vdemedes/interaptor",
+        "url": "https://github.com/vdemedes/interaptor",
+        "content": "mitmを使ったHTTP stubライブラリ。\n特定のリクエストに対して任意のレスポンスを定義して返せる",
+        "tags": [
+          "node.js",
+          "HTTP",
+          "testing",
+          "library"
+        ],
+        "date": "2015-04-18T09:23:12.277Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "twada/power-assert",
+    [
+      {
+        "title": "Release v0.11.0: ES6 support (2015-04-18) · twada/power-assert",
+        "url": "https://github.com/twada/power-assert/releases/tag/v0.11.0",
+        "content": "power-assert 0.11.0リリース。\nES6の構文をサポート",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-04-19T04:43:31.788Z",
+        "relatedLinks": [
+          {
+            "title": "ES6 support by twada · Pull Request #17 · twada/power-assert",
+            "url": "https://github.com/twada/power-assert/pull/17"
+          },
+          {
+            "title": "twada/babel-plugin-espower",
+            "url": "https://github.com/twada/babel-plugin-espower"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Hacklone/private-bower",
+    [
+      {
+        "title": "Hacklone/private-bower",
+        "url": "https://github.com/Hacklone/private-bower",
+        "content": "Private bower registry",
+        "tags": [
+          "JavaScript",
+          "オープンソース"
+        ],
+        "date": "2015-04-19T12:42:35.320Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "acornejo/jjv",
+    [
+      {
+        "title": "acornejo/jjv",
+        "url": "https://github.com/acornejo/jjv",
+        "content": "JSON Schemaの定義とバリデーションを行うライブラリ",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "JSON",
+          "library"
+        ],
+        "date": "2015-04-20T07:20:41.372Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mixi-inc/JavaScriptTraining",
+    [
+      {
+        "title": "mixi-inc/JavaScriptTraining",
+        "url": "https://github.com/mixi-inc/JavaScriptTraining",
+        "content": "mixi社のJavaScript研修資料。\nテストを通すことで進んでいけるような内容になっている。\nDOM操作、DOMイベント、非同期処理、PromiseとFetch API、bowerを使ったパッケージ管理などについて",
+        "tags": [
+          "JavaScript",
+          "tutorial"
+        ],
+        "date": "2015-04-20T12:38:09.242Z",
+        "relatedLinks": [
+          {
+            "title": "mixi-inc/JavaScriptTraining",
+            "url": "https://github.com/mixi-inc/JavaScriptTraining"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "rambler-digital-solutions/es6-class-mixin",
+    [
+      {
+        "title": "rambler-digital-solutions/es6-class-mixin",
+        "url": "https://github.com/rambler-digital-solutions/es6-class-mixin",
+        "content": "ES6 classesでのmixinを行うライブラリ。\n`class Input extends mixin(BaseClass. mixin) {}` という感じでBaseClassを拡張したクラスをその場で作成する",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-04-29T12:23:38.937Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "angus-c/es6-react-mixins",
+    [
+      {
+        "title": "angus-c/es6-react-mixins",
+        "url": "https://github.com/angus-c/es6-react-mixins",
+        "content": "React ComponentのmixinをES6 Classesを使って行うライブラリ",
+        "tags": [
+          "ECMAScript",
+          "React",
+          "library"
+        ],
+        "date": "2015-04-29T12:25:25.359Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "HerringtonDarkholme/typescript-repl",
+    [
+      {
+        "title": "HerringtonDarkholme/typescript-repl",
+        "url": "https://github.com/HerringtonDarkholme/typescript-repl",
+        "content": "コード補完もできるTypeScript REPL",
+        "tags": [
+          "TypeScript",
+          "console",
+          "Tools"
+        ],
+        "date": "2015-04-29T12:35:29.422Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mohayonao/tickable-timer",
+    [
+      {
+        "title": "mohayonao/tickable-timer",
+        "url": "https://github.com/mohayonao/tickable-timer",
+        "content": "setTimeout/setInterval互換のAPIを持ち、任意の間隔で進めたり、イベント通知の機能を持つテスト向けのタイマーライブラリ",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "date": "2015-04-29T14:05:29.263Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "airbnb/javascript",
+    [
+      {
+        "title": "javascript/react at master · airbnb/javascript",
+        "url": "https://github.com/airbnb/javascript/tree/master/react",
+        "content": "AirbnbのReactコードスタイルガイド",
+        "tags": [
+          "React",
+          "コードレビュー"
+        ],
+        "date": "2015-05-01T09:01:23.954Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "paldepind/flyd",
+    [
+      {
+        "title": "paldepind/flyd",
+        "url": "https://github.com/paldepind/flyd",
+        "content": "小さなFRPライブラリ。\nモジュールで拡張可能な作り",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-05-02T03:13:09.059Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "micmro/performance-bookmarklet",
+    [
+      {
+        "title": "micmro/performance-bookmarklet",
+        "url": "https://github.com/micmro/performance-bookmarklet",
+        "content": "Resource Timing API, Navigation Timing API, User-Timing APIの結果を表示するブックマークレットやブラウザ拡張",
+        "tags": [
+          "browser",
+          "performance",
+          "ブックマークレット"
+        ],
+        "date": "2015-05-03T12:42:33.903Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "defunctzombie/zuul",
+    [
+      {
+        "title": "zuul/HISTORY.md at v3.0.0 · defunctzombie/zuul",
+        "url": "https://github.com/defunctzombie/zuul/blob/v3.0.0/HISTORY.md",
+        "content": "JavaScriptテストフレームワークのzuul 3.0.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "date": "2015-05-04T12:44:28.879Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "getify/es-feature-tests",
+    [
+      {
+        "title": "getify/es-feature-tests",
+        "url": "https://github.com/getify/es-feature-tests",
+        "content": "ECMAScript 6以降の機能についてfeature detectを実行して結果を取得するライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "testing"
+        ],
+        "date": "2015-05-07T13:14:58.839Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nkzawa/hyperd",
+    [
+      {
+        "title": "nkzawa/hyperd",
+        "url": "https://github.com/nkzawa/hyperd",
+        "content": "virtual-domを使ったUIコンポーネントライブラリ。\nhtml-to-domでHTMLからvirtual-domへの変換やコンポーネント自体がEventEmitterを継承している",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "date": "2015-05-12T02:45:07.223Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "leebyron/testcheck-js",
+    [
+      {
+        "title": "leebyron/testcheck-js",
+        "url": "https://github.com/leebyron/testcheck-js",
+        "content": "QuickCheckライブラリ。\nJasmineとMochaの拡張が用意されてる",
+        "tags": [
+          "JavaScript",
+          "testing"
+        ],
+        "date": "2015-05-17T11:50:03.086Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "hit9/ntt",
+    [
+      {
+        "title": "hit9/ntt",
+        "url": "https://github.com/hit9/ntt",
+        "content": "小さなテストモジュール。\nテストコードそのもので実行できるので、Mochaなどのようにrunnerにあたる部分は不要となってる",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "date": "2015-05-17T13:37:48.782Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "codemix/babel-plugin-typecheck",
+    [
+      {
+        "title": "codemix/babel-plugin-typecheck · GitHub",
+        "url": "https://github.com/codemix/babel-plugin-typecheck",
+        "content": "flowtypeアノテーションからランタイム型チェックのコードへ変換するBabel plugin",
+        "tags": [
+          "JavaScript",
+          "babel",
+          "flowtype"
+        ],
+        "date": "2015-05-19T13:34:33.363Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sebastian-lenz/typedoc",
+    [
+      {
+        "title": "sebastian-lenz/typedoc",
+        "url": "https://github.com/sebastian-lenz/typedoc",
+        "content": "TypeScriptのAPIドキュメント生成ツール",
+        "tags": [
+          "TypeScript",
+          "API",
+          "document"
+        ],
+        "date": "2015-05-22T11:40:36.855Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "padolsey/operative",
+    [
+      {
+        "title": "padolsey/operative",
+        "url": "https://github.com/padolsey/operative",
+        "content": "直接関数を渡してそれをWeb Workerで動かせるライブラリ。\n古いブラウザ向けのfallbackやPromiseのサポートなど、できるだけシームレスに書けるようにしてる",
+        "tags": [
+          "webworker",
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-05-25T15:43:17.355Z",
+        "relatedLinks": [
+          {
+            "title": "operativeでWebWorkersを手軽に扱う - 四角革命前夜",
+            "url": "http://blog.sasaplus1.com/2015/05/23/01/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "caolan/async",
+    [
+      {
+        "title": "async/CHANGELOG.md at master · caolan/async",
+        "url": "https://github.com/caolan/async/blob/master/CHANGELOG.md#v100",
+        "content": "非同期処理を管理するライブラリであるasync 1.0.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-05-26T04:55:29.257Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mako-taco/DecorateThis",
+    [
+      {
+        "title": "mako-taco/DecorateThis",
+        "url": "https://github.com/mako-taco/DecorateThis",
+        "content": "Decoratorを使った型のバリデーション、メモ化、カリー、Debounceなど色々なものを用意したライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-05-31T02:09:09.518Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "skadimoolam/x-doc",
+    [
+      {
+        "title": "skadimoolam/x-doc",
+        "url": "https://github.com/skadimoolam/x-doc",
+        "content": "Node.js/io.jsをコマンドラインからオフラインで引けるリファレンスツール",
+        "tags": [
+          "node.js",
+          "リファレンス"
+        ],
+        "date": "2015-06-01T14:08:03.407Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gulpjs/gulp",
+    [
+      {
+        "title": "gulp/CHANGELOG.md at v3.9.0 · gulpjs/gulp",
+        "url": "https://github.com/gulpjs/gulp/blob/v3.9.0/CHANGELOG.md",
+        "content": "gulp 3.9.0リリース。\ngullpfileをBabelやlivescriptで書けるようにinterpretのアップデートが入った(.babel.jsのような拡張子で判定される)",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-02T12:33:37.314Z",
+        "relatedLinks": [
+          {
+            "title": "tkellen/js-interpret",
+            "url": "https://github.com/tkellen/js-interpret"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "TechnologyAdvice/Vers",
+    [
+      {
+        "title": "TechnologyAdvice/Vers",
+        "url": "https://github.com/TechnologyAdvice/Vers",
+        "content": "バージョニングを持ったモデルライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-06-06T06:39:24.325Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "MartinChavez/Learn-Javascript",
+    [
+      {
+        "title": "MartinChavez/Learn-Javascript",
+        "url": "https://github.com/MartinChavez/Learn-Javascript",
+        "content": "テストで学ぶJavaScript。\nそれぞれの機能についてのテスト集",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "サンプル"
+        ],
+        "date": "2015-06-07T14:22:31.050Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "winjs/winjs",
+    [
+      {
+        "title": "Changelog · winjs/winjs Wiki",
+        "url": "https://github.com/winjs/winjs/wiki/Changelog#v40",
+        "content": "WinJS 4.0リリース",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-06-10T01:28:52.936Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jussi-kalliokoski/trine",
+    [
+      {
+        "title": "jussi-kalliokoski/trine",
+        "url": "https://github.com/jussi-kalliokoski/trine",
+        "content": "thisに値が来ることを前提としたunderscoreなどのような関数のコレクションライブラリ。\n`::`という構文を定義しているfunction bind syntaxのプロポーサルを元にした使い勝手を重視した作り",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-06-12T11:18:30.270Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nature/pa11y",
+    [
+      {
+        "title": "nature/pa11y",
+        "url": "https://github.com/nature/pa11y",
+        "content": "HTML_CodeSnifferをコマンドラインで走らせてアクセシビリティについてチェック出来るツール",
+        "tags": [
+          "アクセシビリティ",
+          "testing",
+          "Tools"
+        ],
+        "date": "2015-06-14T03:05:27.349Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "eorroe/NodeList-Prototype-Extension",
+    [
+      {
+        "title": "eorroe/NodeList-Prototype-Extension",
+        "url": "https://github.com/eorroe/NodeList-Prototype-Extension",
+        "content": "DOM NodeのCollectionに対して操作出来るライブラリ",
+        "tags": [
+          "DOM",
+          "library"
+        ],
+        "date": "2015-06-18T12:46:26.506Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "oceanhouse21/dokker",
+    [
+      {
+        "title": "oceanhouse21/dokker",
+        "url": "https://github.com/oceanhouse21/dokker",
+        "content": "JSDocのコメントからlodashのようなドキュメントページ/Markdownを生成してくれるツール",
+        "tags": [
+          "JavaScript",
+          "document",
+          "Tools"
+        ],
+        "date": "2015-06-20T15:21:44.300Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "trueadm/t7",
+    [
+      {
+        "title": "trueadm/t7",
+        "url": "https://github.com/trueadm/t7",
+        "content": "Template Stringsを使ったテンプレートライブラリ。\n結果をReactやその他のvirtual-domライブラリを使ってるもの向けへ出力できる",
+        "tags": [
+          "JavaScript",
+          "React",
+          "VirtualDOM"
+        ],
+        "date": "2015-06-21T03:54:00.845Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sighjs/sigh",
+    [
+      {
+        "title": "sighjs/sigh",
+        "url": "https://github.com/sighjs/sigh",
+        "content": "JavaScriptビルドツール。\ngulp pluginをサポートしていて、デフォルトで並列タスク、インクリメンタルリビルド、Source Mapの対応など他のビルドツールの特徴も持たせてる\nhttp://sighjs.github.io/",
+        "tags": [
+          "JavaScript",
+          "gulp",
+          "Tools"
+        ],
+        "date": "2015-06-21T14:08:24.253Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "karpathy/convnetjs",
+    [
+      {
+        "title": "karpathy/convnetjs",
+        "url": "https://github.com/karpathy/convnetjs",
+        "content": "JavaScriptでニューラルネットワークの実装ライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-06-28T07:40:52.966Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "timdp/es6-promise-pool",
+    [
+      {
+        "title": "timdp/es6-promise-pool",
+        "url": "https://github.com/timdp/es6-promise-pool",
+        "content": "Promise.allのように並列に処理を行うが、一度に何個づつやるかを決めて処理できるPromiseの補助ライブラリ",
+        "tags": [
+          "JavaScript",
+          "Promises",
+          "library"
+        ],
+        "date": "2015-06-29T09:46:34.289Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "arkency/reactjs_koans",
+    [
+      {
+        "title": "arkency/reactjs_koans",
+        "url": "https://github.com/arkency/reactjs_koans",
+        "content": "Reactを学ぶの問題集",
+        "tags": [
+          "React",
+          "tutorial"
+        ],
+        "date": "2015-07-01T02:42:02.753Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reddit/reddit-mobile",
+    [
+      {
+        "title": "Perf audit: Loading performance · Issue #247 · reddit/reddit-mobile",
+        "url": "https://github.com/reddit/reddit-mobile/issues/247",
+        "content": "paulirishによるredditのモバイルサイトのローディング完了までに45秒かかってる原因について報告してるissue。\nChrome開発者ツール、React Perf、discなどを使って何が原因であるかを見ていく方法について参考になる",
+        "tags": [
+          "performance",
+          "mobile",
+          "browser",
+          "issue"
+        ],
+        "date": "2015-07-06T13:19:46.671Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Jam3/math-as-code",
+    [
+      {
+        "title": "Jam3/math-as-code",
+        "url": "https://github.com/Jam3/math-as-code",
+        "content": "色々な数学記号や数式をJavaScriptで表現するチートシート",
+        "tags": [
+          "JavaScript",
+          "チートシート"
+        ],
+        "date": "2015-07-08T07:35:21.486Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "RReverser/babel-plugin-asm-js",
+    [
+      {
+        "title": "RReverser/babel-plugin-asm-js",
+        "url": "https://github.com/RReverser/babel-plugin-asm-js",
+        "content": "asm.jsにコンパイルするBabel plugin",
+        "tags": [
+          "babel",
+          "JavaScript",
+          "asm.js",
+          "plugin",
+          "flowtype"
+        ],
+        "date": "2015-07-12T02:15:14.610Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "IjzerenHein/autolayout.js",
+    [
+      {
+        "title": "IjzerenHein/autolayout.js",
+        "url": "https://github.com/IjzerenHein/autolayout.js",
+        "content": "iOSのAutoLayoutと Visual Format Language的な実装を持つJavaScriptライブラリ",
+        "tags": [
+          "JavaScript",
+          "ios",
+          "CSS",
+          "library"
+        ],
+        "date": "2015-07-12T07:39:06.651Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nikgraf/belle",
+    [
+      {
+        "title": "nikgraf/belle",
+        "url": "https://github.com/nikgraf/belle/",
+        "content": "React Componentとして使えるUI集。\n外からJSを経由してコンポーネントに対してスタイルを設定出来るようになっている。",
+        "tags": [
+          "React",
+          "UI",
+          "library"
+        ],
+        "date": "2015-07-18T04:50:58.891Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "DrBoolean/mostly-adequate-guide",
+    [
+      {
+        "title": "DrBoolean/mostly-adequate-guide",
+        "url": "https://github.com/DrBoolean/mostly-adequate-guide",
+        "content": "JavaScriptでの関数型プログラミングについての無料の書籍",
+        "tags": [
+          "JavaScript",
+          "関数型プログラミング"
+        ],
+        "date": "2015-07-18T13:06:06.928Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ipselon/react-ui-builder",
+    [
+      {
+        "title": "ipselon/react-ui-builder",
+        "url": "https://github.com/ipselon/react-ui-builder",
+        "content": "React ComponentをGUIで配置したり、配置したものからReactのコードを吐き出したりして、GUIでコードを編集、プレビューなど出来るツール。\nツール自体がReactとProxyからできていて面白い",
+        "tags": [
+          "React",
+          "UI",
+          "Tools"
+        ],
+        "date": "2015-07-20T12:17:40.185Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "azu/browser-javascript-resource",
+    [
+      {
+        "title": "azu/browser-javascript-resource",
+        "url": "https://github.com/azu/browser-javascript-resource",
+        "content": "IEやFirefoxなどブラウザごとのリリースノートや更新履歴、実装状況、バグレポートの方法などをまとめたもの",
+        "tags": [
+          "browser",
+          "JavaScript",
+          "blog",
+          "まとめ"
+        ],
+        "date": "2015-07-21T13:44:57.792Z",
+        "relatedLinks": [
+          {
+            "title": "ブラウザ毎のリリースノートや実装状況はどこを見ればいいかをまとめました | Web Scratch",
+            "url": "http://efcl.info/2015/07/21/browser-javascript-resource/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jdalton/polyfill-guide",
+    [
+      {
+        "title": "jdalton/polyfill-guide",
+        "url": "https://github.com/jdalton/polyfill-guide",
+        "content": "polyfillの書き方のガイド",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-07-24T06:53:29.101Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "schteppe/p2.js",
+    [
+      {
+        "title": "schteppe/p2.js",
+        "url": "https://github.com/schteppe/p2.js",
+        "content": "2D物理エンジンライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-07-24T07:09:11.938Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "channikhabra/yarr",
+    [
+      {
+        "title": "channikhabra/yarr",
+        "url": "https://github.com/channikhabra/yarr",
+        "content": "クライアントのみで動くRSSリーダーを題材としたJavaScriptアプリのチュートリアル。\nBabel、dexie、jQuery、Rx、virtual-domで作られている。\nまた、どういう手順で作成するのかというのをGit tagでバージョン毎に見られるようにして、それぞれのバージョン毎に解説が書かれている。",
+        "tags": [
+          "JavaScript",
+          "rss",
+          "tutorial"
+        ],
+        "date": "2015-07-28T08:46:12.656Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "s-a/iron-node",
+    [
+      {
+        "title": "s-a/iron-node",
+        "url": "https://github.com/s-a/iron-node",
+        "content": "Node.js向けのJavaScriptデバッガ。\nChrome開発者ツールを使ってNode.jsを使ってデバッグ出来るツール",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "debug",
+          "Tools"
+        ],
+        "date": "2015-07-28T13:28:25.401Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "brenolf/polyjuice",
+    [
+      {
+        "title": "brenolf/polyjuice",
+        "url": "https://github.com/brenolf/polyjuice",
+        "content": "JSHintの設定ファイルをESLintの設定ファイルに変換するツール",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-08-04T03:30:37.133Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nodejs/io.js",
+    [
+      {
+        "title": "io.js/CHANGELOG.md at master · nodejs/io.js",
+        "url": "https://github.com/nodejs/io.js/blob/master/CHANGELOG.md#2015-08-04-version-300-rvagg",
+        "content": "io.js 3.0.0リリース。\nV8のアップデートによりES6のサポート改善、`Buffer.concat`の挙動変更などいくつか非互換の変更も含まれる",
+        "tags": [
+          "node.js",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-05T12:49:51.551Z",
+        "relatedLinks": [
+          {
+            "title": "Breaking Changes · nodejs/io.js Wiki",
+            "url": "https://github.com/nodejs/io.js/wiki/Breaking-Changes#300-from-2x"
+          },
+          {
+            "title": "io.js v3.0.0 がリリースされました。 - from scratch",
+            "url": "http://yosuke-furukawa.hatenablog.com/entry/2015/08/07/002535"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "morishitter/cssfmt",
+    [
+      {
+        "title": "morishitter/cssfmt · GitHub",
+        "url": "https://github.com/morishitter/cssfmt",
+        "content": "CSS整形ツール",
+        "tags": [
+          "CSS",
+          "Tools"
+        ],
+        "date": "2015-08-05T14:29:06.896Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "h2non/toxy",
+    [
+      {
+        "title": "h2non/toxy",
+        "url": "https://github.com/h2non/toxy",
+        "content": "サーバからレスポンスの色々なネットワーク問題をシミュレート出来るProxyライブラリ",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "proxy",
+          "library"
+        ],
+        "date": "2015-08-10T13:17:22.610Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "dbashford/textract",
+    [
+      {
+        "title": "dbashford/textract",
+        "url": "https://github.com/dbashford/textract",
+        "content": "PDFやdoc、画像のOCRなど様々なフォーマットからテキストを取り出す事が出来るライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "node.js"
+        ],
+        "date": "2015-08-10T13:20:22.756Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gf-web/es6-coding-style",
+    [
+      {
+        "title": "es6-coding-style/es6-coding-style-en.md at master · gf-web/es6-coding-style",
+        "url": "https://github.com/gf-web/es6-coding-style/blob/master/es6-coding-style-en.md",
+        "content": "ES6コーディングスタイルガイド。\nDestructuringの使いすぎへの注意、ES5での書き方をES6の機能でキレイに書けるケースについて比較、moduleの`*`や`as`について書かれている。",
+        "tags": [
+          "JavaScript",
+          "ECMAScript"
+        ],
+        "date": "2015-08-13T02:28:13.936Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "patrick-steele-idem/morphdom",
+    [
+      {
+        "title": "patrick-steele-idem/morphdom",
+        "url": "https://github.com/patrick-steele-idem/morphdom",
+        "content": "Virutal DOMではなくDOMを使ってdiff/patchをしてDOM Nodeを置き換えるライブラリ。\n`virtual-dom`と比較したベンチマークも書かれている。",
+        "tags": [
+          "DOM",
+          "library"
+        ],
+        "date": "2015-08-15T05:46:57.392Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jamesshore/quixote",
+    [
+      {
+        "title": "jamesshore/quixote",
+        "url": "https://github.com/jamesshore/quixote",
+        "content": "mochaなどと組み合わせて使えるCSSのユニットテスト向けのassertionライブラリ",
+        "tags": [
+          "CSS",
+          "JavaScript",
+          "testing"
+        ],
+        "date": "2015-08-15T11:08:00.508Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "scottcorgan/immu",
+    [
+      {
+        "title": "scottcorgan/immu",
+        "url": "https://github.com/scottcorgan/immu",
+        "content": "Immutable Objectを扱うライブラリ。\nObject.definePropertyやObject.freezeを使ってArrayやObjectの変更を防止したオブジェクトを作成する",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-08-15T16:50:28.637Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "postcss/postcss",
+    [
+      {
+        "title": "Release 5.0 “President Valac” · postcss/postcss",
+        "url": "https://github.com/postcss/postcss/releases/tag/5.0.0",
+        "content": "CSSの変換を扱うPostCSS 5.0リリース。\n`safe`オプションが別プロジェクトへ、\n`parser`や`stringifier`などもオプション化、\nSCSSのパースにも対応するなど",
+        "tags": [
+          "CSS",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-22T09:03:13.641Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "power-assert-js/power-assert",
+    [
+      {
+        "title": "Release v1.0.0: The first stable release (2015-08-26) · power-assert-js/power-assert",
+        "url": "https://github.com/power-assert-js/power-assert/releases/tag/v1.0.0",
+        "content": "assertが失敗した時に表示する情報量を増やすpower-assert 1.0.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "date": "2015-08-27T08:44:46.072Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mattdesl/promise-cookbook",
+    [
+      {
+        "title": "mattdesl/promise-cookbook",
+        "url": "https://github.com/mattdesl/promise-cookbook",
+        "content": "Promiseの基本的な使い方、メソッドについて解説したCookbook",
+        "tags": [
+          "JavaScript",
+          "Promises",
+          "book"
+        ],
+        "date": "2015-08-28T07:28:32.230Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Izzimach/react-pixi",
+    [
+      {
+        "title": "Izzimach/react-pixi",
+        "url": "https://github.com/Izzimach/react-pixi",
+        "content": "Reactを使ってPixi.jsのCanvasを操作するライブラリ",
+        "tags": [
+          "React",
+          "canvas",
+          "library"
+        ],
+        "date": "2015-08-30T10:02:10.629Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mysticatea/npm-run-all",
+    [
+      {
+        "title": "mysticatea/npm-run-all",
+        "url": "https://github.com/mysticatea/npm-run-all",
+        "content": "npm run-scriptで定義したものの並列実行や逐次実行等の補助を行うコマンドラインツール。\nNodeモジュールとしても利用できる",
+        "tags": [
+          "npm",
+          "console",
+          "Tools"
+        ],
+        "date": "2015-09-01T15:24:27.942Z",
+        "relatedLinks": [
+          {
+            "title": "npm-run-all と concurrently を試す | アカベコマイリ",
+            "url": "http://akabeko.me/blog/2015/08/npm-run-all-and-concurrently/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jide/moveit",
+    [
+      {
+        "title": "jide/moveit",
+        "url": "https://github.com/jide/moveit",
+        "content": "DOM Nodeを定義にしたがってアニメーションさせることが出来るライブラリ。\nアニメーションの定義をオブジェクトとして定義出来る",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "animation",
+          "library"
+        ],
+        "date": "2015-09-13T11:01:02.453Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fb55/htmlparser2",
+    [
+      {
+        "title": "fb55/htmlparser2",
+        "url": "https://github.com/fb55/htmlparser2",
+        "content": "HTML/XML/RSSパーサライブラリ",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "library"
+        ],
+        "date": "2015-09-13T23:45:34.131Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "danielstjules/mocha.parallel",
+    [
+      {
+        "title": "danielstjules/mocha.parallel",
+        "url": "https://github.com/danielstjules/mocha.parallel",
+        "content": "mochaで書かれたテストコードをdescribe単位で並列に処理できるライブラリ",
+        "tags": [
+          "JavaScript",
+          "testing"
+        ],
+        "date": "2015-09-16T06:48:37.702Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Mostafa-Samir/zip-local",
+    [
+      {
+        "title": "Mostafa-Samir/zip-local",
+        "url": "https://github.com/Mostafa-Samir/zip-local",
+        "content": "zip/unzipを行うNodeモジュール",
+        "tags": [
+          "node.js"
+        ],
+        "date": "2015-09-16T07:23:16.332Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mantoni/eslint_d.js",
+    [
+      {
+        "title": "mantoni/eslint_d.js",
+        "url": "https://github.com/mantoni/eslint_d.js",
+        "content": "ESLintをサーバとして立ててLintを行うツール。\n初回起動のオーバーヘッドがなくなるので高速に実行出来る",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "server"
+        ],
+        "date": "2015-09-20T05:53:47.721Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ConquestArrow/dtsmake",
+    [
+      {
+        "title": "ConquestArrow/dtsmake · GitHub",
+        "url": "https://github.com/ConquestArrow/dtsmake",
+        "content": "JavaScriptを与えるとd.tsを生成するツール",
+        "tags": [
+          "TypeScript",
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-09-22T05:15:46.069Z",
+        "relatedLinks": [
+          {
+            "title": "TypeScript型定義ファイルのコツと生成ツール dtsmake - Qiita",
+            "url": "http://qiita.com/ConquestArrow/items/450f961c3d54bc932cf3"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "fireball-x/editor-framework",
+    [
+      {
+        "title": "fireball-x/editor-framework",
+        "url": "https://github.com/fireball-x/editor-framework",
+        "content": "ElectronとPolymerをベースとしたエディタ向けのフレームワーク",
+        "tags": [
+          "editor",
+          "library",
+          "Electron"
+        ],
+        "date": "2015-09-24T02:42:03.497Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bosonic/bosonic",
+    [
+      {
+        "title": "Release 1.0 · bosonic/bosonic",
+        "url": "https://github.com/bosonic/bosonic/releases/tag/v1.0",
+        "content": "Web Componentsを扱うライブラリであるBosonic 1.0リリース",
+        "tags": [
+          "WebComponents",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-09-24T06:18:23.058Z",
+        "relatedLinks": [
+          {
+            "title": "Bosonic Web Component",
+            "url": "http://bosonic.github.io/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jeffbski/wait-on",
+    [
+      {
+        "title": "jeffbski/wait-on · GitHub",
+        "url": "https://github.com/jeffbski/wait-on",
+        "content": "色々な待ちパターンを行えるNode.js製のコマンドラインツール。 ファイルの存在確認、HTTP HEAD/GET、TCP、Socketのレスポンス待ちなどを行える",
+        "tags": [
+          "node.js",
+          "library",
+          "console",
+          "Tools"
+        ],
+        "date": "2015-10-06T01:18:12.838Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "relax/relax",
+    [
+      {
+        "title": "relax/relax",
+        "url": "https://github.com/relax/relax",
+        "content": "Node.jsとReactで作られてるCMS",
+        "tags": [
+          "node.js",
+          "React",
+          "CMS"
+        ],
+        "date": "2015-10-07T12:59:23.996Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "staltz/flux-challenge",
+    [
+      {
+        "title": "staltz/flux-challenge",
+        "url": "https://github.com/staltz/flux-challenge",
+        "content": "Fluxアーキテクチャを使って実装する問題と回答のリポジトリ。\n`submissions/` 以下にそれぞれの回答があり、色々なFluxを使った実装が見られる。",
+        "tags": [
+          "Flux",
+          "サンプル"
+        ],
+        "date": "2015-10-07T15:21:29.073Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "github/fetch",
+    [
+      {
+        "title": "Release Fetch 0.10.0 · github/fetch",
+        "url": "https://github.com/github/fetch/releases/tag/v0.10.0",
+        "content": "Fetch APIのpolyfillであるFetch 0.10.0リリース。\n`Requst`/`Response`へのメソッドの追加",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-13T07:33:31.446Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "knockout/knockout",
+    [
+      {
+        "title": "Release 3.4.0 Release Candidate · knockout/knockout",
+        "url": "https://github.com/knockout/knockout/releases/tag/v3.4.0rc",
+        "content": "Knockout 3.4.0RCリリース。\n`ko.isPureComputed`、`ko.onError`の追加、Observableのパフォーマンス改善など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-10-13T12:28:03.205Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gabrielbull/react-desktop",
+    [
+      {
+        "title": "gabrielbull/react-desktop",
+        "url": "https://github.com/gabrielbull/react-desktop",
+        "content": "OS X(やWindows)風のUIを作成するReact Component",
+        "tags": [
+          "React",
+          "mac",
+          "windows"
+        ],
+        "date": "2015-10-15T08:05:48.721Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ryanbahniuk/sassaby",
+    [
+      {
+        "title": "ryanbahniuk/sassaby",
+        "url": "https://github.com/ryanbahniuk/sassaby",
+        "content": "MochaやJasmineなどと合わせて使えるSassのテストライブラリ。\nSassの関数やmixinなどのテストを行える",
+        "tags": [
+          "Sass",
+          "testing",
+          "node.js"
+        ],
+        "date": "2015-10-15T09:24:46.024Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Rich-Harris/magic-string",
+    [
+      {
+        "title": "Rich-Harris/magic-string",
+        "url": "https://github.com/Rich-Harris/magic-string",
+        "content": "Source Mapをサポートしてるコード変換ライブラリ。\n文字列の上書き、追加、削除などを文字列操作のように変更を行うことができる。",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library"
+        ],
+        "date": "2015-10-22T23:51:26.178Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rodrigogs/kairos",
+    [
+      {
+        "title": "rodrigogs/kairos",
+        "url": "https://github.com/rodrigogs/kairos",
+        "content": "時間同士の四則演算や比較を行うライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-10-23T09:23:44.648Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cotejp/webmidi",
+    [
+      {
+        "title": "cotejp/webmidi",
+        "url": "https://github.com/cotejp/webmidi",
+        "content": "Web MIDI APIをラップしたライブラリ",
+        "tags": [
+          "web",
+          "sound",
+          "library"
+        ],
+        "date": "2015-10-24T14:29:10.715Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "dleitee/valid.js",
+    [
+      {
+        "title": "dleitee/valid.js",
+        "url": "https://github.com/dleitee/valid.js",
+        "content": "String、Number、Date、Boolなどにおけるバリデーションを組み合わせたバリデーション関数を作成できるライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-10-25T11:11:40.495Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "samccone/drool",
+    [
+      {
+        "title": "samccone/drool",
+        "url": "https://github.com/samccone/drool",
+        "content": "ChromeDriver(via selenium)を使ってメモリリークが起きてないかを自動チェックするためのツール。",
+        "tags": [
+          "Chrome",
+          "webdriver",
+          "debug"
+        ],
+        "date": "2015-11-02T08:38:47.645Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "codemix/fast.js",
+    [
+      {
+        "title": "codemix/fast.js",
+        "url": "https://github.com/codemix/fast.js",
+        "content": "ArrayやStringなどのネイティブメソッドと似たような処理を実装し直してるライブラリ。\n100％の互換性ではなくエッジケースへの対応などは落とすことで速度を稼いでいる",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-11-03T07:24:41.208Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "npm/npm",
+    [
+      {
+        "title": "Release v3.4.0 · npm/npm",
+        "url": "https://github.com/npm/npm/releases/tag/v3.4.0",
+        "content": "npm 3.4.0で`npm install && npm test`を行う`npm install-test`というコマンドが追加された。\n`--dry-run`などと組み合わせて、依存モジュールのアップデートテストに活用出来る",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-06T02:29:53.626Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lepture/vui",
+    [
+      {
+        "title": "lepture/vui · GitHub",
+        "url": "https://github.com/lepture/vui",
+        "content": "Vue.jsベースのUIフレームワーク",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "date": "2015-11-08T09:07:58.854Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "KeitaMoromizato/js-study-front-test",
+    [
+      {
+        "title": "KeitaMoromizato/js-study-front-test",
+        "url": "https://github.com/KeitaMoromizato/js-study-front-test",
+        "content": "Node.jsでのテストとKarmaなどを使ったブラウザテストの違いや仕組みについて。\n実際に試せるサンプルと共に紹介されているので分かりやすい。",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "tutorial"
+        ],
+        "date": "2015-11-10T03:45:16.764Z",
+        "relatedLinks": [
+          {
+            "title": "社内JavaScript勉強会で作ったコンテンツまとめ - Qiita",
+            "url": "http://qiita.com/KeitaMoromizato/items/82679e98add1345646c6"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Microsoft/nodejs-guidelines",
+    [
+      {
+        "title": "Microsoft/nodejs-guidelines",
+        "url": "https://github.com/Microsoft/nodejs-guidelines",
+        "content": "Windows向けのNode.js入門的なガイドライン",
+        "tags": [
+          "MS",
+          "node.js",
+          "windows",
+          "tutorial"
+        ],
+        "date": "2015-11-10T11:59:11.248Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mweststrate/mobservable",
+    [
+      {
+        "title": "mweststrate/mobservable",
+        "url": "https://github.com/mweststrate/mobservable",
+        "content": "配列やオブジェクトなどをラップして変更監視が出来るライブラリ。\ngetterとsetterを使い変更を監視するためプロパティの代入による変更を通知出来る",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "date": "2015-11-12T08:55:22.074Z",
+        "relatedLinks": [
+          {
+            "title": "Object.observe is dead. Long live Mobservable.observe — Medium",
+            "url": "https://medium.com/@mweststrate/object-observe-is-dead-long-live-mobservable-observe-ad96930140c5"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "danvk/source-map-explorer",
+    [
+      {
+        "title": "danvk/source-map-explorer · GitHub",
+        "url": "https://github.com/danvk/source-map-explorer",
+        "content": "Source Mapから利用情報を可視化してファイルサイズやサイズの割合などを調べるツール",
+        "tags": [
+          "sourcemap",
+          "debug"
+        ],
+        "date": "2015-11-16T10:03:11.155Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jaredreich/notie.js",
+    [
+      {
+        "title": "jaredreich/notie.js",
+        "url": "https://github.com/jaredreich/notie.js",
+        "content": "依存がないNotification UIライブラリ。\n画面上に被さる通知UI",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "date": "2015-11-16T10:08:43.315Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sapegin/react-styleguidist",
+    [
+      {
+        "title": "sapegin/react-styleguidist",
+        "url": "https://github.com/sapegin/react-styleguidist",
+        "content": "React Componentのコードからスタイルガイドを生成するツール",
+        "tags": [
+          "React",
+          "UI",
+          "document"
+        ],
+        "date": "2015-11-17T02:56:00.048Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jsdoc3/jsdoc",
+    [
+      {
+        "title": "Release JSDoc 3.4.0 · jsdoc3/jsdoc",
+        "url": "https://github.com/jsdoc3/jsdoc/releases/tag/3.4.0",
+        "content": "JSDoc 3.4.0リリース。\nES6で書かれたコードのサポート、JSXのサポート、Rhinoのサポート終了など",
+        "tags": [
+          "JavaScript",
+          "document",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-18T12:22:59.387Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/jest",
+    [
+      {
+        "title": "jest/CHANGELOG.md at 0.8.0 · facebook/jest",
+        "url": "https://github.com/facebook/jest/blob/0.8.0/CHANGELOG.md",
+        "content": "JavaScriptテストフレームワークのJest 0.8.0リリース。\njasmine 2に対応",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-11-19T06:35:45.604Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kdzwinel/betwixt",
+    [
+      {
+        "title": "kdzwinel/betwixt",
+        "url": "https://github.com/kdzwinel/betwixt",
+        "content": "通信内容をキャプチャしてデバッグに利用できるローカルプロキシ。\nChrome開発者ツールのネットワークパネル風UIで通信内容を見ることが出来る。",
+        "tags": [
+          "HTTP",
+          "proxy",
+          "Chrome",
+          "node.js"
+        ],
+        "date": "2015-11-24T13:54:24.709Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mweststrate/ts-npm-lint",
+    [
+      {
+        "title": "mweststrate/ts-npm-lint",
+        "url": "https://github.com/mweststrate/ts-npm-lint",
+        "content": "TypeScriptで書かれたモジュールを公開するときに`package.json`の内容などをチェック、修正するツール",
+        "tags": [
+          "TypeScript",
+          "npm",
+          "Tools"
+        ],
+        "date": "2015-11-26T02:32:54.641Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "OrKoN/jsperf",
+    [
+      {
+        "title": "OrKoN/jsperf",
+        "url": "https://github.com/OrKoN/jsperf",
+        "content": "jsperf.comのコードをNode.jsで実行できるツール",
+        "tags": [
+          "JavaScript",
+          "performance",
+          "node.js"
+        ],
+        "date": "2015-12-01T06:13:59.646Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vuejs/vuex",
+    [
+      {
+        "title": "vuejs/vuex",
+        "url": "https://github.com/vuejs/vuex",
+        "content": "Vue.js向けのFluxライクなライブラリ",
+        "tags": [
+          "JavaScript",
+          "Flux",
+          "library"
+        ],
+        "date": "2015-12-04T02:50:23.246Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "airbnb/reagent",
+    [
+      {
+        "title": "airbnb/reagent",
+        "url": "https://github.com/airbnb/reagent",
+        "content": "React Componentをテストするための補助ライブラリ。\njsdomを使いレンダリングを再現した状態のテストも行える",
+        "tags": [
+          "JavaScript",
+          "React",
+          "testing"
+        ],
+        "date": "2015-12-04T03:29:31.872Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jasmine/jasmine",
+    [
+      {
+        "title": "jasmine/2.4.0.md at master · jasmine/jasmine",
+        "url": "https://github.com/jasmine/jasmine/blob/master/release_notes/2.4.0.md",
+        "content": "Jasmine 2.4.0リリース。\nテストがランダムな順番で実行されるようになった。レポーターにもランダム実行に関する情報が表示されるようになった。",
+        "tags": [
+          "jasmine",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-05T12:54:12.965Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "eslint/typescript-eslint-parser",
+    [
+      {
+        "title": "eslint/typescript-eslint-parser",
+        "url": "https://github.com/eslint/typescript-eslint-parser",
+        "content": "TypeScript ASTをESTree ASTに変換するパーサ。\nESLintでTypeScriptのコードをLintする目的",
+        "tags": [
+          "TypeScript",
+          "JavaScript",
+          "AST"
+        ],
+        "date": "2015-12-05T15:26:16.463Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nathancahill/Split.js",
+    [
+      {
+        "title": "nathancahill/Split.js",
+        "url": "https://github.com/nathancahill/Split.js",
+        "content": "サイズが可変可能なSplit Viewを作るUIライブラリ。\n要素同士を縦横に分割し、ドラッグでサイズを変更出来る",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "date": "2015-12-06T01:21:49.556Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Jam3/hihat",
+    [
+      {
+        "title": "Jam3/hihat",
+        "url": "https://github.com/Jam3/hihat",
+        "content": "Electronを使ってChrome DevToolsを使ったNode REPLやテスト実行等を行えるツール。",
+        "tags": [
+          "Electron",
+          "Chrome",
+          "debug",
+          "testing"
+        ],
+        "date": "2015-12-06T08:16:51.924Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mozilla/oghliner",
+    [
+      {
+        "title": "mozilla/oghliner",
+        "url": "https://github.com/mozilla/oghliner",
+        "content": "GitHub Pagesをオフライン対応するためのテンプレートとデプロイツール。\nService Workerを使ってリソースをオフラインでも参照出来るようにしている。",
+        "tags": [
+          "ServiceWorker",
+          "Tools",
+          "github"
+        ],
+        "date": "2015-12-06T11:43:22.731Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sebmck/lerna",
+    [
+      {
+        "title": "sebmck/lerna",
+        "url": "https://github.com/sebmck/lerna",
+        "content": "Babelのような一つのリポジトリに複数のパッケージがある(monorepo)を扱うためのツール。\nnpm installやnpm publishの補助をしてくれる",
+        "tags": [
+          "npm",
+          "JavaScript",
+          "Tools"
+        ],
+        "date": "2015-12-06T12:40:53.852Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "dekujs/deku",
+    [
+      {
+        "title": "Release 1.0.0 · dekujs/deku",
+        "url": "https://github.com/dekujs/deku/releases/tag/1.0.0",
+        "content": "Virtual DOMの実装を持つReactライクなComponentライブラリであるdeku 1.0.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "date": "2015-12-07T09:51:20.181Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ChALkeR/notes",
+    [
+      {
+        "title": "notes/Do-not-underestimate-credentials-leaks.md at master · ChALkeR/notes",
+        "url": "https://github.com/ChALkeR/notes/blob/master/Do-not-underestimate-credentials-leaks.md",
+        "content": "主にNode.js関連のプロジェクトでのトークンやパスワードなど漏れが起きるパターンについて。\nもし漏らしていた場合の影響や変更方法について書かれている",
+        "tags": [
+          "node.js",
+          "セキュリティ"
+        ],
+        "date": "2015-12-07T15:12:22.452Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "oneuijs/You-Dont-Need-jQuery",
+    [
+      {
+        "title": "oneuijs/You-Dont-Need-jQuery",
+        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery",
+        "content": "jQuery使わなくてもDOM APIを使って大体同じ事が出来るというまとめ",
+        "tags": [
+          "jQuery",
+          "JavaScript"
+        ],
+        "date": "2015-12-08T08:15:38.855Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "peerigon/updtr",
+    [
+      {
+        "title": "peerigon/updtr",
+        "url": "https://github.com/peerigon/updtr",
+        "content": "`npm outdated` ベースで、それぞれのモジュールをupdateしてnpm testを行うことで、テストが通ったモジュールのみをアップデート出来るツール",
+        "tags": [
+          "npm",
+          "Tools"
+        ],
+        "date": "2015-12-13T11:54:47.705Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Jam3/web-audio-player",
+    [
+      {
+        "title": "Jam3/web-audio-player",
+        "url": "https://github.com/Jam3/web-audio-player",
+        "content": "後方互換性の問題やバージョン毎のバグが多いWeb Audio APIをラップしてクロスブラウザで再生をサポートするライブラリ",
+        "tags": [
+          "web",
+          "audio",
+          "library"
+        ],
+        "date": "2015-12-14T09:10:11.915Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "pzavolinsky/react-unit",
+    [
+      {
+        "title": "pzavolinsky/react-unit",
+        "url": "https://github.com/pzavolinsky/react-unit",
+        "content": "React Componentをテストするためのライブラリ",
+        "tags": [
+          "React",
+          "testing",
+          "library"
+        ],
+        "date": "2015-12-20T05:20:25.435Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jaredly/treed",
+    [
+      {
+        "title": "jaredly/treed",
+        "url": "https://github.com/jaredly/treed",
+        "content": "ツリーエディタライブラリ",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "editor",
+          "library"
+        ],
+        "date": "2015-12-22T02:15:42.115Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "paldepind/snabbdom",
+    [
+      {
+        "title": "paldepind/snabbdom",
+        "url": "https://github.com/paldepind/snabbdom",
+        "content": "Virtual DOMライブラリ",
+        "tags": [
+          "JavaScript",
+          "VirtualDOM",
+          "library"
+        ],
+        "date": "2015-12-22T06:59:49.895Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Mercateo/component-check",
+    [
+      {
+        "date": "2015-12-26T03:44:49.965Z",
+        "title": "Mercateo/component-check",
+        "url": "https://github.com/Mercateo/component-check",
+        "content": "コンポーネント指向のフレームワークを使い、コンポーネントを表示するまでの手順をそれぞれ比較した記事。\nAngularJS1/2、Ember、Cycle.js、Reactにおいて4種類のコンポーネントを実装し比較している。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "React",
+          "Angular"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vega/datalib",
+    [
+      {
+        "title": "vega/datalib",
+        "url": "https://github.com/vega/datalib",
+        "content": "JSON、CSV、TSV等からデータを読み込み、データを加工できるライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "統計"
+        ],
+        "date": "2015-12-27T03:24:07.560Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "HugoGiraudel/SJSJ",
+    [
+      {
+        "title": "HugoGiraudel/SJSJ",
+        "url": "https://github.com/HugoGiraudel/SJSJ",
+        "content": "JavaScript関連の用語集",
+        "tags": [
+          "JavaScript",
+          "dictionary",
+          "まとめ"
+        ],
+        "date": "2015-12-30T09:48:45.308Z",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "loverajoel/jstips",
+    [
+      {
+        "date": "2015-12-30T11:29:49.842Z",
+        "title": "loverajoel/jstips",
+        "url": "https://github.com/loverajoel/jstips",
+        "content": "JavaScriptのTipsを1日1つづつ紹介していくプロジェクト",
+        "tags": [
+          "JavaScript",
+          "Tips"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ]
+]

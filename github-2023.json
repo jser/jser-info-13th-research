@@ -1,0 +1,3935 @@
+[
+  [
+    "pnpm/pnpm",
+    [
+      {
+        "date": "2023-02-21T15:04:55.560Z",
+        "title": "Release v8.0.0-alpha.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.0.0-alpha.0",
+        "content": "pnpm v8.0.0-alpha.0リリース。\npeerDependenciesを自動インストールする`auto-install-peers`を`true`へ変更、`publishConfig.linkDirectory`を`true`に変更。\n`resolution-mode`のデフォルト値を`lowest-direct`に変更、lockfileをv6に変更など",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-03-25T05:40:12.494Z",
+        "title": "Release v8.0.0-rc.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.0.0-rc.0",
+        "content": "pnpm v8.0.0-rc.0リリース。\nNode.js 14のサポート終了、デフォルト設定の変更、ロックファイルの形式の変更など",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-03-28T15:16:26.774Z",
+        "title": "Release v8.0.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.0.0",
+        "content": "pnpm v8.0.0リリース。\nNode.js 14のサポート終了、デフォルト設定の変更をし`peerDependencies`デフォルトでインストールするように。\nLockfileの形式とバージョンをアップデートなど",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-09T13:08:45.504Z",
+        "title": "Release v8.4.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.4.0",
+        "content": "pnpm v8.4.0リリース。\n`pnpm publish --provenance`をサポートなど",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-04T02:07:08.058Z",
+        "title": "Release v8.6.6 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.6.6",
+        "content": "pnpm v8.6.6リリース。\nパフォーマンスの改善など",
+        "tags": [
+          "pnpm",
+          "performance",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-27T00:18:55.375Z",
+        "title": "Release v8.7.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.7.0",
+        "content": "pnpm v8.7.0リリース。\n`worker_threads`を使ったパッケージの解凍処理でパフォーマンスの改善。\nv8.0.0では依存する最小バージョンをインストールする`resolution-mode: lowest`がデフォルトだったが、v8.7.0で`resolution-mode: highest`に変更。\n`pnpm import`がnpmのlockfileVersion 3をサポートなど",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-09T00:38:08.192Z",
+        "title": "Release v8.9.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.9.0",
+        "content": "pnpm v8.9.0リリース。\nJSONでinstallation scriptsを許可するパッケージを指定できる`pnpm.onlyBuiltDependenciesFile`オプションの追加。\nキャッシュからコピー時にreflinksを使うことでインストール速度の改善など。\n",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "perf: use rclonefile to fix cloning on macOS by zkochan · Pull Request #7031 · pnpm/pnpm",
+            "url": "https://github.com/pnpm/pnpm/pull/7031"
+          }
+        ]
+      },
+      {
+        "date": "2023-10-27T23:09:45.623Z",
+        "title": "Release v8.10.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.10.0",
+        "content": "pnpm v8.10.0リリース。\n`supportedArchitectures`で複数のアーキテクチャを指定できるように。\nホスト環境とDocker環境に両方のアーキテクチャのバイナリをインストール際などに利用できる。",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-12-27T06:01:44.910Z",
+        "title": "Release v8.13.1 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v8.13.1",
+        "content": "pnpm v8.13.1リリース。\n`pnpm cat-index`/`pnpm cat-file`/`pnpm find-hash`コマンドの追加など\n",
+        "tags": [
+          "pnpm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "evanw/esbuild",
+    [
+      {
+        "date": "2023-01-04T01:34:07.505Z",
+        "title": "Release v0.16.13 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.16.13",
+        "content": "esbuild v0.16.13リリース。\n`--metafile`でbundle時のメタデータを出力し、メタデータを可視化できるビューアサイトの実装など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-01-14T14:34:50.967Z",
+        "title": "Release v0.17.0 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.17.0",
+        "content": "esbuild v0.17.0リリース。\nincremental buildに関する処理を`context` APIに移動。\n`watch`と`serve`を同時に利用できるように、またServer Send Eventを使ったLive Reloadに対応、開発サーバがHTTPSに対応など",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-01-28T13:21:04.624Z",
+        "title": "Release v0.17.5 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.17.5",
+        "content": "esbuild v0.17.5リリース。\nTypeScript 5.0 betaの`const`parameterとenumのサポートなど",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-03-28T15:13:13.740Z",
+        "title": "Release v0.17.14 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.17.14",
+        "content": "esbuild v0.17.14リリース。\nTypeScript 5の`const` parameterをサポート、CSS nestingのサポートなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-26T12:19:11.743Z",
+        "title": "Release v0.18.9 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.18.9",
+        "content": "esbuild v0.18.9リリース。\n`await using`の対応漏れの修正、autoprefixer的のようにCSSのprefixを自動で追加できるようになるなど",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-15T10:46:47.821Z",
+        "title": "Release v0.18.13 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.18.13",
+        "content": "esbuild v0.18.13リリース。\n`DEV: doAnExpensiveCheck()`のようなラベル指定した処理を、`--drop-label`で削除できるように。\n",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-20T12:38:40.292Z",
+        "title": "Release v0.18.14 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.18.14",
+        "content": "esbuild v0.18.14リリース。\nCSS Modulesサポートの一貫として、`global-css` loaderと`local-css` loaderを追加し、CSSで`:local()`と`:global()`をサポートなど。",
+        "tags": [
+          "esbuild",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-09T05:36:14.579Z",
+        "title": "Release v0.19.0 · evanw/esbuild",
+        "url": "https://github.com/evanw/esbuild/releases/tag/v0.19.0",
+        "content": "esbuild v0.19.0リリース。\nエントリーポイントにワイルドカードを指定できるように、Dynamic Importで変数を含めたパスをbundleできるように。\n`--packages=external`と`tsconfig.json`の`paths`の問題の修正、`.module.css`のデフォルトローダを`local-css`へ変更",
+        "tags": [
+          "esbuild",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "remix-run/remix",
+    [
+      {
+        "date": "2023-01-12T15:28:34.574Z",
+        "title": "Release v1.10.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix%401.10.0",
+        "content": "Remix 1.10.0リリース。\n`@remix-run/router`というReact Routerとの共通基盤となるパッケージ(バイナリ)を使い再構築。\n`shouldRevalidate`関数のサポート、`useNavigation`/`useRevalidator`/`useRouteLoaderData` Hook APIの追加など",
+        "tags": [
+          "Remix",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-01-24T13:21:37.775Z",
+        "title": "Release v1.11.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix%401.11.0",
+        "content": "Remix 1.11.0リリース。\n`defer`を使ってレスポンス待ちを減らせるように、`@remix-run/css-bundle`でのCSSファイルのロード、CSS Modules、Vanilla Extractのサポート。\nFlat Routesをopt-inで利用できるように",
+        "tags": [
+          "Remix",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Flat Routes · Discussion #4482 · remix-run/remix",
+            "url": "https://github.com/remix-run/remix/discussions/4482"
+          }
+        ]
+      },
+      {
+        "date": "2023-05-02T12:06:17.912Z",
+        "title": "Release v1.16.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix@1.16.0",
+        "content": "Remix 1.16.0リリース。\nCSS Modules/Vanilla Extract/PostCSSのサポートをStable化。tailwindのサポートをStable化。\nOpt-inで新しい`remix dev`を利用できるようになるなど。",
+        "tags": [
+          "Remix",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-28T05:04:15.045Z",
+        "title": "Release v1.19.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix%401.19.0",
+        "content": "Remix 1.19.0リリース。\nesbuildの`metafile.*`をビルドディレクトリに含めるように、`serverNodeBuiltinsPolyfill`オプションの追加など",
+        "tags": [
+          "Remix",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-09-17T03:27:37.127Z",
+        "title": "Release v2.0.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix%402.0.0",
+        "content": "Remix 2.0.0リリース。\nReact 17のサポート終了、Node.js 14/16のサポート終了。\nV1からの移行は`v2_*`フラグを使うことで機能を一つずつ有効化して移行できる。\n2.0.0では`v2_*`フラグの削除、`remix.config.js`の設定やコマンドの変更などが含まれる。",
+        "tags": [
+          "Remix",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Remix v2 | Remix",
+            "url": "https://remix.run/blog/remix-v2"
+          },
+          {
+            "title": "Upgrading to v2 | Remix",
+            "url": "https://remix.run/docs/en/main/start/v2"
+          }
+        ]
+      },
+      {
+        "date": "2023-11-01T04:32:23.045Z",
+        "title": "Release v2.2.0 · remix-run/remix",
+        "url": "https://github.com/remix-run/remix/releases/tag/remix%402.2.0",
+        "content": "Remix 2.2.0リリース。\nViteのサポート、Fetcherにkeyを指定できるように。\n`future.v3_fetcherPersist`フラグで、Fetcherのクリーンアップの新しい挙動をopt-inできるようになるなど",
+        "tags": [
+          "Remix",
+          "React",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Remix ❤️ Vite | Remix",
+            "url": "https://remix.run/blog/remix-heart-vite"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "zloirock/core-js",
+    [
+      {
+        "date": "2023-02-14T04:36:39.391Z",
+        "title": "Release 3.28.0 - 2023.02.14 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.28.0",
+        "content": "core-js v3.28.0リリース。\nStage4となったChange Array by copy proposalをStableに移動。\nStage3の`JSON.parse` source text access、`ArrayBuffer.prototype.transfer`、Explicit Resource Managementを追加。\nStage 2のSymbol Predicatesを実装、Stage 1の`Number.range`を`Iterator.range`に変更など",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-02-15T04:32:17.970Z",
+        "title": "core-js/2023-02-14-so-whats-next.md at master · zloirock/core-js · GitHub",
+        "url": "https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md",
+        "content": "core-jsの歴史、財政的な問題、ロードマップについて。\nまた、多くのウェブサイトが複数のバージョンの`core-js`を同じページに読み込んでいるパッケージの依存関係の問題について",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "article",
+          "OpenSource",
+          "opinion"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-12T02:50:31.600Z",
+        "title": "Release 3.31.0 - 2023.06.12 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.31.0",
+        "content": "core-js v3.31.0リリース。\nProposal Stageの変更への対応。\nArray GroupingはStage 2へ降格し、静的メソッドである`Object.groupBy`を追加。\n`Promise.withResolvers`の追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "polyfill",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-28T01:33:34.522Z",
+        "title": "Release 3.32.0 - 2023.07.28 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.32.0",
+        "content": "core-js v3.32.0リリース。\nArray grouping, `Promise.withResolvers`, Set methods, Iterator HelpersのStage変更に対応。\nStage 3の`Float16Array`, Stage 1の`Uint8Clamped`をサポートなど",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-01T22:55:59.628Z",
+        "title": "Release 3.33.0 - 2023.10.02 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.33.0",
+        "content": "core-js v3.33.0リリース。\n`RegExp.escape`の追加、compat dataのアップデートなど",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-12-29T01:32:46.724Z",
+        "title": "Release 3.35.0 - 2023.12.29 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.35.0",
+        "content": "core-js v3.35.0リリース。\n`{ Map, Set, WeakMap, WeakSet }.{ from, of }`の`this`に関する挙動の変更など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "polyfill",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "honojs/hono",
+    [
+      {
+        "date": "2023-02-19T11:56:29.357Z",
+        "title": "Release v3.0.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.0.0",
+        "content": "Hono 3.0.0リリース。\n`req`を`Request`オブジェクトを拡張した`HonoRequest`オブジェクトに変更、StaticRouterの廃止、Validatorの変更。\nzodと組み合わせてrouterからレスポンスの型定義を作成できる`jsonT`とそれを利用するクライアントの`hono/client`の追加。\nwintercgのRuntime Keysの名前を返す`runtime()`の追加など",
+        "tags": [
+          "JavaScript",
+          "server",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-26T02:22:39.989Z",
+        "title": "Release v3.2.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.2.0",
+        "content": "Hono 3.2.0リリース\n`LinearRouter`と`PatternRouter`の追加。実行環境に合わせたプリセットの追加、` app.mount()` APIの追加、cookie middlewareの追加など",
+        "tags": [
+          "JavaScript",
+          "server",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Honoのv3.2が出ました",
+            "url": "https://zenn.dev/yusukebe/articles/ee57dc12f34724"
+          }
+        ]
+      },
+      {
+        "date": "2023-08-23T11:43:52.281Z",
+        "title": "Release v3.5.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.5.0",
+        "content": "Hono v3.5.0リリース。\nSecurity Headersミドルウェアの追加、Cookieヘルパーの追加、Zod OpenAPIミドルウェアの追加。\n`queries`、`c.runtime()`、`app.handleEvent()` を非推奨化など",
+        "tags": [
+          "JavaScript",
+          "server",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-09-13T13:41:20.218Z",
+        "title": "Release v3.6.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.6.0",
+        "content": "Hono v3.6.0リリース。\n`c.render()`と`c.setRenderer()`の追加、`c.var`の追加。\nHMRに対応するViteプラグインとして`@hono/vite-dev-server`を公開など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "server",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-09-23T23:46:18.660Z",
+        "title": "Release v3.7.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.7.0",
+        "content": "Hono v3.7.0リリース。\n`c.stream()`と`c.streamText()`を追加、`hono/testing`を追加、`hono/jwt`が`verify`/`descode`/`sign`関数をexportするように変更など",
+        "tags": [
+          "JavaScript",
+          "server",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-12-08T02:28:28.860Z",
+        "title": "Release v3.11.0 · honojs/hono",
+        "url": "https://github.com/honojs/hono/releases/tag/v3.11.0",
+        "content": "Hono v3.11.0リリース。\n`hono/jsx`に`ErrorBoundary`の追加、`hono/dev`にルーティングの一覧を出力する`showRoutes`を追加。\n`c.jsonT()`をDeprecatedにして、`c.json()`がRPCでも利用できるようになるなど。",
+        "tags": [
+          "JavaScript",
+          "server",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Honoのv3.10とv3.11について",
+            "url": "https://zenn.dev/yusukebe/articles/d1be7aa06999cb"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "vitest-dev/vitest",
+    [
+      {
+        "date": "2023-02-27T15:43:30.440Z",
+        "title": "Release v0.29.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v0.29.0",
+        "content": "vitest v0.29.0リリース。\n試験的に依存関係をbundleして読み込むことでパフォーマンスを改善する`deps.experimentalOptimizer`オプションを追加。\nまた、`--no-threads`オプション使っている場合は、`--single-thread`や`deps.experimentalOptimizer`を代わりに使うことを推奨している。",
+        "tags": [
+          "vite",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-04-09T14:52:46.812Z",
+        "title": "Release v0.30.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v0.30.0",
+        "content": "vitest v0.30.0リリース。\nmonorepoをサポートするworkspace機能の追加、snapshotのロジックを`@vitest/snapshot`パッケージに移動など",
+        "tags": [
+          "vite",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-04T03:44:46.387Z",
+        "title": "Release v0.31.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v0.31.0",
+        "content": "vitest v0.31.0リリース。\n`vi.hoisted`の追加、`test`に`repeats`オプションを追加など",
+        "tags": [
+          "vite",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-02T12:41:26.554Z",
+        "title": "Release v0.34.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v0.34.0",
+        "content": "vitest v0.34.0リリース。\n`@vitest/coverage-c8`を`@vitest/coverage-v8`に変更、`server`オプションの追加に伴いオプションの移動、`deps.optimizer`をデフォルトで有効化など。\n`describe.sequential` APIの追加など",
+        "tags": [
+          "vite",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-03T04:15:42.358Z",
+        "title": "Release v1.0.0-beta.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v1.0.0-beta.0",
+        "content": "vitest v1.0.0-beta.0リリース。\n`node:child_process`を使った並列実行をサポート、`pool`と`poolOptions`をサポートし関連する古いフラグを削除など",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Feature: Support `child_process` runtime · Issue #64 · tinylibs/tinypool",
+            "url": "https://github.com/tinylibs/tinypool/issues/64"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-05T05:02:56.163Z",
+        "title": "Release v1.0.0 · vitest-dev/vitest",
+        "url": "https://github.com/vitest-dev/vitest/releases/tag/v1.0.0",
+        "content": "vitest v1.0.0リリース。\n`node:child_process`を使った並列実行をサポート、`pool`と`poolOptions`をサポートし関連する古いフラグを削除など。\nSnapshotの形式の変更、カバレッジの改善、`--projet`オプションの追加など",
+        "tags": [
+          "vite",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "web-infra-dev/rspack",
+    [
+      {
+        "date": "2023-05-09T12:58:14.189Z",
+        "title": "Release v0.1.10 · web-infra-dev/rspack",
+        "url": "https://github.com/web-infra-dev/rspack/releases/tag/v0.1.10",
+        "content": "rspack 0.1.10リリース。\n`compilation.modules`のサポート、`splitChunks`オプションの互換性の改善、Angularの初期サポートの追加など",
+        "tags": [
+          "webpack",
+          "rspack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-24T00:49:39.941Z",
+        "title": "Release v0.1.12 · web-infra-dev/rspack",
+        "url": "https://github.com/web-infra-dev/rspack/releases/tag/v0.1.12",
+        "content": "rspack v0.1.12リリース。\n`resolve.exportsFields`をサポート、Data URIのimportをサポートなど",
+        "tags": [
+          "webpack",
+          "bundler",
+          "ReleaseNote",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-05T00:55:29.553Z",
+        "title": "Release 0.2.5 · web-infra-dev/rspack",
+        "url": "https://github.com/web-infra-dev/rspack/releases/tag/0.2.5",
+        "content": "rspack 0.2.5リリース。\nWeb Workerのサポート、entryの`filename`オプションのサポート、HMRでCJSとESMが混在している場合にwarningを出すようになるなど",
+        "tags": [
+          "webpack",
+          "ReleaseNote",
+          "JavaScript",
+          "bundler"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-17T13:16:21.873Z",
+        "title": "Release v0.3.7 · web-infra-dev/rspack",
+        "url": "https://github.com/web-infra-dev/rspack/releases/tag/v0.3.7",
+        "content": "rspack v0.3.7リリース。\n`experiments.rspackFuture.newResolver`で新しいResolverをOpt-inできるように。\nstyled-componentsのサポート、Vue 2でのCSSの抽出をサポートなど",
+        "tags": [
+          "rspack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-25T00:04:06.301Z",
+        "title": "Release v0.3.8 · web-infra-dev/rspack",
+        "url": "https://github.com/web-infra-dev/rspack/releases/tag/v0.3.8",
+        "content": "rspack v0.3.8リリース。\nTop-Level `await`のサポートなど",
+        "tags": [
+          "rspack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "esm-dev/esm.sh",
+    [
+      {
+        "date": "2023-04-18T15:39:52.996Z",
+        "title": "Release v116 · esm-dev/esm.sh",
+        "url": "https://github.com/esm-dev/esm.sh/releases/tag/v116",
+        "content": "esm.sh 116リリース。\n`esm.sh/gh/OWNER/REPO/PATH`でGitHubのリポジトリからファイルをロードできるように",
+        "tags": [
+          "cdn",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-10T13:59:41.400Z",
+        "title": "Release v120 · esm-dev/esm.sh",
+        "url": "https://github.com/esm-dev/esm.sh/releases/tag/v120",
+        "content": "esm.sh v120リリース。\nesm.shの処理をCloudflare Worker上でしている`esm-worker`パッケージを公開。\nbuild APIが`types`オプションをサポート。",
+        "tags": [
+          "JavaScript",
+          "cdn",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-29T02:23:18.098Z",
+        "title": "Release v130 · esm-dev/esm.sh",
+        "url": "https://github.com/esm-dev/esm.sh/releases/tag/v130",
+        "content": "esm.sh v130リリース。\nminifyされたUMDをexportするCommonJSパッケージをサポート",
+        "tags": [
+          "JavaScript",
+          "cdn",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-11-26T13:03:28.880Z",
+        "title": "Release v135 / Introducing esm.sh/run · esm-dev/esm.sh",
+        "url": "https://github.com/esm-dev/esm.sh/releases/tag/v135",
+        "content": "esm.sh v135リリース。\nJSXやTSのコード変換と実行できる\n`https://esm.sh/run`の追加など",
+        "tags": [
+          "JavaScript",
+          "cdn",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/playwright",
+    [
+      {
+        "date": "2023-04-27T08:05:55.637Z",
+        "title": "Release v1.33.0 · microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright/releases/tag/v1.33.0",
+        "content": "playwright v1.33.0リリース。\n`locator.or()`の追加、`locator.filter`に`hasNot`と`hasNotText`オプションを追加、`toBeAttached` Assertioを追加など",
+        "tags": [
+          "playwright",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-22T21:47:02.767Z",
+        "title": "Release v1.34.0 · microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright/releases/tag/v1.34.0",
+        "content": "playwright v1.34.0リリース。\nNode.js 14のサポート終了、`playwright`と`@playwright/test`を両方インストールしてる場合に`npx playwright test`が動かなくなるように変更。\nUIモードでテストのステップを表示できるように、`testProject.teardown`プロパティのサポート、`locator.and()`の追加など。",
+        "tags": [
+          "browser",
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-10T23:33:37.396Z",
+        "title": "Release v1.35.0 · microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright/releases/tag/v1.35.0",
+        "content": "playwright v1.35.0リリース。\nUI modeでRoute APIが処理したリクエストを表示するように、スクリーンショットに`maskColor`オプションを追加、`uninstall`サブコマンドを追加。\nバイナリを`playwright`から`playwright-core`へリネームなど",
+        "tags": [
+          "playwright",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-14T13:17:17.853Z",
+        "title": "Release v1.37.0 · microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright/releases/tag/v1.37.0",
+        "content": "playwright v1.37.0リリース。\n`--shard`フラグで分割実行した結果のレポートを結合できる`merge-reports`コマンドの追加など",
+        "tags": [
+          "playwright",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jestjs/jest",
+    [
+      {
+        "date": "2023-07-04T23:40:11.822Z",
+        "title": "Release v29.6.0 · jestjs/jest",
+        "url": "https://github.com/jestjs/jest/releases/tag/v29.6.0",
+        "content": "Jest 29.6.0リリース。\nCurrent Testでのsnapshotテストのサポート、非同期でエラーがthrowされた場合の問題を`rejectionHandled`イベントを使うことで修正など",
+        "tags": [
+          "jest",
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-23T03:51:43.490Z",
+        "title": "Release v29.6.3 · jestjs/jest",
+        "url": "https://github.com/jestjs/jest/releases/tag/v29.6.3",
+        "content": "Jest v29.6.3リリース。\n`@types/node`への依存を削除、watch modeでは常にworkerを使うように変更、minorバージョンで入ったmockに関する破壊的変更をrevertなど",
+        "tags": [
+          "jest",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-09-12T12:56:17.740Z",
+        "title": "Release v29.7.0 · jestjs/jest",
+        "url": "https://github.com/jestjs/jest/releases/tag/v29.7.0",
+        "content": "Jest v29.7.0リリース。\n`jest --init`に変わってセットアップができる`create-jest`パッケージの追加など",
+        "tags": [
+          "jest",
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-31T04:02:16.255Z",
+        "title": "Release v30.0.0-alpha.1 · jestjs/jest",
+        "url": "https://github.com/jestjs/jest/releases/tag/v30.0.0-alpha.1",
+        "content": "Jest v30.0.0-alpha.1リリース。\n`mts`/`cts`をデフォルトでサポート、fake timerの改善、SnapshotでError Causeをサポート、Prettier 3のサポートなど",
+        "tags": [
+          "jest",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lerna/lerna",
+    [
+      {
+        "date": "2023-01-06T03:33:41.162Z",
+        "title": "Release v6.4.0 · lerna/lerna",
+        "url": "https://github.com/lerna/lerna/releases/tag/v6.4.0",
+        "content": "lerna v6.4.0リリース。\n`lerna watch`コマンドの追加など",
+        "tags": [
+          "JavaScript",
+          "monorepo",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-05-16T04:29:35.575Z",
+        "title": "Release 7.0.0-alpha.0 · lerna/lerna",
+        "url": "https://github.com/lerna/lerna/releases/tag/7.0.0-alpha.0",
+        "content": "lerna 7.0.0-alpha.0リリース。\n`lerna bootstrap`/`add`/`link`コマンドを別のパッケージに分離し、本体には含めないように変更",
+        "tags": [
+          "JavaScript",
+          "monorepo",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-08T23:12:21.661Z",
+        "title": "Release 7.0.0 · lerna/lerna",
+        "url": "https://github.com/lerna/lerna/releases/tag/7.0.0",
+        "content": "lerna 7.0.0リリース。\n`lerna bootstrap`/`add`/`link`は削除された。デフォルトでworkspacesを使うようになり、`useWorkspaces`オプションの削除。\n非推奨となっていたオプションの削除など",
+        "tags": [
+          "JavaScript",
+          "monorepo",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Legacy Package Management | Lerna",
+            "url": "https://lerna.js.org/docs/legacy-package-management"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "rollup/rollup",
+    [
+      {
+        "date": "2023-01-13T01:12:42.869Z",
+        "title": "Release v3.10.0 · rollup/rollup",
+        "url": "https://github.com/rollup/rollup/releases/tag/v3.10.0",
+        "content": "Rollup v3.10.0リリース。\noptional chainingに対するTree Shakingのサポートなど",
+        "tags": [
+          "rollup",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-06T06:57:40.544Z",
+        "title": "Release v4.0.0 · rollup/rollup",
+        "url": "https://github.com/rollup/rollup/releases/tag/v4.0.0",
+        "content": "Rollup v4.0.0リリース。\nNode.js 14/16のサポート終了、パーサにAcornの代わりにSWCを使うように変更。\n非推奨なオプションの削除など",
+        "tags": [
+          "rollup",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-15T03:55:42.108Z",
+        "title": "Release v4.1.0 · rollup/rollup",
+        "url": "https://github.com/rollup/rollup/releases/tag/v4.1.0",
+        "content": "Rollup v4.1.0リリース。\nオブジェクトが持つオプションをビットフラグで管理しメモリ消費量を削減する改善が含まれる。",
+        "tags": [
+          "rollup",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "npm/cli",
+    [
+      {
+        "date": "2023-02-07T14:53:10.905Z",
+        "title": "Release v9.4.0 · npm/cli",
+        "url": "https://github.com/npm/cli/releases/tag/v9.4.0",
+        "content": "npm v9.4.0リリース。\npnpmライクなインストール戦略である`--install-strategy=linked`をサポート。\nIsolated modeと言われていたRFCの実装。",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "rfcs/0042-isolated-mode.md at main · npm/rfcs · GitHub",
+            "url": "https://github.com/npm/rfcs/blob/main/accepted/0042-isolated-mode.md"
+          }
+        ]
+      },
+      {
+        "date": "2023-02-19T10:22:01.087Z",
+        "title": "Release v9.5.0 · npm/cli",
+        "url": "https://github.com/npm/cli/releases/tag/v9.5.0",
+        "content": "npm v9.5.0リリース。\n`npm publish --provenance`のサポート。現時点ではGitHub Actionsのみの限定的なサポートで、OICDを使ったCIからのpublishをサポートするための仕組み。",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Automated publishing of npm packages from CI/CD · Issue #625 · npm/statusboard",
+            "url": "https://github.com/npm/statusboard/issues/625"
+          },
+          {
+            "title": "RFC for linking packages to their source and build by feelepxyz · Pull Request #626 · npm/rfcs",
+            "url": "https://github.com/npm/rfcs/pull/626"
+          }
+        ]
+      },
+      {
+        "date": "2023-09-01T03:08:58.544Z",
+        "title": "Release v10.0.0 · npm/cli",
+        "url": "https://github.com/npm/cli/releases/tag/v10.0.0",
+        "content": "npm v10.0.0リリース。\nNode.js 14と16のサポートの終了、libnpmpublishが409エラーの場合に再施行しないように変更など",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/flow",
+    [
+      {
+        "date": "2023-01-15T03:13:10.618Z",
+        "title": "Release v0.197.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.197.0",
+        "content": "Flow v0.197.0リリース。\nLocal Type Inferenceをopt-inで利用できるように。",
+        "tags": [
+          "flowtype",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Introducing: Local Type Inference for Flow | by Michael Matson Vitousek | Flow | Medium",
+            "url": "https://medium.com/flow-type/introducing-local-type-inference-for-flow-6af65b7830aa"
+          }
+        ]
+      },
+      {
+        "date": "2023-02-17T01:54:40.181Z",
+        "title": "Release v0.200.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.200.0",
+        "content": "Flow v0.200.0リリース。\ngenerics-escapeの問題の改善、型チェックの厳密化、数値と日付の比較を許可しないように変更など。\n`flow autofix`に`missing-local-annot`を追加など",
+        "tags": [
+          "flowtype",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reduxjs/redux-toolkit",
+    [
+      {
+        "date": "2023-01-22T22:33:33.058Z",
+        "title": "Release v2.0.0-alpha.1 · reduxjs/redux-toolkit",
+        "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0-alpha.1",
+        "content": "Redux Toolkit v2.0.0-alpha.1リリース。\nESM形式とCJS形式のDual Packageへの変更、`thunk`関数を`redux-thunk`パッケージへ移動。\nv2正式版にはImmer 10を含める予定など",
+        "tags": [
+          "library",
+          "redux",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Immer 10 proposals: Drop promises, default export, array.length patches, ES5 mode, and make getter / setter support opt-in · Issue #1015 · immerjs/immer",
+            "url": "https://github.com/immerjs/immer/issues/1015"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-04T22:59:35.682Z",
+        "title": "Release v2.0.0 · reduxjs/redux-toolkit",
+        "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.0.0",
+        "content": "Redux Toolkit v2.0.0リリース。\nRedux v5/Reselect 5.0へのアップデート、`createReducer`/`createSlice`の`extraReducers`におけるオブジェクト構文のサポートを削除。\n`middleware`オプションが配列ではなくコールバック関数のみを受け付けるように変更、型定義の変更など。\n`combineSlices`の追加、`createDynamicMiddleware`の追加、`autoBatchEnhancer`をデフォルトで有効化するなど",
+        "tags": [
+          "React",
+          "redux",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Migrating to RTK 2.0 and Redux 5.0 | Redux",
+            "url": "https://redux.js.org/usage/migrations/migrating-rtk-2"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "facebook/jest",
+    [
+      {
+        "date": "2023-01-24T13:16:49.719Z",
+        "title": "Release v29.4.0 · facebook/jest",
+        "url": "https://github.com/facebook/jest/releases/tag/v29.4.0",
+        "content": "Jest v29.4.0リリース。\n`equal`のアルゴリズムをカスタマイズできる`expect.addEqualityTesters()`の追加、オブジェクトのプロパティをモックする`jest.replaceProperty()`の追加など",
+        "tags": [
+          "JavaScript",
+          "jest",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-03-07T12:48:24.915Z",
+        "title": "Release v29.5.0 · facebook/jest",
+        "url": "https://github.com/facebook/jest/releases/tag/v29.5.0",
+        "content": "Jest v29.5.0リリース。\n`randomize`オプションでテストをランダムな順番で実行できるように、`workerThreads`オプションの追加、エラー出力のフォーマッターがError Causeのサポートなど\n",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nuxt/nuxt",
+    [
+      {
+        "date": "2023-02-09T14:07:46.600Z",
+        "title": "Release v3.2.0 · nuxt/nuxt",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v3.2.0",
+        "content": "Nuxt.js v3.2.0リリース。\nNuxt DevToolsの追加、`useFetch`でのリクエストに自動的にCookieが付くように。\nサーバのコードからclient-only componentを取り除く`treeshakeClientOnly`がデフォルトで`true`へと変更など。",
+        "tags": [
+          "Vue",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-21T04:08:44.390Z",
+        "title": "Release v3.8.0 · nuxt/nuxt",
+        "url": "https://github.com/nuxt/nuxt/releases/tag/v3.8.0",
+        "content": "Nuxt.js v3.8.0リリース。\nNuxt DevTools 1.0、`@nuxt/image`の自動インストール、アプリの構成を定義したメタファイルの出力に対応、NuxtLinkのデフォルトの挙動を設定できるように。\n`useAsyncData`と`useFetch`に`deep`オプションの追加、`getCachedData`でカスタムキャッシュをサポートなど",
+        "tags": [
+          "Vue",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release v1.0.0 · nuxt/devtools",
+            "url": "https://github.com/nuxt/devtools/releases/tag/v1.0.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "kaleidawave/ezno",
+    [
+      {
+        "date": "2023-03-06T12:24:50.915Z",
+        "title": "kaleidawave/ezno: A JavaScript compiler and TypeScript checker written in Rust with a focus on static analysis and runtime performance",
+        "url": "https://github.com/kaleidawave/ezno",
+        "content": "Rustで書かれたTypeScriptコンパイラ、型チェッカー。\t",
+        "tags": [
+          "TypeScript",
+          "Rust"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-08T05:07:33.535Z",
+        "title": "Open sourcing Ezno's checker and trying out / previewing the JavaScript type checker today · kaleidawave/ezno · Discussion #21",
+        "url": "https://github.com/kaleidawave/ezno/discussions/21",
+        "content": "Rustで書かれたTypeScriptの型チェッカーであるEnzoがリリースされた。\nまだサポートされていない構文なども多いがOxc CLIを通して利用できるようになった",
+        "tags": [
+          "TypeScript",
+          "Rust",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release CLI v0.1.0 Ezno Type Checker · Boshen/oxc",
+            "url": "https://github.com/Boshen/oxc/releases/tag/v0.1.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "webpack/webpack",
+    [
+      {
+        "date": "2023-03-09T13:36:54.005Z",
+        "title": "Release v5.76.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v5.76.0",
+        "content": "webpack v5.76.0リリース。\nパフォーマンスの改善など。",
+        "tags": [
+          "webpack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-04-23T02:23:13.522Z",
+        "title": "Release v5.80.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v5.80.0",
+        "content": "webpack v5.80.0リリース。\n`import.meta`に対するdestructuringのサポート、`await`に対するdestructuringでのTree Shakingをサポート。\nESMで書かれたローダーをサポート、`exports`フィールドのwild cardパターンをサポートなど",
+        "tags": [
+          "webpack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "remix-run/react-router",
+    [
+      {
+        "date": "2023-03-12T13:10:28.872Z",
+        "title": "Release v6.9.0 · remix-run/react-router",
+        "url": "https://github.com/remix-run/react-router/releases/tag/react-router%406.9.0",
+        "content": "React Router 6.9.0リリース。\n`lazy` propsをサポートし、コンポーネントを遅延ロードできるように",
+        "tags": [
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-06-23T23:26:57.529Z",
+        "title": "Release v6.14.0 · remix-run/react-router",
+        "url": "https://github.com/remix-run/react-router/releases/tag/react-router%406.14.0",
+        "content": "React Router 6.14.0リリース。\n`useSubmit`がJSONとTextをサポート。",
+        "tags": [
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "solidjs/solid",
+    [
+      {
+        "date": "2023-04-03T13:44:35.751Z",
+        "title": "Release v1.7.0 - U Can't Type This · solidjs/solid",
+        "url": "https://github.com/solidjs/solid/releases/tag/v1.7.0",
+        "content": "Solid v1.7.0リリース。\nTypeScriptのより厳密な型で書けるように改善、`onError`を置き換える`catchError`の追加など",
+        "tags": [
+          "JavaScript",
+          "React",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-10-10T00:23:33.768Z",
+        "title": "Release v1.8.0 - Bifröst · solidjs/solid",
+        "url": "https://github.com/solidjs/solid/releases/tag/v1.8.0",
+        "content": "Solid v1.8.0リリース。\nStreaming Serialization/Hydrationの改善。\n`<!--#-->`というコメントは、NginxなどのServer Side Includesで使われている構文で衝突していたため、`<!--$-->`に変更された。\n",
+        "tags": [
+          "Solid",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Incompatibility between Solid's markers and nginx Server Side Includes (SSI) · Issue #262 · ryansolid/dom-expressions",
+            "url": "https://github.com/ryansolid/dom-expressions/issues/262"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "lerna-lite/lerna-lite",
+    [
+      {
+        "date": "2023-04-15T05:18:52.992Z",
+        "title": "Release v2.0.0 · lerna-lite/lerna-lite",
+        "url": "https://github.com/lerna-lite/lerna-lite/releases/tag/v2.0.0",
+        "content": "lerna-lite 2.0.0リリース。\n`--use-nx`を削除、`lerna version`と`lerna publish`をオプショナルなコマンドに変更など",
+        "tags": [
+          "JavaScript",
+          "monorepo",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-11-26T05:32:14.130Z",
+        "title": "Release v3.0.0 · lerna-lite/lerna-lite",
+        "url": "https://github.com/lerna-lite/lerna-lite/releases/tag/v3.0.0",
+        "content": "lerna-lite v3.0.0リリース。\nNode.js 16のサポート終了、`lerna run --use-nx`の削除など",
+        "tags": [
+          "JavaScript",
+          "monorepo",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "redwoodjs/redwood",
+    [
+      {
+        "date": "2023-05-02T12:22:05.338Z",
+        "title": "Release v5.0.0 · redwoodjs/redwood",
+        "url": "https://github.com/redwoodjs/redwood/releases/tag/v5.0.0",
+        "content": "Redwood v5.0.0リリース。\nReact 18、Chakra UI v2にアップグレード、Serverless-AWS deployのサポートを終了。\nデフォルトのターゲットをNode.js 18に変更など",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-07-28T05:24:21.993Z",
+        "title": "Release v6.0.0 · redwoodjs/redwood",
+        "url": "https://github.com/redwoodjs/redwood/releases/tag/v6.0.0",
+        "content": "Redwood v6.0.0リリース。\nViteをデフォルトのBundlerとして利用するように変更、Prisma 5へのアップデート、Storybook 7へのアップデート、firebaseのアップデートなど",
+        "tags": [
+          "nodejs",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Redwood v6.0.0 Upgrade Guide - Announcements / Releases and Upgrade Guides - RedwoodJS Community",
+            "url": "https://community.redwoodjs.com/t/redwood-v6-0-0-upgrade-guide/5044"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "markedjs/marked",
+    [
+      {
+        "date": "2023-05-04T04:11:39.939Z",
+        "title": "Release v5.0.0 · markedjs/marked",
+        "url": "https://github.com/markedjs/marked/releases/tag/v5.0.0",
+        "content": "marked v5.0.0リリース。\nいくつかのオプションをdeprecateにし、代わりにパッケージ化。\nNode.js 14と16のサポートを終了。",
+        "tags": [
+          "Markdown",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-01T00:06:17.626Z",
+        "title": "Release v6.0.0 · markedjs/marked",
+        "url": "https://github.com/markedjs/marked/releases/tag/v6.0.0",
+        "content": "marked v6.0.0リリース。\nコードベースをTypeScriptへの移行。\nこれに伴い@types/markedは非推奨となった。",
+        "tags": [
+          "Markdown",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vanjs-org/van",
+    [
+      {
+        "date": "2023-05-26T02:23:49.786Z",
+        "title": "vanjs-org/van: 🍦VanJS (Vanilla JavaScript): World's smallest reactive UI framework",
+        "url": "https://github.com/vanjs-org/van",
+        "content": "ファイルサイズが小さなReactive UIフレームワーク",
+        "tags": [
+          "JavaScript",
+          "library",
+          "GUI"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-07T13:05:20.654Z",
+        "title": "1.0.0: Milestone for API stability · vanjs-org/van · Discussion #72",
+        "url": "https://github.com/vanjs-org/van/discussions/72",
+        "content": "Reactive UIフレームワークのVanJS 1.0リリース。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release 1.0.0: Milestone for API stability · vanjs-org/van",
+            "url": "https://github.com/vanjs-org/van/releases/tag/1.0.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "reduxjs/redux",
+    [
+      {
+        "date": "2023-05-31T13:22:23.272Z",
+        "title": "Release v5.0.0-beta.0 · reduxjs/redux",
+        "url": "https://github.com/reduxjs/redux/releases/tag/v5.0.0-beta.0",
+        "content": "Redux v5.0.0-beta.0リリース。\n`UnknownAction` typeの追加、ソースコードをTypeScriptにマイグレーション。\n`createStore`を非推奨に、dual packageの対応、IEのサポート終了など",
+        "tags": [
+          "redux",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-12-04T22:48:46.101Z",
+        "title": "Release v5.0.0 · reduxjs/redux",
+        "url": "https://github.com/reduxjs/redux/releases/tag/v5.0.0",
+        "content": "Redux v5.0.0リリース。\nTypeScriptへの書き換え、CJS/ESMのdual packageに変更、ES2020形式で出力するように変更。\n`createStore`を非推奨としRedux Toolkitへの移行を推奨としている。\n",
+        "tags": [
+          "redux",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reduxjs/react-redux",
+    [
+      {
+        "date": "2023-06-14T22:17:41.428Z",
+        "title": "Release v8.1.0 · reduxjs/react-redux",
+        "url": "https://github.com/reduxjs/react-redux/releases/tag/v8.1.0",
+        "content": "React-Redux v8.1.0リリース。\n開発モードでは`useSelector`が同じ入力に対して同じ結果を返すかをチェックする仕組みが追加された。\nselectorを同じ入力で2回呼び出し、異なる参照の場合は警告を出す仕組み",
+        "tags": [
+          "React",
+          "redux",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-08-23T12:14:52.209Z",
+        "title": "Release v9.0.0-alpha.0 · reduxjs/react-redux",
+        "url": "https://github.com/reduxjs/react-redux/releases/tag/v9.0.0-alpha.0",
+        "content": "React-Redux v9.0.0-alpha.0リリース。\nReact 18、Redux 5が必須へと変更。\nCJS/ESMのdual packageに対応、UMDビルドの削除、Server Componentとの互換性の改善など",
+        "tags": [
+          "React",
+          "redux",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tapjs/tsimp",
+    [
+      {
+        "date": "2023-11-29T00:05:54.331Z",
+        "title": "tapjs/tsimp",
+        "url": "https://github.com/tapjs/tsimp",
+        "content": "ts-nodeのようにTypeScriptのコードを型チェックしながらコンパイルできるローダー。\nNode.js 20からサポートされている`Module.register()`を使って`node --import`で動作する。またデーモンとキャッシュを使うことで、不要な処理をスキップできる。",
+        "tags": [
+          "TypeScript",
+          "nodejs",
+          "Tools",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2023-12-01T08:15:10.465Z",
+        "title": "tapjs/tsimp",
+        "url": "https://github.com/tapjs/tsimp",
+        "content": "ts-nodeのようにTypeScriptのコードを型チェックしながらコンパイルできるローダー。\nNode.js 20からサポートされている`Module.register()`を使って`node --import`で動作する。またデーモンとキャッシュを使うことで、不要な処理をスキップできる。",
+        "tags": [
+          "TypeScript",
+          "nodejs",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "advisories/GHSA-9c47-m6qq-7p4h",
+    [
+      {
+        "date": "2023-01-01T11:52:17.286Z",
+        "title": "Prototype Pollution in JSON5 via Parse Method · CVE-2022-46175 · GitHub Advisory Database",
+        "url": "https://github.com/advisories/GHSA-9c47-m6qq-7p4h",
+        "content": "JSON5にprototype pollutionの脆弱性があり、2.2.2と1.0.2で修正された。\n",
+        "tags": [
+          "JSON",
+          "JavaScript",
+          "library",
+          "security",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release v2.2.2 · json5/json5",
+            "url": "https://github.com/json5/json5/releases/tag/v2.2.2"
+          },
+          {
+            "title": "Release v1.0.2 · json5/json5",
+            "url": "https://github.com/json5/json5/releases/tag/v1.0.2"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Dunks1980/bay.js",
+    [
+      {
+        "date": "2023-01-13T02:20:26.977Z",
+        "title": "Dunks1980/bay.js: An easy to use, lightweight library for web-components.",
+        "url": "https://github.com/Dunks1980/bay.js",
+        "content": "`<template>`からWebComponentを作成して扱えるライブラり",
+        "tags": [
+          "JavaScript",
+          "template",
+          "WebComponents",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "isaacs/rimraf",
+    [
+      {
+        "date": "2023-01-13T11:33:14.597Z",
+        "title": "rimraf/CHANGELOG.md at main · isaacs/rimraf",
+        "url": "https://github.com/isaacs/rimraf/blob/main/CHANGELOG.md#v40",
+        "content": "rimraf 4.0リリース。\nglobサポートを削除、Promiseを返すように変更、Node 14未満のサポート終了、TypeScriptでの書き直し。\nまたCJSとESMの両方に対応し、Windowsでのパフォーマンスの改善など",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tsmodule/tsmodule",
+    [
+      {
+        "date": "2023-01-14T13:54:20.193Z",
+        "title": "tsmodule/tsmodule: TypeScript to ES Module loader and compiler.",
+        "url": "https://github.com/tsmodule/tsmodule",
+        "content": "TypeScriptでESMなパッケージを開発するツールキット",
+        "tags": [
+          "TypeScript",
+          "ECMAScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GiuseppeRaso/structura.js",
+    [
+      {
+        "date": "2023-01-14T14:30:49.055Z",
+        "title": "giusepperaso/structura.js: A very fast and lightweight Typescript library to create immutable states with a mutable syntax",
+        "url": "https://github.com/GiuseppeRaso/structura.js",
+        "content": "ImmerライクなImmutable処理のAPIを提供するライブラリ。\nFreezeをTypeScriptの型で表現することによって、オーバヘッドを減らしている。\n",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "LyraSearch/lyra",
+    [
+      {
+        "date": "2023-01-15T03:24:23.824Z",
+        "title": "LyraSearch/lyra: 🌌 Fast, in-memory, typo-tolerant, full-text search engine written in TypeScript.",
+        "url": "https://github.com/LyraSearch/lyra",
+        "content": "TypeScriptで書かれた全文検索エンジン",
+        "tags": [
+          "TypeScript",
+          "search ",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "azu/eslint-cjs-to-esm",
+    [
+      {
+        "date": "2023-01-16T03:14:17.746Z",
+        "title": "azu/eslint-cjs-to-esm: ESLint wrapper for migration from CJS to ESM.",
+        "url": "https://github.com/azu/eslint-cjs-to-esm",
+        "content": "CommonJSからESMへのマイグレーションを補助するツール。\nESLintをラップしていて、CJS to ESMを扱うルールをビルトインしている。\nimportしてるパスへの`.js`の追加や`require`/`exports`などのCJSでしか使えない機能の禁止など",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "ECMAScript",
+          "CommonJS",
+          "Tools",
+          "ESLint"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "shuding/react-wrap-balancer",
+    [
+      {
+        "date": "2023-01-18T03:41:25.808Z",
+        "title": "shuding/react-wrap-balancer: Simple React Component That Makes Titles More Readable",
+        "url": "https://github.com/shuding/react-wrap-balancer",
+        "content": "タイトル文字列の折り返しを読みやすくするためのReactコンポーネント",
+        "tags": [
+          "JavaScript",
+          "React",
+          "CSS",
+          "library",
+          "english"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Improving readability with React Wrap Balancer – Vercel",
+            "url": "https://vercel.com/blog/react-wrap-balancer#innovation-in-text-wrapping"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "azu/tsconfig-to-dual-package",
+    [
+      {
+        "date": "2023-01-18T04:17:18.116Z",
+        "title": "azu/tsconfig-to-dual-package: Node.js dual package tool that add package.json to tsconfig's `outDir`",
+        "url": "https://github.com/azu/tsconfig-to-dual-package",
+        "content": "TypeScriptでCJSとESMのDual packageを作成するためのツール。\n`tsc`のビルド結果があるディレクトリに対して、CJSとESMに対応した`package.json`を追加することでDual packageを作成する",
+        "tags": [
+          "TypeScript",
+          "library",
+          "node.js"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Brooooooklyn/canvas",
+    [
+      {
+        "date": "2023-01-22T22:16:06.489Z",
+        "title": "Brooooooklyn/canvas: High performance skia binding to Node.js. Zero system dependencies and pure npm packages without any postinstall scripts nor node-gyp.",
+        "url": "https://github.com/Brooooooklyn/canvas",
+        "content": "native addonsを使ったskia backendのCanvas APIの実装ライブラリ。\nアーキテクチャに合わせたoptionalDependenciesでprebuildのSkiaを含めたバイナリがダウンロードされるため、システムに対して事前に依存をインストールを追加する必要がない",
+        "tags": [
+          "node.js",
+          "canvas",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "denoland/deno",
+    [
+      {
+        "date": "2023-01-22T23:34:39.829Z",
+        "title": "Q1 Roadmap · Issue #17475 · denoland/deno",
+        "url": "https://github.com/denoland/deno/issues/17475",
+        "content": "Denoの2023 Q1のロードマップ。\n`deno.json`に直接import mapを埋め込めるように、`type=module`の`package.json`をサポート、`node:` prefixのサポート。\ndeno.land/x での semver指定のサポート、`deno bundle`をDeprecateにし、`deno pack`の追加など",
+        "tags": [
+          "deno",
+          "issue",
+          "proposal"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "amandaghassaei/gpu-io",
+    [
+      {
+        "date": "2023-01-23T13:00:13.959Z",
+        "title": "amandaghassaei/gpu-io: A GPU-accelerated computing library for physics simulations and other mathematical calculations",
+        "url": "https://github.com/amandaghassaei/gpu-io",
+        "content": "WebGLを使ったGPU処理を扱うライブラリ",
+        "tags": [
+          "WebGL",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "deca-org/deca-ui",
+    [
+      {
+        "date": "2023-01-26T10:40:45.256Z",
+        "title": "deca-org/deca-ui: DecaUI is production-ready themeable component library built with StitchesJS.",
+        "url": "https://github.com/deca-org/deca-ui",
+        "content": "ReactのUIコンポーネントフレームワーク",
+        "tags": [
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cyclic-software/s3fs",
+    [
+      {
+        "date": "2023-01-28T12:48:30.621Z",
+        "title": "cyclic-software/s3fs: Drop in replacement for the Node.js fs library backed by AWS S3",
+        "url": "https://github.com/cyclic-software/s3fs",
+        "content": "AWS S3をバックエンドにした`fs`互換のAPIを持ったライブラリ",
+        "tags": [
+          "aws",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mswjs/msw",
+    [
+      {
+        "date": "2023-01-28T12:49:33.797Z",
+        "title": "Release v1.0.0 · mswjs/msw",
+        "url": "https://github.com/mswjs/msw/releases/tag/v1.0.0",
+        "content": "MSW 1.0リリース",
+        "tags": [
+          "ServiceWorker",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jakebailey/hereby",
+    [
+      {
+        "date": "2023-01-28T13:34:48.821Z",
+        "title": "jakebailey/hereby: A simple Node.js task runner",
+        "url": "https://github.com/jakebailey/hereby",
+        "content": "TypeScriptのリポジトリで利用しているタスクランナー。\nESMで書いたタスクの定義ファイルを元にタスクを実行できる。gulpの代わりに利用されている。",
+        "tags": [
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reactjs/reactjs.org",
+    [
+      {
+        "date": "2023-01-31T04:42:34.926Z",
+        "title": "Replace Create React App recommendation with Vite by t3dotgg · Pull Request #5487 · reactjs/reactjs.org",
+        "url": "https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741",
+        "content": "Create React App(CRA)がメンテナンスされていないが、今後どうするかというIssue。\nCRAの存在理由とCRAノコマンドを維持して、内部的に他のフレームワークのランチャーとして機能させるProposal。",
+        "tags": [
+          "React",
+          "proposal",
+          "issue"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "pmndrs/jotai",
+    [
+      {
+        "date": "2023-02-01T10:47:18.557Z",
+        "title": "Release v2.0.0 · pmndrs/jotai",
+        "url": "https://github.com/pmndrs/jotai/releases/tag/v2.0.0",
+        "content": "Jotai 2.0.0リリース。\n`createStore` APIをexpose。\n破壊的な変更として、`get()`が自動でPromiseをresolveしないように、`initialValues`を`store`で渡すように変更など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "CodeIntelligenceTesting/jazzer.js",
+    [
+      {
+        "date": "2023-02-03T13:16:07.948Z",
+        "title": "CodeIntelligenceTesting/jazzer.js: Coverage-guided, in-process fuzzing for the Node.js",
+        "url": "https://github.com/CodeIntelligenceTesting/jazzer.js",
+        "content": "libFuzzerベースのFuzzingライブラリ",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tanekloc/tmsg",
+    [
+      {
+        "date": "2023-02-04T13:46:36.787Z",
+        "title": "tanekloc/tmsg: Type-safe i18n library for TypeScript apps. Based on and largely compatible with MessageFormat.",
+        "url": "https://github.com/tanekloc/tmsg",
+        "content": "messageformatの機能をサポートしたi18nライブラリ。\n型でテンプレートをパースすることで、テンプレートにない値を渡すとコンパイルエラーにできる",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "library",
+          "i18n"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nodejs/node",
+    [
+      {
+        "date": "2023-02-07T11:37:43.555Z",
+        "title": "deps: replace url parser with Ada by anonrig · Pull Request #46410 · nodejs/node",
+        "url": "https://github.com/nodejs/node/pull/46410",
+        "content": "Node.jsの`URL`をada-urlというC++で実装したものに切り替える。\n現在のURLの実装と比較してパフォーマンスが改善されている。",
+        "tags": [
+          "node.js",
+          "URL",
+          "issue",
+          "performance"
+        ],
+        "relatedLinks": [
+          {
+            "title": "deps: replace url parser with Ada by anonrig · Pull Request #46410 · nodejs/node",
+            "url": "https://github.com/nodejs/node/pull/46410"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "upgradejs/depngn",
+    [
+      {
+        "date": "2023-02-13T07:16:21.848Z",
+        "title": "upgradejs/depngn: A CLI tool to find out if your dependencies support a given version of node.",
+        "url": "https://github.com/upgradejs/depngn",
+        "content": "インストールされている依存関係の`engines`フィールドを見て、指定したNode.jsバージョンが条件を満たすかを一覧できるツール",
+        "tags": [
+          "node.js",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jquense/yup",
+    [
+      {
+        "date": "2023-02-13T07:33:29.968Z",
+        "title": "Release v1 Because I finally got around to it · jquense/yup",
+        "url": "https://github.com/jquense/yup/releases/tag/v1.0.0",
+        "content": "スキーマを組み上げてバリデーションできるyup 1.0.0リリース。\n`tuple`の追加、bundleしたファイルを配布するように、`when` APIの変更、emailバリデーションをWHATWGの定義と同じものへ変更。\n`cast`に`ignore-optionality`オプションを追加、型処理のパフォーマンス改善と`Objectschema`クラスの追加など",
+        "tags": [
+          "TypeScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "How do I migrate to v1 · Issue #1906 · jquense/yup",
+            "url": "https://github.com/jquense/yup/issues/1906"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "cure53/DOMPurify",
+    [
+      {
+        "date": "2023-02-14T01:37:29.716Z",
+        "title": "Release DOMPurify 3.0.0 · cure53/DOMPurify",
+        "url": "https://github.com/cure53/DOMPurify/releases/tag/3.0.0",
+        "content": "DOMpurify 3.0.0リリース。\nIEのサポートを終了、`ALLOW_SELF_CLOSE_IN_ATTRP`オプションの追加など",
+        "tags": [
+          "DOM",
+          "security",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "slashd-analytics/run",
+    [
+      {
+        "date": "2023-02-15T04:20:03.751Z",
+        "title": "slashd-analytics/run: Run user-provided code in a Web Worker",
+        "url": "https://github.com/slashd-analytics/run",
+        "content": "Web Workerを一種のSandboxとして使い、任意のJSコードを実行するライブラリ",
+        "tags": [
+          "JavaScript",
+          "webworker",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "codesandbox/nodebox-runtime",
+    [
+      {
+        "date": "2023-02-16T23:27:58.617Z",
+        "title": "codesandbox/nodebox-runtime: The open source version of the nodebox repository, a Node.js runtime for the browser",
+        "url": "https://github.com/codesandbox/nodebox-runtime",
+        "content": "Node.jsのコードをブラウザ上で動かすためのNode.js互換のランタイムを実装したライブラリ。",
+        "tags": [
+          "node.js",
+          "browser",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Announcing Sandpack 2.0 and a Node.js runtime for any browser",
+            "url": "https://codesandbox.io/blog/announcing-sandpack-2"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "chaijs/chai",
+    [
+      {
+        "date": "2023-02-19T13:26:40.919Z",
+        "title": "Release v5.0.0-alpha.0 · chaijs/chai",
+        "url": "https://github.com/chaijs/chai/releases/tag/v5.0.0-alpha.0",
+        "content": "chai v5.0.0-alpha.0リリース。\nPure ESMのパッケージに変更。\nNode.js 16未満のサポート終了、IEのサポート終了など",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "natemoo-re/clack",
+    [
+      {
+        "date": "2023-02-23T11:13:36.754Z",
+        "title": "natemoo-re/clack: Effortlessly build beautiful command-line apps",
+        "url": "https://github.com/natemoo-re/clack",
+        "content": "コマンドラインの対話的なプロンプトUIを作成するNode.jsライブラリ",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "google/zx",
+    [
+      {
+        "date": "2023-02-28T10:42:51.076Z",
+        "title": "Release 7.2.0 · google/zx",
+        "url": "https://github.com/google/zx/releases/tag/7.2.0",
+        "content": "zx 7.2.0リリース。\n`retry()`と`spinner()`ヘルパーの追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ije/esm.sh",
+    [
+      {
+        "date": "2023-03-06T23:37:44.376Z",
+        "title": "Release v111 · ije/esm.sh",
+        "url": "https://github.com/ije/esm.sh/releases/tag/v111",
+        "content": "esm.sh v111リリース。\n`deprecated`メッセージに対応、バージョン指定せずにリクエストした場合のTTLを10分に変更など\n",
+        "tags": [
+          "JavaScript",
+          "cdn",
+          "module"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vercel/swr",
+    [
+      {
+        "date": "2023-03-07T14:41:46.338Z",
+        "title": "Release v2.1.0 · vercel/swr",
+        "url": "https://github.com/vercel/swr/releases/tag/v2.1.0",
+        "content": "SWR v2.1.0リリース。\nリアルタイムデータソースをSubscribeできる`useSWRSubscription`の追加、`useSWRInfinite`に`parallel`オプションを追加など",
+        "tags": [
+          "JavaScript",
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "open-draft/event-contract",
+    [
+      {
+        "date": "2023-03-09T13:59:54.710Z",
+        "title": "open-draft/event-contract: Type-safe, implementation-agnostic event contract framework.",
+        "url": "https://github.com/open-draft/event-contract",
+        "content": "Type-Safeでイベントを実装するフレームワーク。\n`EventTarget`を使った`transport`が用意されていて、任意の仕組みでイベントを実装できる。\n`schema`によってzodを使ったRuntimeのType Checkもできるようになっている。",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "storybookjs/storybook",
+    [
+      {
+        "date": "2023-03-12T13:12:21.584Z",
+        "title": "Release v7.0.0-rc.0 · storybookjs/storybook",
+        "url": "https://github.com/storybookjs/storybook/releases/tag/v7.0.0-rc.0",
+        "content": "Storybook v7.0.0-rc.0リリース。",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "antonmedv/finder",
+    [
+      {
+        "date": "2023-03-13T22:49:37.619Z",
+        "title": "antonmedv/finder: CSS Selector Generator 🗺",
+        "url": "https://github.com/antonmedv/finder",
+        "content": "DOM要素からuniqueなCSSセレクターを作成するライブラリ",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vitejs/vite",
+    [
+      {
+        "date": "2023-03-16T14:08:35.543Z",
+        "title": "vite/CHANGELOG.md at main · vitejs/vite",
+        "url": "https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md#420-2023-03-16",
+        "content": "Vite 4.2.0リリース。\nHTMLファイル内で`%ENV_NAME%`での環境変数の置換に対応、Source Mapsの改善、`exports`フィールドのSubpath importsに対応。\nTypeScript 5のサポートとesbuild 0.17へのアップデートなど",
+        "tags": [
+          "vite",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "total-typescript/ts-reset",
+    [
+      {
+        "date": "2023-03-18T11:32:50.563Z",
+        "title": "total-typescript/ts-reset: A 'CSS reset' for TypeScript, improving types for common JavaScript API's",
+        "url": "https://github.com/total-typescript/ts-reset",
+        "content": "TypeScriptのlibsの型定義を上書きする型定義ライブラリ。\n`JSON.parse`が`any`ではなく`unknown`を返すように変更したり、`.includes()`や`.has()`の型を厳密にするなどしている",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lagonapp/lagon",
+    [
+      {
+        "date": "2023-03-19T14:02:08.645Z",
+        "title": "lagonapp/lagon: Deploy Serverless Functions at the Edge. Current status: Dev",
+        "url": "https://github.com/lagonapp/lagon",
+        "content": "V8とRustで書かれているJavaScriptランタイム。\n",
+        "tags": [
+          "V8",
+          "Rust",
+          "JavaScript",
+          "OpenSource"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gajus/turbowatch",
+    [
+      {
+        "date": "2023-03-21T13:34:26.919Z",
+        "title": "gajus/turbowatch: Extremely fast file change detector and task orchestrator for Node.js.",
+        "url": "https://github.com/gajus/turbowatch",
+        "content": "ファイルの変更を監視して、プロセスを再起動するライブラリ、ツール。",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "styled-components/xstyled",
+    [
+      {
+        "date": "2023-03-22T03:19:42.063Z",
+        "title": "styled-components/xstyled: A utility-first CSS-in-JS framework built for React. 💅👩‍🎤⚡️",
+        "url": "https://github.com/styled-components/xstyled",
+        "content": "xstyledがstyled-componentsのorganizationに移管された",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "news"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Evan Jacobs on Twitter: &quot;Excited to announce that xstyled is now part of the styled-components organization and we will begin to cross-pollinate improvements in the near future! Thank you so much @neoziro! https://t.co/uPk4sR9QsS&quot; / Twitter",
+            "url": "https://twitter.com/probablyup/status/1632385154814558210"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "anymaniax/orval",
+    [
+      {
+        "date": "2023-03-22T03:52:54.861Z",
+        "title": "anymaniax/orval: orval is able to generate client with appropriate type-signatures (TypeScript) from any valid OpenAPI v3 or Swagger v2 specification, either in yaml or json formats. 🍺",
+        "url": "https://github.com/anymaniax/orval",
+        "content": "OpenAPI SpecからAPIクライアントやモックサーバなどのコードを生成するツール。",
+        "tags": [
+          "OpenAPI",
+          "TypeScript",
+          "React",
+          "Tools",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "OpenAPIからコードを自動生成！『Orval』のメリットと選定理由",
+            "url": "https://zenn.dev/hrbrain/articles/3ca5d37dd0b80e"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "gvergnaud/hotscript",
+    [
+      {
+        "date": "2023-03-25T12:21:37.042Z",
+        "title": "gvergnaud/hotscript: A library of composable functions for the type-level! Transform your TypeScript types in any way you want using functions you already know.",
+        "url": "https://github.com/gvergnaud/hotscript",
+        "content": "TypeScriptの型レベル高階関数のライブラリ。\n型でパターンマッチを書くの利用できるような型関数を提供しているライブラリ",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mamiksik/parrot-intellij",
+    [
+      {
+        "date": "2023-03-26T11:31:24.125Z",
+        "title": "mamiksik/parrot-intellij: AI Commit Messages Autocomplete for InteliJ",
+        "url": "https://github.com/mamiksik/parrot-intellij",
+        "content": "コミットメッセージを自動生成するJetBrains/VSCode拡張。\nコミットメッセージを学習したモデルを利用する",
+        "tags": [
+          "JetBrains",
+          "plugin",
+          "LanguageModel"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sinclairnick/brail",
+    [
+      {
+        "date": "2023-03-26T14:08:28.793Z",
+        "title": "sinclairnick/brail: 💌 Transactional email that feels different",
+        "url": "https://github.com/sinclairnick/brail",
+        "content": "Reactでメールのコンテンツを書けるメールツールキット。\nメール向けのUIコンポーネント、Linter、コンポーネントからHTMLメールを作成するジェネレータ、tRPCを使ったAPI、DevToolsなどが含まれる",
+        "tags": [
+          "React",
+          "mail",
+          "library",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mayank99/ecsstatic",
+    [
+      {
+        "date": "2023-03-27T13:32:43.495Z",
+        "title": "mayank99/ecsstatic: the predefinite CSS-in-JS library for vite",
+        "url": "https://github.com/mayank99/ecsstatic",
+        "content": "CSS-in-JSライブラリ。\n`css`タグ関数を使ってCSSを書き、Viteを使ってコンパイルするようになっている。\nSassにも対応してる",
+        "tags": [
+          "CSS",
+          "vite"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lxsmnsyc/seroval",
+    [
+      {
+        "date": "2023-04-03T13:49:17.542Z",
+        "title": "lxsmnsyc/seroval: Stringify JS values",
+        "url": "https://github.com/lxsmnsyc/seroval",
+        "content": "JavaScriptのオブジェクトをJavaScriptのコードやJSONのシリアライズ/デシリアライズするライブラリ。\nシリアライズするかを機能ごとの無効化するオプションを持っている",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tc39/ecma262",
+    [
+      {
+        "date": "2023-04-03T15:44:00.548Z",
+        "title": "Release ES2023 Candidate April 2023 · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2023-candidate-2023-04",
+        "content": "ECMAScript 2023 Candidateリリース。\n6月のEcma GAで承認されたら正式にリリースされる。",
+        "tags": [
+          "ECMAScript",
+          "ReleaseNote",
+          "spec"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "wantedly/react-declassify",
+    [
+      {
+        "date": "2023-04-04T12:58:51.052Z",
+        "title": "wantedly/react-declassify: say goodbye to class components",
+        "url": "https://github.com/wantedly/react-declassify",
+        "content": "ReactのクラスコンポーネントをHooksを使うように変換するツール",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "unjs/magicast",
+    [
+      {
+        "date": "2023-04-05T15:43:45.366Z",
+        "title": "unjs/magicast: 🧀 Programmatically modify JavaScript and TypeScript source codes with a simplified, elegant and familiar syntax powered by recast and babel.",
+        "url": "https://github.com/unjs/magicast",
+        "content": "JavaScriptのAST操作を簡単に行うためのライブラリ。\n",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sveltejs/kit",
+    [
+      {
+        "date": "2023-04-08T01:43:03.245Z",
+        "title": "Release @sveltejs/kit@1.15.2 · sveltejs/kit",
+        "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%401.15.2",
+        "content": "Svelte Kit 1.15.2リリース。\nCSRFに関する脆弱性が修正されているセキュリティリリース",
+        "tags": [
+          "Svelte",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release @sveltejs/kit@1.15.1 · sveltejs/kit",
+            "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%401.15.1"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "hexagon/croner",
+    [
+      {
+        "date": "2023-04-12T13:09:14.120Z",
+        "title": "Hexagon/croner: Trigger functions or evaluate cron expressions in JavaScript or TypeScript. No dependencies. Most features. Node. Deno. Bun. Browser.",
+        "url": "https://github.com/hexagon/croner",
+        "content": "cron構文で関数を実行できるジョブライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "uhyo/nitrogql",
+    [
+      {
+        "date": "2023-04-12T14:28:06.157Z",
+        "title": "nitrogql/mod.rs at master · uhyo/nitrogql · GitHub",
+        "url": "https://github.com/uhyo/nitrogql",
+        "content": "GraphQLをTypeScriptで利用するためのツールキット。\nGraphQLの構文チェック、GraphQLファイルからTypeScriptの型定義の生成、GraphQLファイルをロードするloaderを提供する",
+        "tags": [
+          "TypeScript",
+          "GraphQL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "liriliri/eruda",
+    [
+      {
+        "date": "2023-04-12T14:35:21.101Z",
+        "title": "Release v3.0.0 · liriliri/eruda",
+        "url": "https://github.com/liriliri/eruda/releases/tag/v3.0.0",
+        "content": "モバイルブラウザでも利用できる開発者ツールライブラリであるeruda 3.0リリース",
+        "tags": [
+          "browser",
+          "debug",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "divriots/jampack",
+    [
+      {
+        "date": "2023-04-12T14:39:10.910Z",
+        "title": "divriots/jampack: Optimizes static websites for best user experience and best Core Web Vitals scores.",
+        "url": "https://github.com/divriots/jampack",
+        "content": "静的サイトジェネレータなどによって出力されたHTML/CSS/JSや画像などを最適化するツール。\n画像の最適化、Above the foldの最適化、アセットの圧縮、`<img>`タグの属性の修正などを行う",
+        "tags": [
+          "JavaScript",
+          "performance",
+          "Tools",
+          "HTML"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "open-draft/logger",
+    [
+      {
+        "date": "2023-04-13T01:37:45.609Z",
+        "title": "open-draft/logger: Environment-agnostic, ESM-friendly logger for simple needs.",
+        "url": "https://github.com/open-draft/logger",
+        "content": "ESM-friendlyな`debug`モジュール的なロガーライブラリ。\n`DEBUG`環境変数に対応している",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vueuse/vueuse",
+    [
+      {
+        "date": "2023-04-15T03:15:16.816Z",
+        "title": "Release v10.0.0 · vueuse/vueuse",
+        "url": "https://github.com/vueuse/vueuse/releases/tag/v10.0.0",
+        "content": "vueuse v10.0.0リリース。\n破壊的な変更として`isFunction`と`isString`を削除、`computedAsync`のデフォルト挙動をshallowに変更、`resolveRef`を`toRef`にリネーム、非推奨なAPIの削除など。\n機能追加として、`createReusableTemplate`/`createTemplatePromise`/`useAnimate`の追加など",
+        "tags": [
+          "Vue",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "immerjs/immer",
+    [
+      {
+        "date": "2023-04-17T15:34:22.910Z",
+        "title": "Release v10.0.0 · immerjs/immer",
+        "url": "https://github.com/immerjs/immer/releases/tag/v10.0.0",
+        "content": "Immer v10.0.0リリース。\nES5環境をサポート外にしたことでIEのサポート終了、プレーンなオブジェクトにおけるgetterとsetterをデフォルトでは無視することでパフォーマンスの改善。\nPromiseベースのReducerのサポート終了、`enableAllPlugins`を削除など\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yoavbls/pretty-ts-errors",
+    [
+      {
+        "date": "2023-04-18T14:51:00.408Z",
+        "title": "yoavbls/pretty-ts-errors: 🔵 Make TypeScript errors prettier and human-readable in VSCode 🎀",
+        "url": "https://github.com/yoavbls/pretty-ts-errors",
+        "content": "TypeScriptの型エラーをわかりやすく表示するVSCode拡張",
+        "tags": [
+          "TypeScript",
+          "VSCode",
+          "Extension"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "HeyPuter/kv.js",
+    [
+      {
+        "date": "2023-04-19T04:34:02.897Z",
+        "title": "HeyPuter/kv.js: Advanced in-memory caching module for JavaScript. For when you need caching but running Redis or Memcached would be an overkill.",
+        "url": "https://github.com/HeyPuter/kv.js",
+        "content": "RedisやMemcachedとよく似たコマンド(関数)をもつIn-MemoryなKVSライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "karma-runner/karma",
+    [
+      {
+        "date": "2023-05-02T22:16:57.594Z",
+        "title": "docs: Add deprecation notice to Karma README · karma-runner/karma@450fdfd",
+        "url": "https://github.com/karma-runner/karma/commit/450fdfdac5b999967daec1020f1ac69cf9b854ab",
+        "content": "KarmaがDeprecatedとなり、今後は機能追加やバグ修正を受け付けないようになる。\n移行パスとしてJest、Web Test Runner、jasmine-browser-runner、Vitestなどを推奨している。",
+        "tags": [
+          "news",
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Moving Angular CLI to Jest and Web Test Runner | by Doug Parker | Apr, 2023 | Angular Blog",
+            "url": "https://blog.angular.io/moving-angular-cli-to-jest-and-web-test-runner-ef85ef69ceca"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "SBoudrias/Inquirer.js",
+    [
+      {
+        "date": "2023-05-04T03:56:18.356Z",
+        "title": "Say Allo' to the new Inquirer (release of the rewrite) · SBoudrias/Inquirer.js · Discussion #1214",
+        "url": "https://github.com/SBoudrias/Inquirer.js/discussions/1214",
+        "content": "Node.jsのターミナルプロンプトライブラリであるinquirerが`@inquirer/prompts`として新しく公開された。\n全ての機能を含む`@inquirer/prompts`と個別の機能ごとのパッケージをそれぞれ公開されている。\n",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jsdom/jsdom",
+    [
+      {
+        "date": "2023-05-04T03:58:10.191Z",
+        "title": "jsdom/Changelog.md at e5b8e8afdebee816862584cb7d45bdc6f86d54af · jsdom/jsdom",
+        "url": "https://github.com/jsdom/jsdom/blob/HEAD/Changelog.md#%E2%80%8B2200",
+        "content": "jsdom 22.0.0リリース。\nNode.js 14のサポート終了、`browserified`フィールドを使ったbrowser向けのbundleのサポートを終了など",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "natemoo-re/ultramatter",
+    [
+      {
+        "date": "2023-05-09T13:30:38.845Z",
+        "title": "natemoo-re/ultramatter: <1kB frontmatter parser that supports a reasonable subset of YAML",
+        "url": "https://github.com/natemoo-re/ultramatter",
+        "content": "frontmatterをパースする小さなライブラリ。\nYAMLのサブセットのみを扱うことで、ファイルサイズを小さくしている。",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vadimdemedes/ink-ui",
+    [
+      {
+        "date": "2023-05-09T14:07:07.614Z",
+        "title": "vadimdemedes/ink-ui: 💄 Ink-redible command-line interfaces made easy",
+        "url": "https://github.com/vadimdemedes/ink-ui",
+        "content": "Inkを使ったターミナル向けのUIコンポーネント。\n対話的な入力フォーム、選択肢、ローディング、\nアラート、リスト表示などのコンポーネント",
+        "tags": [
+          "JavaScript",
+          "React",
+          "console",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jasmine/jasmine",
+    [
+      {
+        "date": "2023-05-14T01:56:12.658Z",
+        "title": "jasmine/5.0.0.md at main · jasmine/jasmine · GitHub",
+        "url": "https://github.com/jasmine/jasmine/blob/main/release_notes/5.0.0.md",
+        "content": "Jasmine 5.0.0リリース。\nNode.js 12/14/16のサポート終了、テストの並列実行をサポートなど",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/deoptexplorer-vscode",
+    [
+      {
+        "date": "2023-05-16T05:03:40.566Z",
+        "title": "microsoft/deoptexplorer-vscode: A VS Code extension to visualize deoptimizations in your JavaScript and TypeScript code running in V8 (i.e., NodeJS, Edge, Chrome, etc.).",
+        "url": "https://github.com/microsoft/deoptexplorer-vscode",
+        "content": "V8 のトレースログをVSCode上で可視化して最適化ができていない箇所を見つける拡張。\nCPUプロファイルの可視化、インラインキャッシュの状態、Deoptimizations、関数の状態などを可視化できる\n",
+        "tags": [
+          "VSCode",
+          "node.js",
+          "V8"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sverweij/dependency-cruiser",
+    [
+      {
+        "date": "2023-05-16T21:54:37.151Z",
+        "title": "Release v13.0.0 · sverweij/dependency-cruiser",
+        "url": "https://github.com/sverweij/dependency-cruiser/releases/tag/v13.0.0",
+        "content": "モジュールの依存関係を分析するツールであるdependency-cruiser 13.0.0リリース。\nNode.js 14のサポート終了、yarn 1のPnPのサポート終了、Pure ESMのパッケージに変更。\n設定ファイルをESMで書けるように、`--config`で設定ファイルの渡さなくても自動で設定ファイルを探索するように変更、パフォーマンスの改善。",
+        "tags": [
+          "node.js",
+          "library",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/TypeScript",
+    [
+      {
+        "date": "2023-05-21T14:33:33.950Z",
+        "title": "TypeScript 5.2 Iteration Plan · Issue #54298 · microsoft/TypeScript",
+        "url": "https://github.com/microsoft/TypeScript/issues/54298",
+        "content": "TypeScript 5.2で取り組む予定のIssue。\nECMAScript ProposalのDecorator Metadata、`using`の対応。\n明示的に型を定義せずに推論させるpartial type argument inferenceを扱う`_`の追加、`tsc`コマンドで変換プラグインを扱う仕組みの追加。\n並列解析でのパフォーマンス改善などに取り組む予定となっている",
+        "tags": [
+          "TypeScript",
+          "issue"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/devicescript",
+    [
+      {
+        "date": "2023-05-26T01:31:49.438Z",
+        "title": "microsoft/devicescript: TypeScript for Tiny IoT Devices",
+        "url": "https://github.com/microsoft/devicescript",
+        "content": "Raspberry Pi PicoなどのIoTデバイス向けの処理をTypeScriptで書けるツールキット",
+        "tags": [
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "webpro/knip",
+    [
+      {
+        "date": "2023-05-26T02:07:37.219Z",
+        "title": "webpro/knip: ✂️ Find unused files, dependencies and exports in your JavaScript and TypeScript projects. Knip it before you ship it!",
+        "url": "https://github.com/webpro/knip",
+        "content": "未使用のファイル、未使用の依存関係、未使用のエクスポートなどを検出や削除できるツール。\nさまざまなツールのプラグインとして対応している。",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mizchi/lizod",
+    [
+      {
+        "date": "2023-05-26T02:32:14.446Z",
+        "title": "mizchi/lizod",
+        "url": "https://github.com/mizchi/lizod",
+        "content": "zodライクなTypeScriptの型として利用できるバリデーションライブラリ。\nzodからメソッドチェーンや複雑なバリデーションを取り除いたAPIを作ることで、ファイルサイズが小さくなることを目的にしている",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "lizod: 1kb 未満の zod の精神的後継",
+            "url": "https://zenn.dev/mizchi/articles/lizod-is-lightweight-zod"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "stepci/garph",
+    [
+      {
+        "date": "2023-05-31T13:30:48.587Z",
+        "title": "stepci/garph: Fullstack GraphQL Framework for TypeScript",
+        "url": "https://github.com/stepci/garph",
+        "content": "GraphQL APIスキーマをビルダー関数で組み立てて、フロントとサーバで共有できるtRPCライクなGraphQLライブラリ。\n",
+        "tags": [
+          "TypeScript",
+          "GraphQL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sveltejs/svelte",
+    [
+      {
+        "date": "2023-06-01T02:10:12.320Z",
+        "title": "Release sveltejs@4.0.0-next.0 · sveltejs/svelte",
+        "url": "https://github.com/sveltejs/svelte/releases/tag/svelte%404.0.0-next.0",
+        "content": "Svelte 4.0.0-next.0リリース。\nNode.js 14のサポート終了、webpack 4のサポート終了、パッケージサイズの改善など",
+        "tags": [
+          "Svelte",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tresjs/tres",
+    [
+      {
+        "date": "2023-06-10T23:22:04.937Z",
+        "title": "Tresjs/tres: Declarative ThreeJS using Vue Components",
+        "url": "https://github.com/tresjs/tres",
+        "content": "ThreeJSとVueを使った宣言的に3DのViewを作成できるライブラリ",
+        "tags": [
+          "Vue",
+          "WebGL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reactwg/server-components",
+    [
+      {
+        "date": "2023-06-11T00:01:31.437Z",
+        "title": "RSC From Scratch. Part 1: Server Components · reactwg/server-components · Discussion #5",
+        "url": "https://github.com/reactwg/server-components/discussions/5",
+        "content": "React Server Components (RSC)を一から実装してみるチュートリアル。\nSSRとRSCの違い。\nJSXのHTMLへの変換しHTMLを返しレンダリング、入力状態を維持したままナビゲーションをするためにJSXをオブジェクトとして返しクライアントでレンダリング。",
+        "tags": [
+          "React",
+          "tutorial"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "evanw/polywasm",
+    [
+      {
+        "date": "2023-06-11T00:52:42.022Z",
+        "title": "evanw/polywasm",
+        "url": "https://github.com/evanw/polywasm",
+        "content": "`globalThis.WebAssembly`のpolyfill実装。\nApple/SafariのLockdown Modeのように`WebAssembly` APIが利用できない環境でも、`.wasm`を実行するためのpolyfill。",
+        "tags": [
+          "WebAssembly",
+          "JavaScript",
+          "library",
+          "polyfill"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nestjs/nest",
+    [
+      {
+        "date": "2023-06-17T06:49:18.950Z",
+        "title": "Release v10.0.0 · nestjs/nest",
+        "url": "https://github.com/nestjs/nest/releases/tag/v10.0.0",
+        "content": "NestJS v10.0.0リリース。\nNode.js 12, 14のサポート終了、`@nestjs/common`から`CacheModule`を削除など",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Migration guide - FAQ | NestJS - A progressive Node.js framework",
+            "url": "https://docs.nestjs.com/migration-guide"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "gvergnaud/ts-pattern",
+    [
+      {
+        "date": "2023-06-18T13:03:55.001Z",
+        "title": "Release v5.0.0 ❤️ · gvergnaud/ts-pattern",
+        "url": "https://github.com/gvergnaud/ts-pattern/releases/tag/v5.0.0",
+        "content": "TypeScript向けのパターンマッチングライブラリであるts-pattern 5.0.0リリース。\n`.with`の動作変更、method chainのサポートなど",
+        "tags": [
+          "TypeScript",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cloudflare/miniflare",
+    [
+      {
+        "date": "2023-06-29T00:32:36.638Z",
+        "title": "Release v3.0.0 · cloudflare/miniflare",
+        "url": "https://github.com/cloudflare/miniflare/releases/tag/v3.0.0",
+        "content": "miniflare v3.0.0リリース。\nworkerdを利用するのようになった。\nCLIが同梱されなくなり`wrangler`を経由してCLIとして利用できる。\nまたいくつかのAPIが削除や変更されている。",
+        "tags": [
+          "cloudflare",
+          "ReleaseNote",
+          "JavaScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "⬆️ Migrating from Version 2 · Miniflare",
+            "url": "https://miniflare.dev/get-started/migrating"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "pixijs/pixijs",
+    [
+      {
+        "date": "2023-07-03T11:46:22.973Z",
+        "title": "Release v8.0.0-alpha.0 · pixijs/pixijs",
+        "url": "https://github.com/pixijs/pixijs/releases/tag/v8.0.0-alpha.0",
+        "content": "PixiJS v8.0.0-alpha.0リリース。\nWebGPUレンダラーとWebGLレンダラーの書き直し、変更されたものだけ更新するリアクティブレンダラー、高度なBlendモードをの追加など。\n初期化方法を非同期に変更、Graphics APIの刷新など",
+        "tags": [
+          "JavaScript",
+          "game",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lquixada/cross-fetch",
+    [
+      {
+        "date": "2023-07-03T22:40:06.413Z",
+        "title": "Release v4.0.0 · lquixada/cross-fetch",
+        "url": "https://github.com/lquixada/cross-fetch/releases/tag/v4.0.0",
+        "content": "cross-fetch 4.0.0リリース。\nNode.js 10と12のサポート終了、Node.js 18と20のサポート、Service WorkerとCloudflare Workersのサポートなど",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "giuseppelt/httpc",
+    [
+      {
+        "date": "2023-07-04T02:41:44.865Z",
+        "title": "giuseppelt/httpc: Build function-based API with minimal code and end-to-end type safety",
+        "url": "https://github.com/giuseppelt/httpc",
+        "content": "TypeScriptで書いたサーバの関数をクライアントから同じように呼び出せるRPCツールキット。\nサーバで関数をexportしたコードからクライアントコードを生成する仕組みによって、サーバの関数と同じ関数と引数でAPIコールができる。",
+        "tags": [
+          "TypeScript",
+          "JavaScript",
+          "library",
+          "server"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gibbok/typescript-book",
+    [
+      {
+        "date": "2023-07-09T12:47:30.871Z",
+        "title": "gibbok/typescript-book: The Concise TypeScript Book: A Concise Guide to Effective Development in TypeScript. Free and Open Source.",
+        "url": "https://github.com/gibbok/typescript-book",
+        "content": "TypeScriptの入門書",
+        "tags": [
+          "TypeScript",
+          "book",
+          "OpenSource"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "prisma/prisma",
+    [
+      {
+        "date": "2023-07-12T11:19:54.898Z",
+        "title": "Release 5.0.0 · prisma/prisma",
+        "url": "https://github.com/prisma/prisma/releases/tag/5.0.0",
+        "content": "Prisma 5.0.0リリース。\n実験的な機能だった`jsonProtocol`/`fieldReference`/`extendedWhereUnique`をStableに変更。\nNode.js 14のサポート終了、暗黙的に配列とみなす\"array shortcuts\"のサポートを削除、非推奨のオプションの削除など",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "database",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Upgrade to Prisma 5",
+            "url": "https://www.prisma.io/docs/guides/upgrade-guides/upgrading-versions/upgrading-to-prisma-5"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "styled-components/styled-components",
+    [
+      {
+        "date": "2023-07-12T11:47:44.340Z",
+        "title": "Release v6.0.0 · styled-components/styled-components",
+        "url": "https://github.com/styled-components/styled-components/releases/tag/v6.0.0",
+        "content": "styled-components v6.0.0リリース。\nNode.js 14のサポート終了、TypeScriptでの書き直し、ベンダープレフィックスをデフォルトでは省略するように変更、stylis v4へアップデートなど",
+        "tags": [
+          "CSS",
+          "JavaScript",
+          "alib",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "styled-components: FAQs",
+            "url": "https://styled-components.com/docs/faqs#what-do-i-need-to-do-to-migrate-to-v6"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mdx-editor/editor",
+    [
+      {
+        "date": "2023-07-12T21:01:57.649Z",
+        "title": "mdx-editor/editor: An open source rich text React component for markdown editing",
+        "url": "https://github.com/mdx-editor/editor",
+        "content": "MarkdownリッチエディタのReactコンポーネント。\n",
+        "tags": [
+          "Markdown",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "patriksimek/vm2",
+    [
+      {
+        "date": "2023-07-15T04:08:00.117Z",
+        "title": "Discontinued · Issue #533 · patriksimek/vm2",
+        "url": "https://github.com/patriksimek/vm2/issues/533",
+        "content": "Node.jsの`vm`モジュールを使ったSandboxを実現する目的の`vm2`に構造的なSandbox Escapeの脆弱性があるため、メンテナンスを終了するというアナウンス。\n脆弱性のPoCは2023年8月ごろに公開されるため、isolated-vmのようなモジュールへ移行を推奨している。",
+        "tags": [
+          "node.js",
+          "security",
+          "library",
+          "issue",
+          "news"
+        ],
+        "relatedLinks": [
+          {
+            "title": "vm2 Sandbox Escape vulnerability · CVE-2023-37466 · GitHub Advisory Database",
+            "url": "https://github.com/advisories/GHSA-cchq-frgv-rjh5"
+          },
+          {
+            "title": "laverdet/isolated-vm: Secure & isolated JS environments for nodejs",
+            "url": "https://github.com/laverdet/isolated-vm"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "kamranahmedse/driver.js",
+    [
+      {
+        "date": "2023-07-19T12:32:14.268Z",
+        "title": "Release 1.0.3 · kamranahmedse/driver.js",
+        "url": "https://github.com/kamranahmedse/driver.js/releases/tag/1.0.3",
+        "content": "サイトツアー表示をするDriver.js 1.0リリース。\nTypeScriptで書き直し、SVGをページ上に載せてハイライト表示をするように実装を変更、ドキュメントを刷新など",
+        "tags": [
+          "JavaScript",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "coderaiser/putout",
+    [
+      {
+        "date": "2023-07-19T12:46:30.319Z",
+        "title": "coderaiser/putout: 🐊 Pluggable and configurable JavaScript Linter and code transformer with built-in ESLint and Babel support for js, jsx typescript, flow, markdown, yaml and json. Write declarative codemods in a simplest possible way 😏",
+        "url": "https://github.com/coderaiser/putout",
+        "content": "BabelとESLintをベースにしたcodemodのツールキット。\nビルトインルールとしてCommonJS to ESMなど多数の変換ルールを持っているが、それらを管理するツールとプラグインの仕組みを提供する。\n",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fabian-hiller/valibot",
+    [
+      {
+        "date": "2023-07-25T23:27:31.854Z",
+        "title": "fabian-hiller/valibot: The modular and type safe schema library for validating structural data 🤖",
+        "url": "https://github.com/fabian-hiller/valibot",
+        "content": "zodライクなスキーマをビルダー関数で組み立てバリデーションとTypeScriptの型として利用できるライブラリ。\n利用しているビルダー関数のみを含むBundleを作れるように、メソッドチェーンではなく関数を組み合わせてスキーマを定義するようになっている",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Introducing Valibot, a < 1kb Zod Alternative",
+            "url": "https://www.builder.io/blog/introducing-valibot"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "httptoolkit/brotli-wasm",
+    [
+      {
+        "date": "2023-07-27T09:51:18.025Z",
+        "title": "httptoolkit/brotli-wasm: A reliable compressor and decompressor for Brotli, supporting node & browsers via wasm",
+        "url": "https://github.com/httptoolkit/brotli-wasm",
+        "content": "BrotliのCompress/Decompressを扱うライブラリ。\nRustのBrotli CrateをWebAssemblyにコンパイルして利用する。",
+        "tags": [
+          "WebAssembly",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "riot/riot",
+    [
+      {
+        "date": "2023-07-30T22:57:25.977Z",
+        "title": "Release Evergreen · riot/riot",
+        "url": "https://github.com/riot/riot/releases/tag/v9.0.0",
+        "content": "Riot.js v9.0.0リリース。\nバージョン番号を統一するため、バージョンをスキップしてv9へ。\nNode.js 14/16のサポート終了、BabelでのTranspileをしないように変更、boolean属性の挙動変更など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "KittyGiraudel/a11y-dialog",
+    [
+      {
+        "date": "2023-08-03T03:50:57.930Z",
+        "title": "KittyGiraudel/a11y-dialog: A very lightweight and flexible accessible modal dialog script.",
+        "url": "https://github.com/KittyGiraudel/a11y-dialog",
+        "content": "WAI-ARIAのダイアログパターンを実装したダイアログUIライブラリ",
+        "tags": [
+          "UI",
+          "accessibility",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleChrome/lighthouse",
+    [
+      {
+        "date": "2023-08-04T01:20:07.759Z",
+        "title": "Release v11.0.0 · GoogleChrome/lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v11.0.0",
+        "content": "Lighthouse v11.0.0リリース。\nNode.js 16のサポート終了、`resource-summary`/`service-worker`/`first-contentful-paint-3g`のAuditを削除。\nINPのAuditをStableへと移行など",
+        "tags": [
+          "Chrome",
+          "performance",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vega/ts-json-schema-generator",
+    [
+      {
+        "date": "2023-08-14T21:58:58.129Z",
+        "title": "Release v1.3.0 · vega/ts-json-schema-generator",
+        "url": "https://github.com/vega/ts-json-schema-generator/releases/tag/v1.3.0",
+        "content": "ts-json-schema-generator v1.3.0リリース。\n`satisfies`演算子のサポート、TypeScript 5へのアップデート、Bunのサポートなど",
+        "tags": [
+          "TypeScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vercel/next.js",
+    [
+      {
+        "date": "2023-08-16T12:32:32.864Z",
+        "title": "Release v13.4.16 · vercel/next.js",
+        "url": "https://github.com/vercel/next.js/releases/tag/v13.4.16",
+        "content": "Next.js v13.4.16リリース。\n実験的にplaywrightとmswを使ったtest modeを追加など",
+        "tags": [
+          "Next.js",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Next.jsにnext/testmodeという概念が出現しMSW x Playwrightのテストがやりやすくなりそう",
+            "url": "https://zenn.dev/uyas/articles/bc58a4bed15ed4"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "alvarlagerlof/rsc-parser",
+    [
+      {
+        "date": "2023-08-19T23:30:34.946Z",
+        "title": "alvarlagerlof/rsc-parser: A parser for the React Server components when sent over the network",
+        "url": "https://github.com/alvarlagerlof/rsc-parser",
+        "content": "React Server Component(RSC)のデバッグをするブラウザ拡張。\nRSCのネットワークリクエストをパースし、ペイロードを可視化できる",
+        "tags": [
+          "Chrome",
+          "Extension",
+          "React",
+          "debug"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "parcel-bundler/watcher",
+    [
+      {
+        "date": "2023-08-24T13:52:27.264Z",
+        "title": "Release v2.3.0 · parcel-bundler/watcher",
+        "url": "https://github.com/parcel-bundler/watcher/releases/tag/v2.3.0",
+        "content": "@parcel/watcher 2.3.0リリース。\nFreeBSDのサポート、Wasmバックエンドである`@parcel/watcher-wasm`パッケージの追加など",
+        "tags": [
+          "nodejs",
+          "C++",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nodejs/corepack",
+    [
+      {
+        "date": "2023-08-30T13:01:59.221Z",
+        "title": "Release v0.20.0 · nodejs/corepack",
+        "url": "https://github.com/nodejs/corepack/releases/tag/v0.20.0",
+        "content": "corepack 0.20.0リリース。\nCLIのコマンドのほとんどが変更された。古いコマンドも互換性のために維持されている。",
+        "tags": [
+          "nodejs",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "withastro/astro",
+    [
+      {
+        "date": "2023-08-31T00:39:37.499Z",
+        "title": "Release astro@3.0.0 · withastro/astro",
+        "url": "https://github.com/withastro/astro/releases/tag/astro%403.0.0",
+        "content": "Astro 3.0.0リリース。\nNode.js 16のサポート終了、`~/assets`のimport aliasがデフォルトでは含まれないように変更、`class:list`の挙動を変更、画像の最適化にSharpを使うように変更。\nScoped Styleに`:where`ではなくdata属性を使うように変更、ExperimentalだったView TransitionとImageオプションを削除しデフォルトで有効化。\nReact Fast Refreshが動作するようになるなど",
+        "tags": [
+          "astro",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Astro 3.0 | Astro",
+            "url": "https://astro.build/blog/astro-3/"
+          },
+          {
+            "title": "View Transitions 🚀 Astro Documentation",
+            "url": "https://docs.astro.build/en/guides/view-transitions/#upgrade-to-v30-from-v2x"
+          },
+          {
+            "title": "Upgrade to Astro v3 🚀 Astro Documentation",
+            "url": "https://docs.astro.build/en/guides/upgrade-to/v3/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "aerotoad/neboa",
+    [
+      {
+        "date": "2023-08-31T12:22:40.625Z",
+        "title": "aerotoad/neboa: Type-safe NoSQL with Node & SQLite. 🌫️💽",
+        "url": "https://github.com/aerotoad/neboa",
+        "content": "Node.js向けのSQLiteバックエンドのORMライブラリ。\n",
+        "tags": [
+          "nodejs",
+          "SQLite",
+          "library",
+          "TypeScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "web-infra-dev/wg",
+    [
+      {
+        "date": "2023-09-02T06:31:58.331Z",
+        "title": "Design Trade-offs in Bundler: The Rationale Behind Creating Rspack · web-infra-dev/wg · Discussion #1",
+        "url": "https://github.com/web-infra-dev/wg/discussions/1",
+        "content": "Rspackの開発の目的やwebpack/parcel/esbuild/rollupなどのbundlerのアーキテクチャについて。\nwebpackにはデバッグやパフォーマンスの問題があり、Vite/Rollupも大規模プロジェクトではパフォーマンスにビルド環境の差異の問題があり、esbuildはプラグインの柔軟性に問題がある。\nRollupはESMのみが第一級市民であり、RspackはwebpackとParcelと同じく言語に依存しないことを目的にしている。\nそれぞれのbundlerのプラグインAPIの設計と複雑性、ASTの再利用とパフォーマンスの問題、Tree ShakingをASTベースで行った場合の課題について。\nまた、今後のRspackが目指す方向して簡単に使えるようにすること、デバッグをしやすくすること、最適化をwebpackと同等以上にすること、リモートキャッシュなどについて触れている。",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "article",
+          "architecture"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "actions/checkout",
+    [
+      {
+        "date": "2023-09-05T23:11:16.808Z",
+        "title": "Release v4.0.0 · actions/checkout",
+        "url": "https://github.com/actions/checkout/releases/tag/v4.0.0",
+        "content": "actions/checkout v4.0.0リリース。\nNode.js 20を利用するように、`show-progress`オプションを追加など",
+        "tags": [
+          "Github",
+          "Actions",
+          "nodejs",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "measuredco/puck",
+    [
+      {
+        "date": "2023-09-06T02:14:44.101Z",
+        "title": "measuredco/puck: The self-hosted drag and drop editor for React.",
+        "url": "https://github.com/measuredco/puck",
+        "content": "D&Dで編集できるビジュアルエディタのReactコンポーネントライブラリ",
+        "tags": [
+          "React",
+          "editor ",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nebrelbug/npm-to-yarn",
+    [
+      {
+        "date": "2023-09-08T00:43:41.896Z",
+        "title": "nebrelbug/npm-to-yarn: Convert npm CLI commands to yarn, and vice versa",
+        "url": "https://github.com/nebrelbug/npm-to-yarn",
+        "content": "npmのコマンドをyarn/pnpm/bunのコマンドに変換するライブラリ",
+        "tags": [
+          "npm",
+          "yarn",
+          "pnpm",
+          "Bun",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nodejs/Release",
+    [
+      {
+        "date": "2023-09-12T22:45:16.141Z",
+        "title": "doc: mark v16.x as End-of-Life by targos · Pull Request #908 · nodejs/Release",
+        "url": "https://github.com/nodejs/Release/pull/908",
+        "content": "Node.js 16がEOLとなった",
+        "tags": [
+          "nodejs",
+          "news"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Bringing forward the End-of-Life Date for Node.js 16 | Node.js",
+            "url": "https://nodejs.org/en/blog/announcements/nodejs16-eol"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "isaacs/tshy",
+    [
+      {
+        "date": "2023-09-14T11:39:15.195Z",
+        "title": "isaacs/tshy",
+        "url": "https://github.com/isaacs/tshy",
+        "content": "TypeScriptのソースコードからESMとCJSのdual packageを作成するツール",
+        "tags": [
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nuejs/nuejs",
+    [
+      {
+        "date": "2023-09-15T07:20:17.335Z",
+        "title": "nuejs/nuejs: Build user interfaces with 10x less code. Alternative to React, Vue, and Svelte",
+        "url": "https://github.com/nuejs/nuejs/tree/master",
+        "content": "少ないコード量で書けることが目的のVue/Riot的なUIフレームワーク。",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "Tools",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "eslint-stylistic/eslint-stylistic",
+    [
+      {
+        "date": "2023-09-21T12:11:43.899Z",
+        "title": "eslint-stylistic/eslint-stylistic: Monorepo for ESLint Stylistic plugins and configs",
+        "url": "https://github.com/eslint-stylistic/eslint-stylistic",
+        "content": "ESLintのスタイル関連のルールを管理するプロジェクト",
+        "tags": [
+          "ESLint",
+          "plugin"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kurtextrem/awesome-performance-patches",
+    [
+      {
+        "date": "2023-09-25T12:53:14.692Z",
+        "title": "kurtextrem/awesome-performance-patches: 🚀⚡ Awesome lists about performance related patches/PRs.",
+        "url": "https://github.com/kurtextrem/awesome-performance-patches",
+        "content": "JavaScript/CSS/HTMLのパフォーマンス改善に関するPull Requestや記事などをまとめたリポジトリ",
+        "tags": [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "performance",
+          "links"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "runk/node-chardet",
+    [
+      {
+        "date": "2023-09-30T11:47:11.050Z",
+        "title": "runk/node-chardet: Character encoding detection tool for NodeJS",
+        "url": "https://github.com/runk/node-chardet",
+        "content": "文字コード判定ライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "instant-dev/instant",
+    [
+      {
+        "date": "2023-10-01T03:08:54.352Z",
+        "title": "instant-dev/instant: Build APIs with a Rails-inspired JavaScript ORM and Migrations for Postgres",
+        "url": "https://github.com/instant-dev/instant",
+        "content": "Rails/ActiveRecordをインスパイアしたORMマッパー、マイグレーション管理ツール。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "database"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "aidenybai/pattycake",
+    [
+      {
+        "date": "2023-10-01T03:11:46.587Z",
+        "title": "aidenybai/pattycake: Zero-runtime pattern matching",
+        "url": "https://github.com/aidenybai/pattycake",
+        "content": "ts-patternのパターンマッチをインライン化して、Runtimeライブラリの依存をなくすツール。",
+        "tags": [
+          "TypeScript",
+          "Tools",
+          "performance"
+        ],
+        "relatedLinks": [
+          {
+            "title": "gvergnaud/ts-pattern: 🎨 The exhaustive Pattern Matching library for TypeScript, with smart type inference.",
+            "url": "https://github.com/gvergnaud/ts-pattern"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "tldraw/tldraw",
+    [
+      {
+        "date": "2023-10-03T01:47:24.172Z",
+        "title": "tldraw/tldraw: a very good whiteboard",
+        "url": "https://github.com/tldraw/tldraw",
+        "content": "共同編集できるホワイトボードライブラリ。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "illust",
+          "diagram",
+          "communication"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nksaraf/vinxi",
+    [
+      {
+        "date": "2023-10-08T03:16:55.762Z",
+        "title": "nksaraf/vinxi: The JavaScript Server SDK",
+        "url": "https://github.com/nksaraf/vinxi",
+        "content": "`Bun.App`をインスパイアしたサーバメタフレームワーク。\nルーターを定義しパスごとにstatic/build/nodeなどのモードとハンドラーを定義し、定義に従ってビルドやサーバをビルドする。\nBundlerにVite、サーバにNitroを使い、特定のUIフレームワークに依存しない仕組みを作ること目的にしている。",
+        "tags": [
+          "vite",
+          "server",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "The Bun Bundler | Bun Blog",
+            "url": "https://bun.sh/blog/bun-bundler#sneak-peek-bun-app"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "arktypeio/arktype",
+    [
+      {
+        "date": "2023-10-08T03:52:22.514Z",
+        "title": "arktypeio/arktype: TypeScript's 1:1 validator, optimized from editor to runtime",
+        "url": "https://github.com/arktypeio/arktype",
+        "content": "TypeScriptの型定義の構文をスキーマのDSLとして利用するバリデーションライブラリ。\nスキーマの型として文字列を渡し、文字列の中にあるキーワードや演算子をパースして、型として解釈してくれる。",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "parcel-bundler/parcel",
+    [
+      {
+        "date": "2023-10-11T13:30:13.463Z",
+        "title": "Release v2.10.0 · parcel-bundler/parcel",
+        "url": "https://github.com/parcel-bundler/parcel/releases/tag/v2.10.0",
+        "content": "Parcel v2.10.0リリース。\n遅延コンパイルする対象を指定できる`--lazy [glob]`と`--lazy-excludes`を追加。\nRustモジュールを一つのパッケージにマージすることで重複Cratesを削除してサイズの削減、また並列処理の効率化によるパフォーマンス改善など。\n\n",
+        "tags": [
+          "parcel",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "react-hookz/web",
+    [
+      {
+        "date": "2023-10-14T12:22:51.758Z",
+        "title": "react-hookz/web: React hooks done right, for browser and SSR.",
+        "url": "https://github.com/react-hookz/web",
+        "content": "サーバサイドレンダリング時も動作するReact Hooksのコレクションライブラリ。\n`react-use`の後継的なライブラリとなることを意識して作られている",
+        "tags": [
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "elbywan/zap",
+    [
+      {
+        "date": "2023-10-15T08:35:25.977Z",
+        "title": "elbywan/zap: Another [insert blazing fast synonyms] JavaScript package manager",
+        "url": "https://github.com/elbywan/zap",
+        "content": "Crystal言語で書かれたnpmパッケージマネージャー。\n",
+        "tags": [
+          "npm",
+          "package",
+          "console",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "orgs/web-infra-dev",
+    [
+      {
+        "date": "2023-10-17T13:18:07.036Z",
+        "title": "Rspress, the Rspack-based static site generator · web-infra-dev · Discussion #5",
+        "url": "https://github.com/orgs/web-infra-dev/discussions/5",
+        "content": "RspackベースのDocusarusu/VitePressライクな静的サイトジェネレータであるRspress 1.0.0リリース。",
+        "tags": [
+          "Rust",
+          "document",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "AlexSergey/rockpack",
+    [
+      {
+        "date": "2023-10-22T10:27:33.681Z",
+        "title": "AlexSergey/rockpack: Rockpack is a simple solution for creating React Application with Server Side Rendering, bundling, linting, testing within 5 minutes",
+        "url": "https://github.com/AlexSergey/rockpack",
+        "content": "Create React App的なReactでのアプリケーション開発をするツールキット",
+        "tags": [
+          "React",
+          "Tools",
+          "library",
+          "TypeScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "axios/axios",
+    [
+      {
+        "date": "2023-10-26T23:24:33.374Z",
+        "title": "Release Release v1.6.0 · axios/axios",
+        "url": "https://github.com/axios/axios/releases/tag/v1.6.0",
+        "content": "axios v1.6.0リリース。\n`X-XSRF-TOKEN`というCookieが設定されている時に、`withCredentials`オプションが有効だと、別オリジンに対するリクエストにも`X-XSRF-TOKEN`の値が送信される脆弱性の修正",
+        "tags": [
+          "HTTP",
+          "library",
+          "ReleaseNote",
+          "security"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "joshmarinacci/node-pureimage",
+    [
+      {
+        "date": "2023-10-28T14:30:57.487Z",
+        "title": "joshmarinacci/node-pureimage: Pure JS implementation of the HTML Canvas 2D drawing API",
+        "url": "https://github.com/joshmarinacci/node-pureimage",
+        "content": "Pure JavaScriptなNode.js向けCanvas APIの実装ライブラリ。",
+        "tags": [
+          "nodejs",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/docusaurus",
+    [
+      {
+        "date": "2023-11-01T08:17:23.936Z",
+        "title": "Release 3.0.0 · facebook/docusaurus",
+        "url": "https://github.com/facebook/docusaurus/releases/tag/v3.0.0",
+        "content": "docusauru 3.0.0リリース。",
+        "tags": [
+          "React",
+          "document",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "farm-fe/farm",
+    [
+      {
+        "date": "2023-11-03T04:41:41.887Z",
+        "title": "farm-fe/farm: Extremely fast Vite-compatible web build tool written in Rust",
+        "url": "https://github.com/farm-fe/farm",
+        "content": "Vite/Rollupプラグイン互換の仕組みを持ったRust製のBundlerツール。\nビルドパフォーマンス、devとproductionビルドでの一貫性、dev環境でbundleしないことでのリクエスト数の問題を解決する目的。\nモジュールをグループという単位でbundleして、リクエスト数を削減とキャッシュヒット率の向上を目的にしたPartial Bundlingという仕組みを持つ。",
+        "tags": [
+          "vite",
+          "rollup",
+          "bundler",
+          "Rust",
+          "Tools",
+          "JavaScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "rfcs/rfcs/003-partial-bundling/rfc.md at main · farm-fe/rfcs",
+            "url": "https://github.com/farm-fe/rfcs/blob/main/rfcs/003-partial-bundling/rfc.md"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "oxc-project/javascript-parser-in-rust",
+    [
+      {
+        "date": "2023-11-07T14:46:48.204Z",
+        "title": "oxc-project/javascript-parser-in-rust: Tutorial on writing a JavaScript Parser in Rust",
+        "url": "https://github.com/oxc-project/javascript-parser-in-rust",
+        "content": "JavaScriptのパーサをRustで書くこと関するガイドやチュートリアル",
+        "tags": [
+          "JavaScript",
+          "AST",
+          "Rust",
+          "tutorial"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mochajs/mocha",
+    [
+      {
+        "date": "2023-11-15T11:54:24.767Z",
+        "title": "Project Status: Maintenance Reboot · Issue #5027 · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/issues/5027",
+        "content": "Mochaのプロジェクトをリブートしメンテナンスを再開するというアナウンス。",
+        "tags": [
+          "mocha",
+          "news",
+          "issue"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vvo/iron-session",
+    [
+      {
+        "date": "2023-11-20T12:17:12.861Z",
+        "title": "Release 8.0.0 · vvo/iron-session",
+        "url": "https://github.com/vvo/iron-session/releases/tag/v8.0.0",
+        "content": "iron-session 8.0.0リリース。\nNext.js App Routerに対応し、APIも合わせて変更。",
+        "tags": [
+          "JavaScript",
+          "Next.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "css-hooks/css-hooks",
+    [
+      {
+        "date": "2023-11-28T11:29:40.383Z",
+        "title": "css-hooks/css-hooks: Hooks bring advanced CSS features to native inline styles.",
+        "url": "https://github.com/css-hooks/css-hooks",
+        "content": "style属性でスタイリングをするCSS in JSライブラリ。React/Preact/Solidに対応している。\nCSS custom propertiesを使って、`:hover`などの擬似クラスやMedia Queryに対するスタイルをstyle属性で実現している。",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cosmiconfig/cosmiconfig",
+    [
+      {
+        "date": "2023-11-29T05:28:02.686Z",
+        "title": "Release v9.0.0 · cosmiconfig/cosmiconfig",
+        "url": "https://github.com/cosmiconfig/cosmiconfig/releases/v9.0.0",
+        "content": "設定ファイルのローダーライブラリであるcosmiconfig 9.0.0リリース。\n`searchStrategy`オプションの追加、`$import:`のサポート。\nファイルシステムの権限で読み取り失敗したときにクラッシュする問題を修正など\n",
+        "tags": [
+          "nodejs",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "architect/aws-lite",
+    [
+      {
+        "date": "2023-11-30T12:09:07.154Z",
+        "title": "architect/aws-lite: A simple, fast, extensible AWS client",
+        "url": "https://github.com/architect/aws-lite",
+        "content": "AWSのAPIクライアントライブラリ。\nAWS SDKのパフォーマンスやスタックトレースなどの問題に対応する目的で作成している。",
+        "tags": [
+          "aws",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "unjs/unenv",
+    [
+      {
+        "date": "2023-12-04T10:15:22.747Z",
+        "title": "unjs/unenv: 🕊️ Convert javaScript code to be runtime agnostic",
+        "url": "https://github.com/unjs/unenv/tree/main",
+        "content": "Node.js Core Modulesなどのpolyfillやモックを提供するライブラリ。\nNode.js向けのコードを他の実行環境でも動作させるためのライブラリ",
+        "tags": [
+          "nodejs",
+          "JavaScript",
+          "polyfill",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "avajs/ava",
+    [
+      {
+        "date": "2023-12-05T04:51:13.686Z",
+        "title": "Release v6.0.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v6.0.0",
+        "content": "AVA v6.0.0リリース。\nNpde.js 14/16のサポート終了、Watchモードの改善、`t.throws()`に`any`オプションを追加など",
+        "tags": [
+          "nodejs",
+          "JavaScript",
+          "jailbreak",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/stylex",
+    [
+      {
+        "date": "2023-12-06T05:33:32.387Z",
+        "title": "facebook/stylex: StyleX is the styling system for ambitious user interfaces.",
+        "url": "https://github.com/facebook/stylex",
+        "content": "FacebookのAtomic CSS in JSライブラリ。\nTypeScriptなどでType Safeにスタイルを定義、適用でき、ビルド時にCSSファイルへとコンパイルすることで実行時のコストを小さくしている。\n`stylex.create`でスタイルを定義、`stylex.props`で常に後ろが優先されるというマージルールでスタイルを適用できる。",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sindresorhus/got",
+    [
+      {
+        "date": "2023-12-08T12:53:53.362Z",
+        "title": "Release v14.0.0 · sindresorhus/got",
+        "url": "https://github.com/sindresorhus/got/releases/tag/v14.0.0",
+        "content": "Got v14.0.0リリース。\nNode.js 18のサポートを終了。",
+        "tags": [
+          "nodejs",
+          "HTTP",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "BuilderIO/hydration-overlay",
+    [
+      {
+        "date": "2023-12-14T14:16:48.455Z",
+        "title": "BuilderIO/hydration-overlay: Overlay for hydration errors with explicit diff between renders.",
+        "url": "https://github.com/BuilderIO/hydration-overlay",
+        "content": "ReactのHydrationでのmismatchのエラーをDiff表示するライブラリ。\nSSRとCSRでのレンダリング結果にズレがある場合にHydrationエラーのデバッグに利用できる。",
+        "tags": [
+          "React",
+          "debug",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Announcing React Hydration Overlay - Easily Squash Hydration Errors",
+            "url": "https://www.builder.io/blog/announcing-react-hydration-overlay"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "date-fns/date-fns",
+    [
+      {
+        "date": "2023-12-20T02:54:32.808Z",
+        "title": "Release v3.0.0 · date-fns/date-fns",
+        "url": "https://github.com/date-fns/date-fns/releases/tag/v3.0.0",
+        "content": "date-fns v3.0.0リリース。\nESMとCJSのdual pacakgeに変更、それぞれのファイルはnamed exportするように変更。TypeScriptの型を改善、引数の数のRuntime Checkを無くしてType Checkのみに変更、intevalの負数をサポート、IEのサポートを終了など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "webui-dev/webui",
+    [
+      {
+        "date": "2023-12-20T13:57:19.720Z",
+        "title": "webui-dev/webui: Use any web browser as GUI, with your preferred language in the backend and HTML5 in the frontend, all in a lightweight portable lib.",
+        "url": "https://github.com/webui-dev/webui",
+        "content": "ブラウザやWebViewをGUIとして使い、バックエンドを任意の言語で書けるデスクトップアプリツール。\nバックエンドからブラウザのウィンドウ操作やブラウザとのやり取りをするSDKが色々な言語向けに用意されている",
+        "tags": [
+          "webview",
+          "browser",
+          "software"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "moment/moment",
+    [
+      {
+        "date": "2023-12-27T11:01:26.560Z",
+        "title": "moment/CHANGELOG.md at develop · moment/moment",
+        "url": "https://github.com/moment/moment/blob/develop/CHANGELOG.md#2300-full-changelog",
+        "content": "moment 2.30.0リリース。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "moment-2.30.0.md",
+            "url": "https://gist.github.com/ichernev/e277bcd1f0eeabb834f60a777237925a"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "speed-highlight/core",
+    [
+      {
+        "date": "2023-12-31T11:52:02.635Z",
+        "title": "speed-highlight/core: 🌈 Light, fast, and easy to use, dependencies free javascript syntax highlighter, with automatic language detection",
+        "url": "https://github.com/speed-highlight/core",
+        "content": "自動で言語を判定する機能を持つシンタックハイライトライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ]
+]

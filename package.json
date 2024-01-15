@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "jser-info-13th-research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "update": "node domain-2023.js && node github-2023.js && node github-2015.js && node domain-2015.js"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
