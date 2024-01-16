@@ -1,0 +1,5484 @@
+[
+  [
+    "avajs/ava",
+    [
+      {
+        "date": "2020-01-19T22:58:13.423Z",
+        "title": "Release 3.0.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.0.0",
+        "content": "AVA 3リリース。\n`ava debug`コマンドの追加、`--node-arguments`オプションの追加。\nNode 10未満のサポート終了、Babelが同梱ではなくなり別パッケージとしてインストールする形に変更、ES Modulesのサポートなど",
+        "tags": [
+          "node.js",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-01-27T14:38:26.345Z",
+        "title": "Release 3.1.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.1.0",
+        "content": "AVA 3.1.0リリース。\n`@ava/typescript`パッケージでTypeScriptサポートなど",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-02-11T06:54:58.659Z",
+        "title": "Release 3.3.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.3.0",
+        "content": "AVA 3.3.0リリース。\nECMAScript Modulesなテストファイルに対応",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-02-24T12:59:31.999Z",
+        "title": "Release 3.4.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.4.0",
+        "content": "AVA 3.4.0リリース。\nテストを失敗させずにAssertionを試せる`t.try()`のサポートなど",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-07-06T12:52:48.999Z",
+        "title": "Release 3.10.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.10.0",
+        "content": "AVA 3.10.0リリース。\n`.only()`を利用中にスナップショットをアップデートしないように、`t.timeout`にメッセージオプションを追加、`t.try()`や`t.snapshot()`がhook中に実行できないように修正など",
+        "tags": [
+          "node.js",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-07-28T02:14:34.852Z",
+        "title": "Release 3.11.0 · avajs/ava",
+        "url": "https://github.com/avajs/ava/releases/tag/v3.11.0",
+        "content": "AVA 3.11.0リリース。\n`t.like()` assertionの追加。",
+        "tags": [
+          "node.js",
+          "testing",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "preactjs/preact",
+    [
+      {
+        "date": "2020-01-08T13:20:54.424Z",
+        "title": "Release throw new Preact('10.2.0') · preactjs/preact",
+        "url": "https://github.com/preactjs/preact/releases/tag/10.2.0",
+        "content": "Preact 10.2.0リリース。\n`useErrorBoundary` hookのサポート、`lazy()`がnamed exportsに対応など",
+        "tags": [
+          "JavaScript",
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-02-05T03:40:30.943Z",
+        "title": "Release Releaaaaaaaaaaaaaaaaaaase · preactjs/preact",
+        "url": "https://github.com/preactjs/preact/releases/tag/10.3.0",
+        "content": "Preact 10.3.0リリース\nBuilt-In要素を継承したCustom Elementに対応、バグ修正など",
+        "tags": [
+          "React",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-04-08T17:41:10.032Z",
+        "title": "Release 10.4.0 · preactjs/preact",
+        "url": "https://github.com/preactjs/preact/releases/tag/10.4.0",
+        "content": "Preact 10.4.0リリース。\nvnodeの厳密な比較によるパフォーマンス改善、SSR時にhydrationがうまく行かなかった際のfallbackを追加など",
+        "tags": [
+          "React",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-09-24T13:07:46.659Z",
+        "title": "Release 10.5.0 - JSX Reloaded · preactjs/preact",
+        "url": "https://github.com/preactjs/preact/releases/tag/10.5.0",
+        "content": "Preact 10.5.0リリース。\n新しいJSXの変換に対応したRuntimeの追加、 hydrationにおけるSuspend & Resumeの改善など",
+        "tags": [
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "pikapkg/snowpack",
+    [
+      {
+        "date": "2020-01-12T12:21:19.567Z",
+        "title": "Release V1 RELEASE! @pika/web is now Snowpack · pikapkg/snowpack",
+        "url": "https://github.com/pikapkg/snowpack/releases/tag/v1.0.1",
+        "content": "Snowpack 1.0.0リリース。\nインストール時にES Modulesとして読み込めるモジュールを配置することで、変更ごとにビルドしないでアプリケーション開発できることを目的にしている。\n`@pika/web`からSnowpackにリネーム、`--optimize`でのtree-shakingサポート等。",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "Tools"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Snowpack",
+            "url": "https://www.snowpack.dev/"
+          }
+        ]
+      },
+      {
+        "date": "2020-04-19T14:28:25.598Z",
+        "title": "Release v1.7.0 · pikapkg/snowpack",
+        "url": "https://github.com/pikapkg/snowpack/releases/tag/v1.7.0",
+        "content": "Snowpack 1.7.0リリース。\n`--env`のサポート、Babelプラグインの更新、JSXとTypeScriptのサポート。\nまた Snowpack 2.0に向けて変更予定について書かれている",
+        "tags": [
+          "npm",
+          "browser",
+          "Tools",
+          "ReleaseNote",
+          "bundler"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-08-19T15:13:44.941Z",
+        "title": "Release 2.8.0 · pikapkg/snowpack",
+        "url": "https://github.com/pikapkg/snowpack/releases/tag/snowpack%402.8.0",
+        "content": "snowpack 2.8.0リリース。\n`snowpack build --watch`の追加、`--polyfill-node`でNodeコアモジュールのpolyfillを追加できるようになるなど",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-09-15T02:13:07.356Z",
+        "title": "Release snowpack@2.11.1 · pikapkg/snowpack",
+        "url": "https://github.com/pikapkg/snowpack/releases/tag/snowpack%402.11.1",
+        "content": "snowpack 2.11.1リリース。\nesbuildなどをベースにした`@snowpack/plugin-optimize`の追加、`build --watch`でHMR/Livereloadの対応。\nまた、`@snowpack/plugin-webpack`でもHTMLのminifyをするようになるなど。",
+        "tags": [
+          "bundler",
+          "ReleaseNote",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "puppeteer/puppeteer",
+    [
+      {
+        "date": "2020-01-30T01:51:16.158Z",
+        "title": "Release v2.1.0 · puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer/releases/tag/v2.1.0",
+        "content": "Puppeteer v2.1.0 リリース。\nChromium 80へアップデート、Firefoxをサポートなど",
+        "tags": [
+          "JavaScript",
+          "Chrome",
+          "browser",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-04-16T22:13:31.861Z",
+        "title": "Release v3.0.0 · puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer/releases/tag/v3.0.0",
+        "content": "Puppeteer 3.0.0リリース。\nChromium 81にアップデート、Firefox Nightlyのバイナリをインストールできるように、Node.js 8のサポート終了など。\n",
+        "tags": [
+          "Chrome",
+          "Firefox",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-06-15T15:10:15.111Z",
+        "title": "Release v4.0.0 · puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer/releases/tag/v4.0.0",
+        "content": "Puppeteer v4.0.0リリース。\nNode.jsの`events`への依存を削除、`page.isJavaScriptEnabled()`の追加など",
+        "tags": [
+          "Chrome",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-07-04T02:36:17.800Z",
+        "title": "Release v5.0.0 · puppeteer/puppeteer",
+        "url": "https://github.com/puppeteer/puppeteer/releases/tag/v5.0.0",
+        "content": "Puppeteer v5.0.0リリース。\n`page.emulateMedia`を `page.emulateMediaType`に変更。\nDirect requireを削除し、オブジェクトとして読み込むように変更など",
+        "tags": [
+          "Chrome",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleChrome/lighthouse",
+    [
+      {
+        "date": "2020-03-17T11:43:19.565Z",
+        "title": "Release 6.0.0-beta.0 (2020-03-11) · GoogleChrome/lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v6.0.0-beta.0",
+        "content": "Lighthouse 6.0.0βリリース。\nMetricsの更新、performanceスコア計算方法の変更。\nまた、Cumulative Layout Shift (CLS)、文字コード、アクセシビリティに関するAuditの追加など",
+        "tags": [
+          "Chrome",
+          "performance",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Cumulative Layout Shift (CLS)",
+            "url": "https://web.dev/cls/"
+          }
+        ]
+      },
+      {
+        "date": "2020-10-06T03:21:04.321Z",
+        "title": "Release v6.4.0 · GoogleChrome/lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v6.4.0",
+        "content": "Lighthouse 6.4.0リリース。\n`large-javascript-libraries`のAuditをexperimentalで追加、`unsized-images`のAuditを追加など",
+        "tags": [
+          "Chrome",
+          "performance",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-12-02T13:43:09.136Z",
+        "title": "Release v6.5.0 · GoogleChrome/lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v6.5.0",
+        "content": "Lighthouse v6.5.0リリース。\nLCPとなる要素がPreloadされているかを判定する`preload-lcp-image`のAuditを追加など",
+        "tags": [
+          "Chrome",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-12-18T05:28:47.451Z",
+        "title": "Release v7.0.0 · GoogleChrome/lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v7.0.0",
+        "content": "Lighthouse 7.0.0リリース。\nNode.js 10のサポート終了。\nPWAカテゴリの変更、アクセシビリティのテストに使う`axe-core`のアップデート、nightlyを`lighthouse@next`としてインストールできるようになる。\nまた、スクリーンショットがフルページとなりレポートのファイルサイズが増加するなど",
+        "tags": [
+          "Chrome",
+          "performance",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "denoland/deno",
+    [
+      {
+        "date": "2020-06-13T05:26:51.484Z",
+        "title": "Release v1.1.0 · denoland/deno",
+        "url": "https://github.com/denoland/deno/releases/tag/v1.1.0",
+        "content": "Deno v1.1.0 リリース。\n`deno eval -p`の追加、`deno lint`コマンドの追加、ファイルシステムのメソッドが`file:`なURLをサポートなど",
+        "tags": [
+          "deno",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-07-14T02:28:30.083Z",
+        "title": "Release v1.2.0 · denoland/deno",
+        "url": "https://github.com/denoland/deno/releases/tag/v1.2.0",
+        "content": "Deno 1.2.0リリース。\n`deno bundle`でlock fileのサポート、\nUser-timing　APIベースの`performance` APIの追加、`deno info --json`のサポートなど",
+        "tags": [
+          "deno",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-09-14T14:56:55.069Z",
+        "title": "Release v1.4.0 · denoland/deno",
+        "url": "https://github.com/denoland/deno/releases/tag/v1.4.0",
+        "content": "Deno 1.4.0リリース。\nWebSocket APIの実装、`Deno.systemMemoryInfo()`の追加。\nまた、unstableな機能として`deno run --watch`、`deno test --coverage`の追加など",
+        "tags": [
+          "deno",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-10-28T15:10:22.540Z",
+        "title": "Release v1.5.0 · denoland/deno",
+        "url": "https://github.com/denoland/deno/releases/tag/v1.5.0",
+        "content": "Deno 1.5.0リリース。\n破壊的な変更として`isolatedModules`をデフォルトで有効化されている。\n`deno bundle --no-check`のサポート、型チェックしない場合はswcを使うことで高速化、`alert`/`confirm`/`promp`のサポートなど",
+        "tags": [
+          "deno",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "swc",
+            "url": "https://github.com/swc-project/swc"
+          },
+          {
+            "title": "TypeScript compiler in Rust · Issue #5432 · denoland/deno",
+            "url": "https://github.com/denoland/deno/issues/5432#issuecomment-716890189"
+          },
+          {
+            "title": "Deno 1.5 Release Notes",
+            "url": "https://deno.land/posts/v1.5"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mochajs/mocha",
+    [
+      {
+        "date": "2020-01-06T00:14:20.623Z",
+        "title": "mocha/CHANGELOG.md at master · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/blob/master/CHANGELOG.md#%E2%80%8B700--2020-01-05",
+        "content": "Mocha 7.0.0リリース。\nNode.js v6.xのサポート終了、一部コマンドライン引数のリネーム、`Mocha`コンストラクタのオプションとコマンドラインオプションをあわせるように変更など。\nまた、`mocha.opts`ファイルが非推奨となった。",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Soft deprecate &quot;mocha.opts&quot; · Issue #3910 · mochajs/mocha",
+            "url": "https://github.com/mochajs/mocha/issues/3910"
+          }
+        ]
+      },
+      {
+        "date": "2020-01-14T13:44:02.828Z",
+        "title": "Release v7.0.0-esm1 (experimental) · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/releases/tag/v7.0.0-esm1",
+        "content": "MochaのES Modules対応のExperimental版がリリースされた",
+        "tags": [
+          "node.js",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-06-10T23:11:51.851Z",
+        "title": "Release v8.0.0 · mochajs/mocha",
+        "url": "https://github.com/mochajs/mocha/releases/tag/v8.0.0",
+        "content": "Mocha 8.0.0リリース。\nNode 10未満のサポート終了、`mocha.opts`のサポート終了、`enableTimeout()`の削除など。\n`--parallel`でパラレルテストをサポート、`--require`オプションでES Modulesを読み込めるようになるなど",
+        "tags": [
+          "node.js",
+          "testing",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "pnpm/pnpm",
+    [
+      {
+        "date": "2020-01-27T14:24:56.032Z",
+        "title": "Release v4.8.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v4.8.0",
+        "content": "パッケージ管理ツールのpnpm 4.8.0リリース。\nモジュールのインタラクティブアップデートを行う`pnpm update --interactive`の追加など",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-05-30T15:03:03.313Z",
+        "title": "Release v5.0.2 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v5.0.2",
+        "content": "npmパッケージ管理ツールのpnpm 5.0リリース。\nパフォーマンスの改善、ハッシュ + hardlinkベースのキャッシュの仕組みへの変更に伴う一部設定の削除など。\nまた、`pnpm publish`時にGitのStageがcleanかを判定する`git-checks`がデフォルトで有効化など\n",
+        "tags": [
+          "npm",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-10-12T13:09:56.337Z",
+        "title": "Release v5.9.0 · pnpm/pnpm",
+        "url": "https://github.com/pnpm/pnpm/releases/tag/v5.9.0",
+        "content": "pnpm 5.9.0リリース。\nYarnのPlug'n'Playをサポート、`symlink`を無効化できる設定の追加など",
+        "tags": [
+          "npm",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/playwright",
+    [
+      {
+        "date": "2020-01-23T12:06:31.761Z",
+        "title": "microsoft/playwright: Node library to automate Chromium, Firefox and WebKit browsers",
+        "url": "https://github.com/microsoft/playwright",
+        "content": "Chromium、WebKit、Firefoxを操作できるNode.jsライブラリ。\nPuppeteerと同じチームが開発していて、クロスブラウザ向けの抽象化されたAPIを提供する目的。\nWebDriverよりも機能的なDriver、分かりやすいAPI、setTimeout-freeな自動化を目的としている",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "browser",
+          "Chrome",
+          "Firefox",
+          "webkit",
+          "library",
+          "Selenium",
+          "webdriver"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-09-15T02:57:30.464Z",
+        "title": "Release v1.4.0 · microsoft/playwright",
+        "url": "https://github.com/microsoft/playwright/releases/tag/v1.4.0",
+        "content": "playwright 1.4.0リリース。\nplaywright-cliを正式リリース、Chromium 86/Firefox 80/WebKit 14へアップデート。\n`elementHandle.waitForElementState()`と`elementHandle.waitForSelector()`の追加など",
+        "tags": [
+          "browser",
+          "library",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rollup/rollup",
+    [
+      {
+        "date": "2020-01-27T14:37:25.842Z",
+        "title": "Release v1.30.0 · rollup/rollup",
+        "url": "https://github.com/rollup/rollup/releases/tag/v1.30.0",
+        "content": "Rollup 1.30.0リリース。\ndynamic importsのsplit chunksのロジックの改善。\nCode Splitting時にentry chunksで空importを行う最適化のためをON/OFFできるようにする`hoistTransitiveImports`オプションの追加など",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-03-06T15:22:32.482Z",
+        "title": "Release v2.0.0 · rollup/rollup",
+        "url": "https://github.com/rollup/rollup/releases/tag/v2.0.0",
+        "content": "Rollup 2.0.0リリース。\nNode 10未満のサポート終了、APIのリネームや同梱されるASTの型定義の変更など。\nまたNode.js 13のconditional exportsに試験的に対応など",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "typescript-eslint/typescript-eslint",
+    [
+      {
+        "date": "2020-05-22T12:35:29.485Z",
+        "title": "Release v3.0.0 · typescript-eslint/typescript-eslint",
+        "url": "https://github.com/typescript-eslint/typescript-eslint/releases/tag/v3.0.0",
+        "content": "typescript-eslint 3.0.0リリース。\nESLint 7をサポート、TS 3.9のサポート。 \nNode.js 8とTypeScript 3.2のサポート終了。\n`recommended`と`recommended-requiring-typechecking`が`eslint-recommended`を継承するように変更。\nルールのデフォルト値の変更、Deprecatedなルールの削除など。\n",
+        "tags": [
+          "TypeScript",
+          "ESLint",
+          "ReleaseNote"
+        ],
+        "viaURL": "https://github.com/jser/ping/issues/160",
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-09-02T23:19:02.707Z",
+        "title": "Release v4.0.0 · typescript-eslint/typescript-eslint",
+        "url": "https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.0.0",
+        "content": "TypeScript-ESLint 4.0.0リリース。\nOptional ChainingとdecoratorsのASTを変更、Scope解析を改善して`no-unused-vars`などのルールを改善、`ban-ts-comment`のデフォルト値を変更など。\nまたTypeScript 4.0にはTypeScript-ESLint 3.10.0で対応している。",
+        "tags": [
+          "TypeScript",
+          "ESLint",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ealush/vest",
+    [
+      {
+        "date": "2020-06-28T14:19:54.711Z",
+        "title": "ealush/vest: Vest - effortless validations",
+        "url": "https://github.com/ealush/vest",
+        "content": "バリデーションライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-08-15T08:36:11.659Z",
+        "title": "ealush/vest: Vest ✅ Declarative validations framework",
+        "url": "https://github.com/ealush/vest",
+        "content": "テストフレームワークライクなバリデーションライブラリ。\nテストコードのようにバリデーションのコードを書けるライブラリ。",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vuejs/rfcs",
+    [
+      {
+        "date": "2020-07-05T13:10:35.311Z",
+        "title": "Vue 3: mid 2020 status update · Issue #183 · vuejs/rfcs",
+        "url": "https://github.com/vuejs/rfcs/issues/183",
+        "content": "Vue 3のステータスについて。\n7月にRC、8月に正式リリースの予定。",
+        "tags": [
+          "Vue",
+          "news"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-07-18T16:23:11.501Z",
+        "title": "Vue 3 is now in RC! · Issue #189 · vuejs/rfcs",
+        "url": "https://github.com/vuejs/rfcs/issues/189",
+        "content": "Vue 3 RCリリース。\nマイグレーションガイドも合わせて公開されている。",
+        "tags": [
+          "Vue",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Introduction | Vue.js",
+            "url": "https://v3.vuejs.org/guide/migration/introduction.html"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "ryansolid/solid",
+    [
+      {
+        "date": "2020-07-13T13:22:22.315Z",
+        "title": "ryansolid/solid: A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+        "url": "https://github.com/ryansolid/solid",
+        "content": "JSXで書いてDOM APIを使ったRuntimeで動かすUIフレームワークとコンパイラ。\nReact HooksライクなReactivityやControl Flowを扱うComponentを持っている。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Tools",
+          "React",
+          "jsx",
+          "TypeScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Why SolidJS: Do we need another JS UI Library? - DEV Community 👩‍💻👨‍💻",
+            "url": "https://dev.to/ryansolid/why-solidjs-do-we-need-another-js-ui-library-1mdc"
+          }
+        ]
+      },
+      {
+        "date": "2020-11-15T01:35:53.071Z",
+        "title": "Release v0.22.0 · ryansolid/solid",
+        "url": "https://github.com/ryansolid/solid/releases/tag/v0.22.0",
+        "content": "UI作成ライブラリのsolid v0.22.0リリース。\n`splid-js/dom`を非推奨化し、`solid-js/web`を代わりに利用。\n`dev`オプションのサポート、CDNのJSだけで動かせるように`solid-js/html`などを同梱、`renderToWebStream`や`createMutable`の追加など",
+        "tags": [
+          "DOM",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "hapijs/hapi",
+    [
+      {
+        "date": "2020-07-14T01:49:25.736Z",
+        "title": "The future of the hapi project · Issue #4113 · hapijs/hapi",
+        "url": "https://github.com/hapijs/hapi/issues/4113",
+        "content": "現在のコアメンテナーが今年でメンテナンス終了を予定しているhapiの今後について。\nhapiのTechnical Steering Committee (TSC)を設立して、コミュニティでメンテナンスしていく方針について。\nメンテナーがTSCに移ったら新しいmajorバージョンをリリースする予定",
+        "tags": [
+          "node.js",
+          "issue",
+          "news"
+        ],
+        "relatedLinks": [
+          {
+            "title": "The future of the hapi project, a prelude · Issue #4111 · hapijs/hapi",
+            "url": "https://github.com/hapijs/hapi/issues/4111"
+          }
+        ]
+      },
+      {
+        "date": "2020-08-16T09:51:17.433Z",
+        "title": "20.0.0 Release Notes · Issue #4138 · hapijs/hapi",
+        "url": "https://github.com/hapijs/hapi/issues/4138",
+        "content": "hapi 20.0.0リリース。\nコアメンテナーが交代しTechnical Steering Committee (TSC) ベースのプロジェクトに変更がメインのアップデート。\n`@hapi/joi`から`@hapi/validate`に変更、Node.js 14のサポートなど",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "The future of the hapi project · Issue #4113 · hapijs/hapi",
+            "url": "https://github.com/hapijs/hapi/issues/4113"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "webpack/webpack",
+    [
+      {
+        "date": "2020-09-04T00:32:23.474Z",
+        "title": "webpack 5 release plan · Issue #11406 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/issues/11406",
+        "content": "webpack 5リリースまで予定について。\nwebpack 5は2020年10月10日リリース予定で、RCは9月にリリースする予定。\n細かいバグはwebpack 5リリース後に修正する予定とのこと。",
+        "tags": [
+          "webpack",
+          "news",
+          "issue"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-10-15T22:59:57.543Z",
+        "title": "Release v5.1.0 · webpack/webpack",
+        "url": "https://github.com/webpack/webpack/releases/tag/v5.1.0",
+        "content": "webpack 5.1.0リリース。\n`cleverMerge`、`EntryOptionPlugin`、`DynamicEntryPlugin`をPublic APIに変更。\ntry-catch内で`require`を使ってモジュールの有無を判定する処理がエラーとなる問題の修正",
+        "tags": [
+          "webpack",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "[5.0.0] require() of a non-existing package in a try-catch block is broken · Issue #11639 · webpack/webpack",
+            "url": "https://github.com/webpack/webpack/issues/11639"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "zloirock/core-js",
+    [
+      {
+        "date": "2020-11-07T08:15:54.043Z",
+        "title": "Release 3.7.0 - 2020.11.06 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.7.0",
+        "content": "core-js 3.7.0リリース。\nECMAScript/Proposalの仕様に準拠した変更、Node.jsでの`queueMicroTask`の実行順序の問題を修正、一部環境でのバグを修正など",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      },
+      {
+        "date": "2020-11-26T11:51:39.213Z",
+        "title": "Release 3.8.0 - 2020.11.26 · zloirock/core-js",
+        "url": "https://github.com/zloirock/core-js/releases/tag/v3.8.0",
+        "content": "core-js 3.8.0リリース。\n`Array#at`、`Number.range`、`Array.filterOut`、`Array#uniqueBy`の追加など",
+        "tags": [
+          "JavaScript",
+          "polyfill",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "machinelearnjs/machinelearnjs",
+    [
+      {
+        "date": "2020-01-01T00:25:37.207Z",
+        "title": "machinelearnjs/machinelearnjs: Machine Learning library for the web and Node.",
+        "url": "https://github.com/machinelearnjs/machinelearnjs",
+        "content": "TypeScriptで書かれたMLライブラリ",
+        "tags": [
+          "TypeScript",
+          "MachineLearning",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "hjkcai/typesafe-joi",
+    [
+      {
+        "date": "2020-01-02T11:51:21.886Z",
+        "title": "hjkcai/typesafe-joi: A fork of joi that produces typed validation results in TypeScript",
+        "url": "https://github.com/hjkcai/typesafe-joi",
+        "content": "データバリデーターであるjoiのTypeScriptフォークライブラリ。\n大部分は互換性のあるAPIだが、一部はType SafeにするためAPIを変更している。",
+        "tags": [
+          "TypeScript",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "antvis/G6",
+    [
+      {
+        "date": "2020-01-04T10:54:23.584Z",
+        "title": "antvis/G6: ♾ A Graph Visualization Framework in JavaScript",
+        "url": "https://github.com/antvis/G6",
+        "content": "データビジュアライズライブラリ。\nグラフの情報とデータを渡すことでビジュアライズしてくれるライブラリ",
+        "tags": [
+          "graphic",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "shellyln/tynder",
+    [
+      {
+        "date": "2020-01-05T16:18:18.166Z",
+        "title": "shellyln/tynder: TypeScript friendly Data validator for JavaScript.",
+        "url": "https://github.com/shellyln/tynder",
+        "content": "TypeScriptライクなDSLでスキーマを定義し、実行時にデータの型を検証を行うバリデーションライブラリ。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Tools"
+        ],
+        "relatedLinks": [
+          {
+            "title": "TypeScriptの型定義を使って、実行時にデータの検証を行う - Shellylのブログ",
+            "url": "https://shellyln.hatenablog.com/entry/2020/01/05/161345"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mroderick/plete",
+    [
+      {
+        "date": "2020-01-06T02:08:08.716Z",
+        "title": "mroderick/plete: Vanilla autocomplete component",
+        "url": "https://github.com/mroderick/plete",
+        "content": "依存のないautocomplete UIライブラリ。\nModern browserを対象としている。",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library",
+          "WAI-ARIA"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebook/flow",
+    [
+      {
+        "date": "2020-01-06T08:23:45.884Z",
+        "title": "Release v0.115.0 · facebook/flow",
+        "url": "https://github.com/facebook/flow/releases/tag/v0.115.0",
+        "content": "Flow v0.115.0リリース。\nTypes First modeではexportされたclassやfunctionは再定義できなくなるなど。\n",
+        "tags": [
+          "flowtype",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "What the Flow team has been up to - Flow - Medium",
+            "url": "https://medium.com/flow-type/what-the-flow-team-has-been-up-to-54239c62004f"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "date-fns/date-fns",
+    [
+      {
+        "date": "2020-01-11T04:16:15.165Z",
+        "title": "Release v2.9.0 · date-fns/date-fns",
+        "url": "https://github.com/date-fns/date-fns/releases/tag/v2.9.0",
+        "content": "date-fns 2.9.0リリース。\n`eachYearInterval`、`eachMonthInterval`、`isExists`の追加。\nオブジェクトでまとめてDateを操作する`add`と`sub`の追加など\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jsdom/jsdom",
+    [
+      {
+        "date": "2020-01-12T09:11:18.593Z",
+        "title": "Release Version 16.0.0 · jsdom/jsdom",
+        "url": "https://github.com/jsdom/jsdom/releases/tag/16.0.0",
+        "content": "jsdom 16.0.0リリース。\nNode.js 10未満のサポート終了、`dom.runVMScript()`の廃止、`prototype`使った`Window`間のプロパティ共有の廃止など。`window.getSelection()`のサポート、Timerのメモリリークを修正など",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "ReleaseNote",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "qawolf/qawolf",
+    [
+      {
+        "date": "2020-01-12T12:53:38.709Z",
+        "title": "qawolf/qawolf: 🐺Create browser tests 10x faster",
+        "url": "https://github.com/qawolf/qawolf",
+        "content": "PupeteerとJestを使ったテストフレームワーク。\n操作を記憶してテストケースとSelectorを作成でき、CIに実行結果の動画をアップロードのサポートなどをしている。\nAutomatic waiting、Keyboard eventsなどをサポートしている",
+        "tags": [
+          "Chrome",
+          "testing",
+          "library",
+          "TypeScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "QA Wolf",
+            "url": "https://docs.qawolf.com/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "babel/preset-modules",
+    [
+      {
+        "date": "2020-01-13T02:29:47.051Z",
+        "title": "babel/preset-modules: A Babel preset that targets modern browsers by fixing engine bugs (will be merged into preset-env eventually)",
+        "url": "https://github.com/babel/preset-modules",
+        "content": "@babel/preset-envにマージされる予定の、Modern Browser向けの最適化を目的にしたBabel Preset。\nMSEdgeなどのES Modulesをサポートしているが一部構文にバグがあるケースなどにも対応している。",
+        "tags": [
+          "babel",
+          "library",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleCloudPlatform/wombat-dressing-room",
+    [
+      {
+        "date": "2020-01-13T10:55:27.011Z",
+        "title": "GoogleCloudPlatform/wombat-dressing-room: proxy designed to reduce the attack surface of npm publish",
+        "url": "https://github.com/GoogleCloudPlatform/wombat-dressing-room",
+        "content": "GitHubリポジトリに紐付いたnpm publishをするための認証トークンを発行するシステム。npm registryに対する2FA Proxy。\nトークンと該当するGitHubのタグがある場合にのみpublishでき、トークンはパッケージごとに異なるため流出しても特定のパッケージのみに影響を抑える目的。",
+        "tags": [
+          "npm",
+          "Github",
+          "security"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Wombat Dressing Room, an npm publication proxy on GCP | Google Open Source Blog",
+            "url": "https://opensource.googleblog.com/2020/01/wombat-dressing-room-npm-publication_10.html"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "janl/mustache.js",
+    [
+      {
+        "date": "2020-01-17T11:58:23.475Z",
+        "title": "mustache.js/CHANGELOG.md at master · janl/mustache.js",
+        "url": "https://github.com/janl/mustache.js/blob/master/CHANGELOG.md#400--16-january-2020",
+        "content": "テンプレートエンジンであるmustache 4.0.0リリース。\n`.to_html()`メソッドの削除、テンプレートのキャッシュの仕組みをカスタマイズできるようになるなど。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "wasm3/wasm3",
+    [
+      {
+        "date": "2020-01-17T12:09:30.852Z",
+        "title": "wasm3/wasm3: 🚀 The fastest WebAssembly interpreter",
+        "url": "https://github.com/wasm3/wasm3",
+        "content": "WebAssemblyのインタープリター",
+        "tags": [
+          "WebAssembly"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "logaretm/villus",
+    [
+      {
+        "date": "2020-01-19T14:49:22.585Z",
+        "title": "logaretm/villus: A tiny and fast GraphQL client for Vue.js",
+        "url": "https://github.com/logaretm/villus",
+        "content": "Vue.js向けのGraphQLクライアントライブラリ。",
+        "tags": [
+          "Vue",
+          "GraphQL",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Announcing Villus - A tiny and fast GraphQL Client for Vue.js - Abdelrahman' Blog",
+            "url": "https://logaretm.com/blog/2020-01-11-announcing-villus/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "gjtorikian/isBinaryFile",
+    [
+      {
+        "date": "2020-01-20T10:45:07.321Z",
+        "title": "gjtorikian/isBinaryFile: Detects if a file is binary in Node.js. Similar to Perl's -B",
+        "url": "https://github.com/gjtorikian/isBinaryFile",
+        "content": "ファイルがバイナリかどうかを判定するNode.jsライブラリ",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "developit/htm",
+    [
+      {
+        "date": "2020-01-23T12:16:39.218Z",
+        "title": "Release 🎉 HTM 3 is here! · developit/htm",
+        "url": "https://github.com/developit/htm/releases/tag/3.0.0",
+        "content": "HTM 3リリース。\nStaticなTreeを判別してキャッシュ出来るように、Preact Xに対応、`babel-plugin-htm`に自動importのオプションを追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cutenode/mingine",
+    [
+      {
+        "date": "2020-02-01T12:15:02.630Z",
+        "title": "cutenode/mingine: A module to get the minimum usable engine(s)",
+        "url": "https://github.com/cutenode/mingine",
+        "content": "依存してるnpmパッケージの`engines`フィールドから、`engines`ごとのminimumなバージョンを算出するライブラリ",
+        "tags": [
+          "npm",
+          "node.js",
+          "Tools",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "single-spa/single-spa",
+    [
+      {
+        "date": "2020-02-11T06:31:15.021Z",
+        "title": "single-spa/single-spa: Microfrontends made easy",
+        "url": "https://github.com/single-spa/single-spa",
+        "content": "各種フレームワーク向けのアダプターを用意してるMicrofrontendsフレームワーク。\nそれぞれのフレームワークを使ったアプリを同一ページで扱うために必要なライフサイクルを管理するフレームワーク。\n",
+        "tags": [
+          "MicroFrontend",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Himenon/code-dependency",
+    [
+      {
+        "date": "2020-02-11T06:50:47.068Z",
+        "title": "Himenon/code-dependency: A work efficiency tool for visualizing code dependencies on a browser.",
+        "url": "https://github.com/Himenon/code-dependency",
+        "content": "dependency-cruiserを使ったモジュールの依存関係図を生成してブラウザで表示できるツール",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "server"
+        ],
+        "relatedLinks": [
+          {
+            "title": "dependency-cruiser",
+            "url": "https://qiita.com/himenoglyph/items/f28a9905e3b30e6cb213"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "scala-js/scala-js",
+    [
+      {
+        "date": "2020-02-11T07:14:27.887Z",
+        "title": "Release v1.0.0 · scala-js/scala-js",
+        "url": "https://github.com/scala-js/scala-js/releases/tag/v1.0.0",
+        "content": "Scala.js 1.0.0リリース",
+        "tags": [
+          "scala",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "myliang/x-spreadsheet",
+    [
+      {
+        "date": "2020-02-11T16:20:49.290Z",
+        "title": "myliang/x-spreadsheet: A web-based JavaScript（canvas） spreadsheet",
+        "url": "https://github.com/myliang/x-spreadsheet",
+        "content": "依存のないSpreadSheetの実装ライブラリ。Canvasを使って描画をしている。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "canvas"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "evanw/esbuild",
+    [
+      {
+        "date": "2020-02-17T15:00:49.341Z",
+        "title": "evanw/esbuild: An extremely fast JavaScript bundler and minifier",
+        "url": "https://github.com/evanw/esbuild",
+        "content": "Go言語製のJavaScript Bundler。\nCommonJS/ES Modules、Source Map、Minifier、JSXなどに対応している",
+        "tags": [
+          "golang",
+          "bundler"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "volument/baretest",
+    [
+      {
+        "date": "2020-02-17T15:51:01.661Z",
+        "title": "volument/baretest: An extremely fast and simple JavaScript test runner.",
+        "url": "https://github.com/volument/baretest",
+        "content": "自己実行可能なテストフレームワーク。\n`test`関数といくつかのライフサイクルを提供する小さなテストフレームワーク。",
+        "tags": [
+          "JavaScript",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Baretest — An extremely minimalistic alternative to Jest",
+            "url": "https://volument.com/baretest"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "FullHuman/purgecss",
+    [
+      {
+        "date": "2020-02-17T16:10:07.714Z",
+        "title": "Release v2.0 · FullHuman/purgecss",
+        "url": "https://github.com/FullHuman/purgecss/releases/tag/v2.0.5",
+        "content": "使われてないCSSを削除するPurgeCSS 2.0.0リリース。\n非同期化、CSS Variablesの対応、Node.js 8以下のサポート終了",
+        "tags": [
+          "CSS",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "PurgeCSS 2.0 - Full Human - Medium",
+            "url": "https://medium.com/full-human/purgecss-2-0-c0e812e6c4f6"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "benawad/destiny",
+    [
+      {
+        "date": "2020-02-24T11:27:11.679Z",
+        "title": "benawad/destiny: Prettier for File Structures",
+        "url": "https://github.com/benawad/destiny",
+        "content": "プロジェクトのファイル構造をコンポーネントごとに分けるように編集するツール",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "React"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reduxjs/cra-template-redux",
+    [
+      {
+        "date": "2020-02-24T11:42:00.394Z",
+        "title": "Release Initial Release: 1.0.0 · reduxjs/cra-template-redux",
+        "url": "https://github.com/reduxjs/cra-template-redux/releases/tag/v1.0.0",
+        "content": "create-react-app向けのReduxテンプレート。\n`npx create-react-app my-app --template redux` でセットアップできる。\nRedux Toolkitを利用している",
+        "tags": [
+          "React",
+          "redux",
+          "Tools"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Redux Toolkit | Redux Toolkit",
+            "url": "https://redux-toolkit.js.org/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "suchipi/hex-engine",
+    [
+      {
+        "date": "2020-02-24T11:50:01.205Z",
+        "title": "suchipi/hex-engine: A modern 2D game engine for the browser.",
+        "url": "https://github.com/suchipi/hex-engine",
+        "content": "Canvasを使った2Dゲームエンジンライブラリ。ReactインスパイアなAPIを持つ。\n音声同期、スプライトシートやアニメーション、物理エンジンなどのサポート。\nまたAseprite、Tiled、BMFontなどのオーサリングツールもサポートしている。",
+        "tags": [
+          "canvas",
+          "game",
+          "library",
+          "JavaScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Aseprite - Animated sprite editor & pixel art tool",
+            "url": "https://www.aseprite.org/"
+          },
+          {
+            "title": "Tiled Map Editor | A flexible level editor",
+            "url": "https://www.mapeditor.org/"
+          },
+          {
+            "title": "BMFont - AngelCode.com",
+            "url": "https://www.angelcode.com/products/bmfont/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Akryum/guijs",
+    [
+      {
+        "date": "2020-02-28T11:12:20.646Z",
+        "title": "Akryum/guijs: 🐣️ The app that makes your #devlife easier.",
+        "url": "https://github.com/Akryum/guijs",
+        "content": "JavaScriptプロジェクト向けのGUIアプリ",
+        "tags": [
+          "node.js",
+          "GUI"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "edtr-io/edtr-io",
+    [
+      {
+        "date": "2020-03-01T03:17:44.129Z",
+        "title": "edtr-io/edtr-io: Edtr.io is an open source WYSIWYG in-line web editor written in React. Its plugin architecture makes Edtr.io lean and extensive at the same time.",
+        "url": "https://github.com/edtr-io/edtr-io",
+        "content": "ReactベースのWYSIWYGエディタ。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "React"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jaredpalmer/tsdx",
+    [
+      {
+        "date": "2020-03-01T08:28:44.992Z",
+        "title": "jaredpalmer/tsdx: Zero-config CLI for TypeScript package development",
+        "url": "https://github.com/jaredpalmer/tsdx",
+        "content": "TypeScriptでnpmパッケージを開発する向けのツールキット。\nBuild、Test、Lintや最適化周りの設定などがビルトインされている。",
+        "tags": [
+          "TypeScript",
+          "JavaScript",
+          "npm",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebookexperimental/rome",
+    [
+      {
+        "date": "2020-03-02T14:07:32.208Z",
+        "title": "facebookexperimental/rome: An experimental JavaScript toolchain",
+        "url": "https://github.com/facebookexperimental/rome",
+        "content": "外部依存のないJavaScript compiler、bundler、Linter、Formatter、開発サーバなどを含むツールキット。\nBabelとYarnを作ったsebmck製。",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "petersalomonsen/wasm-git",
+    [
+      {
+        "date": "2020-03-02T14:33:15.544Z",
+        "title": "petersalomonsen/wasm-git: GIT for nodejs and the browser using https://libgit2.org compiled to WebAssembly with https://emscripten.org",
+        "url": "https://github.com/petersalomonsen/wasm-git",
+        "content": "libgitをEmscriptenでWebAssemblyにコンパイルしたライブラリ。\nブラウザとNode.jsで動作する",
+        "tags": [
+          "git",
+          "WebAssembly",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tomprograms/stormdb",
+    [
+      {
+        "date": "2020-03-02T14:34:45.026Z",
+        "title": "TomPrograms/stormdb: 🌩️ StormDB is a tiny, lightweight, 0 dependency, easy-to-use JSON-based database for NodeJS, the browser or Electron.",
+        "url": "https://github.com/tomprograms/stormdb",
+        "content": "ブラウザ、Node.jsで動作するJSONデータベースライブラリ。\n",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library",
+          "CoreData",
+          "JSON"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "JasonEtco/actions-toolkit",
+    [
+      {
+        "date": "2020-03-02T14:37:21.530Z",
+        "title": "JasonEtco/actions-toolkit: 🛠 A toolkit for building GitHub Actions in Node.js",
+        "url": "https://github.com/JasonEtco/actions-toolkit",
+        "content": "GitHub Actionsを書くための処理を集めたJavaScriptライブラリ、ツールキット。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Github",
+          "Actions"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "immerjs/immer",
+    [
+      {
+        "date": "2020-03-09T00:26:38.473Z",
+        "title": "Release v6.0.0 · immerjs/immer",
+        "url": "https://github.com/immerjs/immer/releases/tag/v6.0.0",
+        "content": "immer.js 6.0.0リリース。\nES5やMapのサポートなどを明示的なメソッドを呼び出しするように変更など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "klaussinani/qoa",
+    [
+      {
+        "date": "2020-03-09T13:41:40.960Z",
+        "title": "klaussinani/qoa: Minimal interactive command-line prompts",
+        "url": "https://github.com/klaussinani/qoa",
+        "content": "インタラクティブなCUIを提供するためのNode.jsライブラリ。\nテキスト入力や選択肢などのインタラクティブなプロンプトを提供する",
+        "tags": [
+          "node.js",
+          "library",
+          "console"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleChromeLabs/worker-plugin",
+    [
+      {
+        "date": "2020-03-11T10:13:41.341Z",
+        "title": "Release Worker Plugin 4.0 · GoogleChromeLabs/worker-plugin",
+        "url": "https://github.com/GoogleChromeLabs/worker-plugin/releases/tag/4.0.2",
+        "content": "webpack向けのWorker Plugin 4.0リリース。\nES Modulesのサポート、`worker-plugin/loader!<path>`のサポート、`SharedWorker`のサポートなど",
+        "tags": [
+          "webpack",
+          "webworker",
+          "plugin",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vriad/zod",
+    [
+      {
+        "date": "2020-03-14T20:08:08.238Z",
+        "title": "vriad/zod: Typescript-first schema validation with static type inference",
+        "url": "https://github.com/vriad/zod",
+        "content": "TypeScriptの型チェックとRuntimeでの型チェックを行うスキーマライブラリ。\nライブラリが提供するAPIを使ってスキーマを定義する",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Designing the perfect Typescript schema validation library",
+            "url": "https://vriad.com/blog/zod/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "lukeed/uid",
+    [
+      {
+        "date": "2020-03-17T00:37:50.936Z",
+        "title": "lukeed/uid: A tiny (134B) and fast utility to generate random IDs of fixed length",
+        "url": "https://github.com/lukeed/uid",
+        "content": "指定文字数のランダムな英数文字列を生成するライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ryanelian/ts-polyfill",
+    [
+      {
+        "date": "2020-03-18T17:46:54.447Z",
+        "title": "ryanelian/ts-polyfill: Runtime polyfills for TypeScript libs, powered by core-js!",
+        "url": "https://github.com/ryanelian/ts-polyfill",
+        "content": "tsconfig.jsonの`lib`に合わせたpolyfillを提供するライブラリ",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nestjs/nest",
+    [
+      {
+        "date": "2020-03-20T06:24:31.877Z",
+        "title": "Release v7.0.0 · nestjs/nest",
+        "url": "https://github.com/nestjs/nest/releases/tag/v7.0.0",
+        "content": "NestJS 7リリース。\n`type-graphql`パッケージから`@nestjs/graphql`パッケージに移行、\n`ParseArrayPipe`と`ParseBoolPipe`のtransformer pipeを追加など",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Announcing NestJS 7: What’s New - Trilon Consulting",
+            "url": "https://trilon.io/blog/announcing-nestjs-7-whats-new"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "elninotech/uppload",
+    [
+      {
+        "date": "2020-03-22T10:24:52.076Z",
+        "title": "elninotech/uppload: 📁 Uppload is a better JavaScript image uploader with 30+ plugins",
+        "url": "https://github.com/elninotech/uppload",
+        "content": "プラグインで様々なサービスに対応している画像アップロードライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "luciopaiva/heapify",
+    [
+      {
+        "date": "2020-03-23T23:20:41.433Z",
+        "title": "luciopaiva/heapify: The fastest JavaScript priority queue out there. Zero dependencies.",
+        "url": "https://github.com/luciopaiva/heapify",
+        "content": "優先度付きキューの実装ライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "luruke/browser-2020",
+    [
+      {
+        "date": "2020-03-24T00:21:08.135Z",
+        "title": "luruke/browser-2020: Things you can do with a browser in 2020 ☕️",
+        "url": "https://github.com/luruke/browser-2020",
+        "content": "ブラウザ/Chromeに実装されている新しいAPIについての概要をまとめたもの。",
+        "tags": [
+          "browser",
+          "WebPlatformAPI",
+          "article",
+          "Chrome"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "reduxjs/redux-toolkit",
+    [
+      {
+        "date": "2020-03-25T11:10:47.003Z",
+        "title": "Release v1.3.0 · reduxjs/redux-toolkit",
+        "url": "https://github.com/reduxjs/redux-toolkit/releases/tag/v1.3.0",
+        "content": "Redux Toolkit 1.3.0リリース。\nステートの正規化を管理を手助けする`createEntityAdapter`、非同期処理のパターンを提供する`createAsyncThunk`の追加。\nStoreのmutationを検知してエラー通知する仕組みの追加など",
+        "tags": [
+          "redux",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "chrvadala/node-ble",
+    [
+      {
+        "date": "2020-03-27T01:58:45.331Z",
+        "title": "chrvadala/node-ble: Bluetooth Low Energy (BLE) library written with pure Node.js (no bindings) - baked by Bluez via DBus",
+        "url": "https://github.com/chrvadala/node-ble",
+        "content": "Pure Node.jsなBLEライブラリ",
+        "tags": [
+          "node.js",
+          "Bluetooth",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kriasoft/node-sqlite",
+    [
+      {
+        "date": "2020-03-27T02:00:15.787Z",
+        "title": "kriasoft/node-sqlite at v4",
+        "url": "https://github.com/kriasoft/node-sqlite/tree/v4",
+        "content": "Node.jsのSQLiteクライアントライブラリ",
+        "tags": [
+          "SQLite",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "heremaps/harp.gl",
+    [
+      {
+        "date": "2020-03-28T06:45:38.540Z",
+        "title": "heremaps/harp.gl: harp.gl - web map rendering engine",
+        "url": "https://github.com/heremaps/harp.gl",
+        "content": "three.jsを使った3Dマップレンダリングエンジンライブラリ",
+        "tags": [
+          "JavaScript",
+          "WebGL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lirantal/npq",
+    [
+      {
+        "date": "2020-04-03T11:42:42.190Z",
+        "title": "lirantal/npq: 🎖safely* install packages with npm or yarn by auditing them as part of your install process",
+        "url": "https://github.com/lirantal/npq",
+        "content": "npmやyarnでパッケージをインストールする際に、パッケージのダウンロード数、READMEのうむ、インストールスクリプト、Snykでのチェックを行うCLI",
+        "tags": [
+          "npm",
+          "console",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tc39/ecma262",
+    [
+      {
+        "date": "2020-04-03T12:25:34.089Z",
+        "title": "Release ES2020 Candidate · tc39/ecma262",
+        "url": "https://github.com/tc39/ecma262/releases/tag/es2020",
+        "content": "ES2020のリリース候補が公開された。\n`import.meta`もES2020に含まれている。",
+        "tags": [
+          "ECMAScript",
+          "spec",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "engine262/engine262",
+    [
+      {
+        "date": "2020-04-03T12:29:25.931Z",
+        "title": "engine262/engine262: An implementation of ECMA-262 in JavaScript",
+        "url": "https://github.com/engine262/engine262",
+        "content": "JavaScriptによるECMAScript実装。\nJavaScript開発者が新しい言語機能のプロトタイピングを簡単にできるようにするのが目的",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "spec"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "caroso1222/notyf",
+    [
+      {
+        "date": "2020-04-07T01:34:36.657Z",
+        "title": "caroso1222/notyf: 👻 A minimalistic, responsive, vanilla JavaScript library to show toast notifications.",
+        "url": "https://github.com/caroso1222/notyf",
+        "content": "依存がないToast通知を行うUIライブラリ。",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Hopding/pdf-lib",
+    [
+      {
+        "date": "2020-04-13T09:29:23.300Z",
+        "title": "Hopding/pdf-lib: Create and modify PDF documents in any JavaScript environment",
+        "url": "https://github.com/Hopding/pdf-lib",
+        "content": "PDFを作成できるNode.jsライブラリ",
+        "tags": [
+          "PDF",
+          "library",
+          "node.js"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vime-js/vime",
+    [
+      {
+        "date": "2020-04-19T11:06:52.662Z",
+        "title": "vime-js/vime: All your media player needs in one place - a modern alternative to Videojs and Plyr. Supports Html5, Hls, Dash, YouTube, Vimeo, Dailymotion and more to come.",
+        "url": "https://github.com/vime-js/vime",
+        "content": "プラグインで拡張できるVideoプレイヤーライブラリ。\n機能ごとにモジュール化されているため、必要なモジュールだけを利用できる。",
+        "tags": [
+          "JavaScript",
+          "plugin",
+          "video",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "aeroheim/midori",
+    [
+      {
+        "date": "2020-04-19T11:42:03.689Z",
+        "title": "aeroheim/midori: library for animated image backgrounds",
+        "url": "https://github.com/aeroheim/midori",
+        "content": "Canvas/WebGLを使った背景画像のアニメーションを描画するライブラリ。\n読み込んだ背景画像に対してtransitionsやeffectsを設定できる。",
+        "tags": [
+          "JavaScript",
+          "WebGL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yusufnb/verify-json",
+    [
+      {
+        "date": "2020-04-19T11:43:52.042Z",
+        "title": "yusufnb/verify-json: verify-json",
+        "url": "https://github.com/yusufnb/verify-json",
+        "content": "JSONバリデーションライブラリ。\nスキーマを定義してJSONオブジェクトをバリデーションできる",
+        "tags": [
+          "JSON",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "zeit/swr",
+    [
+      {
+        "date": "2020-04-21T23:32:48.309Z",
+        "title": "zeit/swr: React Hooks library for remote data fetching",
+        "url": "https://github.com/zeit/swr",
+        "content": "データの取得を扱うReact Hooksライブラリ。\nデータの取得、リトライ、`mutate`による再取得、定期的な取得、SSRの対応、Suspenseの対応など",
+        "tags": [
+          "React",
+          "library",
+          "Fetch"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sindresorhus/got",
+    [
+      {
+        "date": "2020-04-23T00:52:44.990Z",
+        "title": "Release v11.0.0 · sindresorhus/got",
+        "url": "https://github.com/sindresorhus/got/releases/tag/v11.0.0",
+        "content": "Node.js向けHTTPクライアントのGot 11.0.0リリース。\nHTTP2をオプトインでサポート。\n`electron.net`のサポート終了、Pagination APIがStableに、`got.stream`の`encoding`オプションの変更、`dnsCache`オプションの変更など",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "szmarczak/cacheable-lookup: A cacheable dns.lookup(…) that respects TTL",
+            "url": "https://github.com/szmarczak/cacheable-lookup"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "developit/web-worker",
+    [
+      {
+        "date": "2020-04-24T21:38:13.904Z",
+        "title": "developit/web-worker: Consistent Web Workers in browser and Node.",
+        "url": "https://github.com/developit/web-worker",
+        "content": "UniversalなWebWorkerライブラリ。\nNode.jsの`worker_threads`とブラウザの`Worker`に対応している。",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "browser",
+          "webworker",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ezhmd/opencv-wasm",
+    [
+      {
+        "date": "2020-04-26T06:03:38.871Z",
+        "title": "ezhmd/opencv-wasm: Precompiled OpenCV 4.3.0 to JavaScript + WebAssembly for node.js environment",
+        "url": "https://github.com/ezhmd/opencv-wasm",
+        "content": "OpenCV.jsのWebAssemblyビルドをパッケージとして配布しているライブラリ",
+        "tags": [
+          "WebAssembly",
+          "graphic",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "markedjs/marked",
+    [
+      {
+        "date": "2020-04-26T12:17:05.586Z",
+        "title": "Release 1.0.0 · markedjs/marked",
+        "url": "https://github.com/markedjs/marked/releases/tag/v1.0.0",
+        "content": "Markdownパーサ、コンパイラのmarked 1.0.0リリース。\n`marked.use`でパーサに対してカスタマイズ処理ができるように",
+        "tags": [
+          "Markdown",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "highlightjs/highlight.js",
+    [
+      {
+        "date": "2020-04-27T14:02:46.034Z",
+        "title": "Release 10.0.0 · highlightjs/highlight.js",
+        "url": "https://github.com/highlightjs/highlight.js/releases/tag/10.0.0",
+        "content": "シンタックスハイライトライブラリのhighlight.js 10.0.0リリース。\nコードベースをES2015似変更しIEのサポート終了。\n`before:highlight`、`after:highlight` プラグインAPIの追加、それぞれの言語に`name`属性を追加など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "highlight.js/VERSION_10_BREAKING_CHANGES.md at master · highlightjs/highlight.js",
+            "url": "https://github.com/highlightjs/highlight.js/blob/master/VERSION_10_BREAKING_CHANGES.md"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "bikeshaving/crank",
+    [
+      {
+        "date": "2020-04-27T14:55:46.856Z",
+        "title": "bikeshaving/crank: Write JSX-driven components with functions, promises and generators.",
+        "url": "https://github.com/bikeshaving/crank",
+        "content": "ReactのようにJSXでコンポーネントを扱うライブラリ。\n非同期コンポーネントをPromiseとGeneratorを使って扱えるようにしている。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "React"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Crank.js | Introducing Crank",
+            "url": "https://crank.js.org/blog/introducing-crank"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mohebifar/vidact",
+    [
+      {
+        "date": "2020-04-27T15:15:14.156Z",
+        "title": "mohebifar/vidact: A compiler that converts React-compatible codes to VanillaJS with no Virtual DOM",
+        "url": "https://github.com/mohebifar/vidact",
+        "content": "ReactライクなコードをプレーンなJavaScriptに変換するコンパイラとランタイム。\nSvelteと似たコンセプトで、Babelプラインとして実装したコンパイラでReact/JSXなコードを同等のDOM表現に変換する目的",
+        "tags": [
+          "babel",
+          "React",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lukeed/rosetta",
+    [
+      {
+        "date": "2020-04-28T00:34:43.310Z",
+        "title": "lukeed/rosetta: A general purpose internationalization library in 292 bytes",
+        "url": "https://github.com/lukeed/rosetta",
+        "content": "シンプルなローカライズライブラリ",
+        "tags": [
+          "JavaScript",
+          "i18n",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rinsuki/play-flv-in-browser",
+    [
+      {
+        "date": "2020-05-01T07:35:51.251Z",
+        "title": "rinsuki/play-flv-in-browser: Play FLV in Browser!",
+        "url": "https://github.com/rinsuki/play-flv-in-browser",
+        "content": "ffmepgをWebAssemblyにコンパイルしたものを使ってflv/mp4をブラウザで再生するデモ",
+        "tags": [
+          "flash",
+          "video",
+          "WebAssembly",
+          "JavaScript",
+          "browser"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "addaleax/gen-esm-wrapper",
+    [
+      {
+        "date": "2020-05-03T12:54:03.156Z",
+        "title": "addaleax/gen-esm-wrapper: Generate ESM wrapper files for CommonJS modules",
+        "url": "https://github.com/addaleax/gen-esm-wrapper",
+        "content": "CommonJSからESM Wrapperを生成するツール",
+        "tags": [
+          "node.js",
+          "CommonJS",
+          "ECMAScript",
+          "module"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jesseduffield/lazynpm",
+    [
+      {
+        "date": "2020-05-04T16:54:50.754Z",
+        "title": "jesseduffield/lazynpm: terminal UI for npm",
+        "url": "https://github.com/jesseduffield/lazynpm",
+        "content": "lazygit, lazydockerライクなnpmのターミナルUIツール。\nパッケージの情報表示、パッケージの管理、スクリプトの実行など",
+        "tags": [
+          "npm",
+          "console",
+          "UI"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "antfu/i18n-ally",
+    [
+      {
+        "date": "2020-05-07T03:51:56.961Z",
+        "title": "antfu/i18n-ally: 🌍 All in one i18n extension for VS Code",
+        "url": "https://github.com/antfu/i18n-ally",
+        "content": "VSCode上に作られたi18n編集システム。\nエディタ上で翻訳キーの代わりに翻訳結果の表示などローカライズの支援をする拡張機能。\nさまざまなフレームワークに対応している",
+        "tags": [
+          "VSCode",
+          "i18n",
+          "Extension",
+          "EmEditor"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mdx-js/mdx",
+    [
+      {
+        "date": "2020-05-07T04:03:57.544Z",
+        "title": "Release v1.6.0 · mdx-js/mdx",
+        "url": "https://github.com/mdx-js/mdx/releases/tag/v1.6.0",
+        "content": "MarkdownにJSXを拡張するMDX 1.6.0リリース。\nVueをベータサポート",
+        "tags": [
+          "JavaScript",
+          "Markdown",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sindresorhus/slugify",
+    [
+      {
+        "date": "2020-05-11T09:32:39.247Z",
+        "title": "sindresorhus/slugify: Slugify a string",
+        "url": "https://github.com/sindresorhus/slugify",
+        "content": "文字列からURLやファイル名などに使えるslug文字列を作成するライブラリ　",
+        "tags": [
+          "JavaScript",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nikersify/pico",
+    [
+      {
+        "date": "2020-05-11T09:34:08.652Z",
+        "title": "nikersify/pico: Take browser screenshots in Javascript 📸",
+        "url": "https://github.com/nikersify/pico",
+        "content": "SVGの`<foreignObject>`を使ってHTMLのスクリーンショットを作成するライブラリ",
+        "tags": [
+          "JavaScript",
+          "SVG",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "shqld/tish",
+    [
+      {
+        "date": "2020-05-11T23:03:30.208Z",
+        "title": "shqld/tish: A typescript utils for shell operations. Totally Promise, Multi-platform, Optimized, Lazy✌️",
+        "url": "https://github.com/shqld/tish",
+        "content": "シェルスクリプトのような処理をTypeScriptで書けるutilライブラリ。\nコマンドの実行やパイプ処理などを扱う",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "ShellScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Raynos/npm-bin-deps",
+    [
+      {
+        "date": "2020-05-16T02:32:12.526Z",
+        "title": "Raynos/npm-bin-deps: NPR allows you to run your CLI dependencies without having a copy in node_modules.",
+        "url": "https://github.com/Raynos/npm-bin-deps",
+        "content": "npm run-scriptからコマンドとして利用するパッケージを`package.json`に`binDependencies`として定義して、利用するツール",
+        "tags": [
+          "npm",
+          "node.js",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "addyosmani/puppeteer-webperf",
+    [
+      {
+        "date": "2020-05-16T05:54:35.452Z",
+        "title": "addyosmani/puppeteer-webperf: Automating Web Performance testing with Puppeteer 🎪",
+        "url": "https://github.com/addyosmani/puppeteer-webperf",
+        "content": "Puppeteerを使ったパフォーマンス計測のメトリクス取得などのスニペットリポジトリ",
+        "tags": [
+          "Chrome",
+          "performance",
+          "JavaScript",
+          "example"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sandersn/downlevel-dts",
+    [
+      {
+        "date": "2020-05-16T08:08:49.974Z",
+        "title": "sandersn/downlevel-dts: Convert a new d.ts to one that works with older versions of Typescript",
+        "url": "https://github.com/sandersn/downlevel-dts",
+        "content": "TypeScriptの型定義のダウングレードを行うツール。\nTypeScriptの古い機能を使って新しい機能を再現するように型定義を変換するツール",
+        "tags": [
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "facebookexperimental/Recoil",
+    [
+      {
+        "date": "2020-05-18T11:41:15.309Z",
+        "title": "facebookexperimental/Recoil: Recoil is an experimental state management library for React apps. It provides several capabilities that are difficult to achieve with React alone, while being compatible with the newest features of React.",
+        "url": "https://github.com/facebookexperimental/Recoil",
+        "content": "React向けのステート管理ライブラリ。",
+        "tags": [
+          "React",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cacjs/cac",
+    [
+      {
+        "date": "2020-05-24T14:32:56.004Z",
+        "title": "cacjs/cac: Simple yet powerful framework for building command-line apps.",
+        "url": "https://github.com/cacjs/cac",
+        "content": "コマンドラインツール向けのライブラリ。\n引数パーサ、ヘルプ表示、バージョン表示、サブコマンドの仕組みを持っている",
+        "tags": [
+          "JavaScript",
+          "console",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "loreanvictor/rxxpress",
+    [
+      {
+        "date": "2020-05-24T14:35:57.695Z",
+        "title": "loreanvictor/rxxpress: An Experimental Mashup of RxJS and Express",
+        "url": "https://github.com/loreanvictor/rxxpress/",
+        "content": "RxJSを使ったExpressライクなサーバライブラリ。\nExpressのRouterと組み合わせ利用できるように設計されている",
+        "tags": [
+          "Rx",
+          "node.js",
+          "server",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "umijs/umi-request",
+    [
+      {
+        "date": "2020-05-25T13:38:42.585Z",
+        "title": "umijs/umi-request: A request tool based on fetch.",
+        "url": "https://github.com/umijs/umi-request",
+        "content": "Fetch APIベースのHTTPリクエストライブラリ",
+        "tags": [
+          "Fetch",
+          "browser",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "xFAANG/askql",
+    [
+      {
+        "date": "2020-05-26T12:43:52.239Z",
+        "title": "xFAANG/askql: AskQL is a query language that can express any data request",
+        "url": "https://github.com/xFAANG/askql",
+        "content": "実行できるコードをリクエストとして利用するクエリ言語。\nAskQLは、プログラミング言語ライクなクエリ(AskScript)を書いたものをコード(AskCode)に変換してサーバへ送信し、Sandbox機構をもつAskVMで実行した結果をJSONとして返す",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "library",
+          "GraphQL",
+          "API"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "babel/babel-polyfills",
+    [
+      {
+        "date": "2020-05-26T23:35:28.505Z",
+        "title": "babel/babel-polyfills: A set of Babel plugins that enable injecting different polyfills with different strategies in your compiled code.",
+        "url": "https://github.com/babel/babel-polyfills",
+        "content": "Babelのpolyfillエンジン。\ncore-jsやes-shimsなどpolyfillを選択できる。\npolyfillモジュールをinject方法として`entry-global`、`usage-global`、`usage-pure`をもつ",
+        "tags": [
+          "babel",
+          "polyfill"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "otiai10/lookpath",
+    [
+      {
+        "date": "2020-05-29T10:32:34.942Z",
+        "title": "otiai10/lookpath: The minimum and most straightforward way to check if command exists and where the executable is, WITHOUT spawning subprocess",
+        "url": "https://github.com/otiai10/lookpath",
+        "content": "`which`などのコマンドを使わずに、実行ファイルのパスを取得するNode.jsライブラリ",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "deeppatel234/webpack-report",
+    [
+      {
+        "date": "2020-05-30T16:08:17.357Z",
+        "title": "deeppatel234/webpack-report: Webpack Build Analysis Plugin",
+        "url": "https://github.com/deeppatel234/webpack-report",
+        "content": "webpackのbundleされたファイルの依存関係、ビルド時間などのビルド情報、chunkやモジュールなどのサイズのビジュアライズをしてくれるプラグイン。",
+        "tags": [
+          "webpack",
+          "performance",
+          "plugin"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "divy-work/autopilot-deno",
+    [
+      {
+        "date": "2020-05-31T05:44:09.121Z",
+        "title": "divy-work/autopilot-deno: Cross-platform desktop automation library for Deno.",
+        "url": "https://github.com/divy-work/autopilot-deno",
+        "content": "キーボードやマウスなどデスクトップ処理の自動化を行うDeno向けのライブラリ",
+        "tags": [
+          "deno",
+          "Rust",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mvasilkov/assert-equal-html",
+    [
+      {
+        "date": "2020-06-04T14:26:59.057Z",
+        "title": "mvasilkov/assert-equal-html: Assert the equality of two HTML fragments",
+        "url": "https://github.com/mvasilkov/assert-equal-html",
+        "content": "HTMLの断片同士を比較する関数。\nパーサでHTMLをパースしてその結果を比較している",
+        "tags": [
+          "HTML",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Agoric/ses-shim",
+    [
+      {
+        "date": "2020-06-06T06:08:55.368Z",
+        "title": "Agoric/SES-shim: SES (Secure EcmaScript) is a secure runtime for executing third-party code safely",
+        "url": "https://github.com/Agoric/ses-shim",
+        "content": "SES(Secure EcmaScript)のshimライブラリ。\nオブジェクトの書き換えできなくしたり環境できなくした環境でコードを実行する機能、セキュリティモデル。\n一種のsandboxでコードを実行するための仕様の実装。",
+        "tags": [
+          "security",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Securing JavaScript Modules - Agoric - Medium",
+            "url": "https://medium.com/agoric/ses-support-for-ecmascript-modules-28fc1beb709c"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "developit/redaxios",
+    [
+      {
+        "date": "2020-06-08T14:16:40.771Z",
+        "title": "developit/redaxios: The Axios API, as an 800 byte Fetch wrapper.",
+        "url": "https://github.com/developit/redaxios",
+        "content": "Fetch APIを使ったAxiosライクなAPIを実装する目的のHTTPライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Fetch"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "angular/angular.js",
+    [
+      {
+        "date": "2020-06-08T14:45:51.713Z",
+        "title": "angular.js/CHANGELOG.md at master · angular/angular.js",
+        "url": "https://github.com/angular/angular.js/blob/master/CHANGELOG.md#180-nested-vaccination-2020-06-01",
+        "content": "AngularJS 1.8.0リリース。\njQuery 3.5で修正されたXSSの問題に対するために、一部非互換な変更を含むセキュリティアップデート",
+        "tags": [
+          "Angular",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "jQuery Core 3.5 Upgrade Guide | jQuery",
+            "url": "https://jquery.com/upgrade-guide/3.5/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "garronej/denoify",
+    [
+      {
+        "date": "2020-06-09T02:32:29.080Z",
+        "title": "garronej/denoify: 🦕For NPM module authors that would like to support Deno but do not want to write and maintain a port for it.",
+        "url": "https://github.com/garronej/denoify",
+        "content": "npmモジュールをDenoから読み込めるように変換するtranspiler。\n`fs`などの互換モジュールの変換なども行う",
+        "tags": [
+          "node.js",
+          "deno",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ReactTraining/history",
+    [
+      {
+        "date": "2020-06-13T02:50:00.682Z",
+        "title": "Release v5.0.0 · ReactTraining/history",
+        "url": "https://github.com/ReactTraining/history/releases/tag/v5.0.0",
+        "content": "history.js 5.0.0リリース。\nHTML5 history APIをサポートしてないブラウザのサポート終了、TypeScriptのサポート、ファイルサイズの削減など。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rwaldron/johnny-five",
+    [
+      {
+        "date": "2020-06-15T13:04:42.783Z",
+        "title": "Release v2.0.0 · rwaldron/johnny-five",
+        "url": "https://github.com/rwaldron/johnny-five/releases/tag/v2.0.0",
+        "content": "IoTフレームワークのjohnny-five 2.0リリース",
+        "tags": [
+          "JavaScript",
+          "IoT",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "JSMonk/hegel",
+    [
+      {
+        "date": "2020-06-15T13:30:53.787Z",
+        "title": "JSMonk/hegel: An advanced static type checker",
+        "url": "https://github.com/JSMonk/hegel",
+        "content": "JavaScriptで書かれたJavaScriptの型チェッカ。\n型アノテーションを書くことで型チェックを行える。TypeScriptとは異なり静的な型チェックが通った場合に実行時エラーが出ないような実装をしている。ライブラリの型チェックにはTypeScriptの型定義ファイルを利用できる。",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "Tools"
+        ],
+        "relatedLinks": [
+          {
+            "title": "What & Why | Hegel",
+            "url": "https://hegel.js.org/docs"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "bcoe/http2spy",
+    [
+      {
+        "date": "2020-06-15T14:53:47.159Z",
+        "title": "bcoe/http2spy: test helpers for working with Node.js' http2 module",
+        "url": "https://github.com/bcoe/http2spy",
+        "content": "`http2`モジュールのspyライブラリ",
+        "tags": [
+          "HTTP2",
+          "node.js",
+          "library",
+          "testing"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleCloudPlatform/require-so-slow",
+    [
+      {
+        "date": "2020-06-15T14:56:59.969Z",
+        "title": "GoogleCloudPlatform/require-so-slow: `require`s taking too much time? Profile 'em.",
+        "url": "https://github.com/GoogleCloudPlatform/require-so-slow",
+        "content": "npmモジュールのロード時間をChrome Timeline Viewerで見られるようにプロファイルを取るツール。\nモジュール内での`require`にかかっている時間を可視化できる",
+        "tags": [
+          "node.js",
+          "performance",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bradtraversy/vanillawebprojects",
+    [
+      {
+        "date": "2020-06-15T15:14:55.927Z",
+        "title": "bradtraversy/vanillawebprojects: Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries",
+        "url": "https://github.com/bradtraversy/vanillawebprojects",
+        "content": "ライブラリやフレームワークを使わずにHTML/JavaScript/CSSで書いたアプリケーションのサンプル集",
+        "tags": [
+          "JavaScript",
+          "example"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "nuxt/nuxt.js",
+    [
+      {
+        "date": "2020-06-19T13:50:17.903Z",
+        "title": "Release v2.13.0 · nuxt/nuxt.js",
+        "url": "https://github.com/nuxt/nuxt.js/releases/tag/v2.13.0",
+        "content": "Nuxt.js 2.13.0リリース。\n`target: static`の追加、`.env`をビルトインサポート、`@nuxt/components`でのAuto Discoryオプションの追加など。\nまた、Nuxt.jsの利用情報を送信するようになり、オプトアウトのためのオプションの追加など",
+        "tags": [
+          "Vue",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "nuxt/telemetry: Nuxt Telemetry",
+            "url": "https://github.com/nuxt/telemetry#opting-out"
+          },
+          {
+            "title": "nuxt/components: Scan and auto import components for Nuxt.js 2.13+",
+            "url": "https://github.com/nuxt/components"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mswjs/msw",
+    [
+      {
+        "date": "2020-06-19T15:25:00.051Z",
+        "title": "mswjs/msw: Seamless REST/GraphQL API mocking library for browser and Node.",
+        "url": "https://github.com/mswjs/msw",
+        "content": "HTTPモックライブラリ。\nService Workerを使う方法、Fetch、XHR、`http`モジュールをinterceptする方法を提供している。\nリクエストに対するレスポンスを定義して、ブラウザとNode.jsでそれぞれHTTPリクエストのテストができるライブラリ",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "node.js",
+          "ServiceWorker",
+          "library",
+          "testing"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "milesj/interweave",
+    [
+      {
+        "date": "2020-06-21T05:42:24.827Z",
+        "title": "milesj/interweave: 🌀 React library to safely render HTML, filter attributes, autowrap text with matchers, render emoji characters, and much more.",
+        "url": "https://github.com/milesj/interweave",
+        "content": "HTML文字列をレンダリングできるReactコンポーネント。\n指定したタグのみを許可したり、自動リンク、絵文字の対応、SSRなどに対応している",
+        "tags": [
+          "React",
+          "HTML",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "marcello3d/lascaux-sketch",
+    [
+      {
+        "date": "2020-06-23T02:03:28.445Z",
+        "title": "marcello3d/lascaux-sketch: Lascaux Sketch 2 is an open source web-based digital painting tool",
+        "url": "https://github.com/marcello3d/lascaux-sketch",
+        "content": "WebGLを使ったお絵かきツール。\nJava AppletのLascaux SketchをWebGLベースに移植したもの",
+        "tags": [
+          "JavaScript",
+          "WebGL",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vitejs/vite",
+    [
+      {
+        "date": "2020-06-23T02:06:46.895Z",
+        "title": "vitejs/vite: Native-ESM powered web dev build tool. It's fast.",
+        "url": "https://github.com/vitejs/vite",
+        "content": "Vite 1.0.0βリリース",
+        "tags": [
+          "Vue",
+          "Tools",
+          "bundler",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sokra/slides",
+    [
+      {
+        "date": "2020-06-23T02:57:38.326Z",
+        "title": "slides/ModuleFederationWebpack5.md at master · sokra/slides",
+        "url": "https://github.com/sokra/slides/blob/master/content/ModuleFederationWebpack5.md",
+        "content": "webpack 5で導入予定のModule Federationについてのスライド。\nFederationでの最適化や動作、既存のDLLやExternalsとの違いについて話されている",
+        "tags": [
+          "webpack",
+          "slide"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Module Federation | webpack",
+            "url": "https://webpack.js.org/concepts/module-federation/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "nastyox/Rando.js",
+    [
+      {
+        "date": "2020-06-28T14:23:44.138Z",
+        "title": "nastyox/Rando.js: The world's easiest, most powerful random function.",
+        "url": "https://github.com/nastyox/Rando.js",
+        "content": "指定範囲のランダムな値を生成するライブラリ。\n\n",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vuejs/composition-api",
+    [
+      {
+        "date": "2020-07-01T10:53:21.130Z",
+        "title": "Release v1.0.0-beta.1 · vuejs/composition-api",
+        "url": "https://github.com/vuejs/composition-api/releases/tag/v1.0.0-beta.1",
+        "content": "Vue 2向けのComposition API実装である@vue/composition-api 1.0.0 beta  1リリース",
+        "tags": [
+          "Vue",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "video-dev/hls.js",
+    [
+      {
+        "date": "2020-07-02T03:00:20.100Z",
+        "title": "Release v0.14.0 · video-dev/hls.js",
+        "url": "https://github.com/video-dev/hls.js/releases/tag/v0.14.0",
+        "content": "hls.js 0.14.0リリース。\n\n",
+        "tags": [
+          "HLS",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "react-hook-form/react-hook-form",
+    [
+      {
+        "date": "2020-07-04T06:01:46.039Z",
+        "title": "Release Version 6.0.0 · react-hook-form/react-hook-form",
+        "url": "https://github.com/react-hook-form/react-hook-form/releases/tag/v6.0.0",
+        "content": "React Hook Form 6.0.0リリース。\n",
+        "tags": [
+          "React",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "preactjs/compressed-size-action",
+    [
+      {
+        "date": "2020-07-04T06:03:23.947Z",
+        "title": "preactjs/compressed-size-action: GitHub Action that adds compressed size changes to your PRs.",
+        "url": "https://github.com/preactjs/compressed-size-action",
+        "content": "JavaScriptファイルのビルドサイズの変更を通知するGitHub Actions。\n",
+        "tags": [
+          "Github",
+          "Actions",
+          "library",
+          "node.js",
+          "npm"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tom-sherman/immurl",
+    [
+      {
+        "date": "2020-07-04T15:36:27.323Z",
+        "title": "tom-sherman/immurl: 🔗 A tiny immutable URL library, backed by the native whatwg URL.",
+        "url": "https://github.com/tom-sherman/immurl",
+        "content": "`URL`のimmutable版",
+        "tags": [
+          "JavaScript",
+          "URL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "antfu/vue-demi",
+    [
+      {
+        "date": "2020-07-05T13:22:16.106Z",
+        "title": "antfu/vue-demi: 🎩 Creates Universal Library for Vue 2 & 3",
+        "url": "https://github.com/antfu/vue-demi",
+        "content": "Vue2と3に対応したライブラリを作成するためのライブラリ。\nVue2と3に互換性がないためどちらにも対応したライブラリを作るためのツールキット的なライブラリ\n",
+        "tags": [
+          "Vue",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Make Libraries Working with Vue 2 and 3 - Anthony Fu",
+            "url": "https://antfu.me/posts/make-libraries-working-with-vue-2-and-3/"
+          },
+          {
+            "title": "Vue 3: mid 2020 status update · Issue #183 · vuejs/rfcs",
+            "url": "https://github.com/vuejs/rfcs/issues/183#issuecomment-651944231"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "fastify/fastify",
+    [
+      {
+        "date": "2020-07-08T13:02:16.984Z",
+        "title": "Release v3.0.0 · fastify/fastify",
+        "url": "https://github.com/fastify/fastify/releases/tag/v3.0.0",
+        "content": "Fastify v3リリース。\nExpress middlewareを使う場合は`fastify-express`プラグインを使うように、loggerのserializersのシグネチャーの変更、TypeScriptの型定義の変更など",
+        "tags": [
+          "node.js",
+          "server",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Fastify v3 released - Fastify - Medium",
+            "url": "https://medium.com/@fastifyjs/fastify-v3-released-da4601d79a5"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "malinajs/malinajs",
+    [
+      {
+        "date": "2020-07-12T15:01:16.456Z",
+        "title": "malinajs/malinajs: Frontend compiler, inspired by Svelte",
+        "url": "https://github.com/malinajs/malinajs",
+        "content": "SvelteライクなJavaScriptにコンパイルされるUIフレームワーク。\nSvelteとは異なる変更検知の仕組みやDOM更新の仕組みを使う\n",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "I created the same app in Svelte.js and Malina.js. Here are the differences. | by Oleg Nechaev | JavaScript In Plain English | Jul, 2020 | Medium",
+            "url": "https://medium.com/javascript-in-plain-english/svelte-js-and-malina-js-b33c55253271"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "adobe/react-spectrum",
+    [
+      {
+        "date": "2020-07-16T13:58:44.551Z",
+        "title": "adobe/react-spectrum: A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+        "url": "https://github.com/adobe/react-spectrum",
+        "content": "WAI-ARIAとコンポーネントの状態管理をするReact Hooks、AdobeのデザインシステムのReactコンポーネントの実装のライブラリ。\nWAI-ARIAやキーボード操作などのアクセシビリティ、i18の仕組みなどを提供することが目的",
+        "tags": [
+          "React",
+          "library",
+          "accessibility",
+          "i18n",
+          "Keyboard"
+        ],
+        "relatedLinks": [
+          {
+            "title": "React Spectrum",
+            "url": "https://react-spectrum.adobe.com/index.html"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "richardanaya/tour_of_rust",
+    [
+      {
+        "date": "2020-07-17T05:59:29.127Z",
+        "title": "richardanaya/tour_of_rust: A tour of rust's language features",
+        "url": "https://github.com/richardanaya/tour_of_rust",
+        "content": "WebAssemblyのツアー式チュートリアル",
+        "tags": [
+          "WebAssembly",
+          "tutorial"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "breejs/bree",
+    [
+      {
+        "date": "2020-07-17T13:32:05.385Z",
+        "title": "breejs/bree: Bree is the best job scheduler for Node.js with support for cron, dates, ms, later, and human-friendly strings. Uses workers and spawns sandboxed processes. Supports async/await, retries, throttling, concurrency, and cancelable jobs (graceful shutdown). Simple, fast, and the most lightweight tool for the job. Made for Forward Email and Lad.",
+        "url": "https://github.com/breejs/bree",
+        "content": "Node.jsのjob scheduler/cron処理ライブラリ",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "getify/moduloze",
+    [
+      {
+        "date": "2020-07-17T13:55:44.632Z",
+        "title": "getify/moduloze: Convert CommonJS (CJS) modules to UMD and ESM formats",
+        "url": "https://github.com/getify/moduloze",
+        "content": "CommonJSをUMDとES Modulesに変換するツール",
+        "tags": [
+          "node.js",
+          "module",
+          "Bluetooth"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "iamakulov/awesome-webpack-perf",
+    [
+      {
+        "date": "2020-07-18T00:46:10.477Z",
+        "title": "iamakulov/awesome-webpack-perf: A curated list of webpack tools for web performance",
+        "url": "https://github.com/iamakulov/awesome-webpack-perf",
+        "content": "webpackのパフォーマンス関係のプラグイン、Loaderのまとめ。\n最適化を行うloaderやbundleの分析を行うプラグインなどをまとめたもの",
+        "tags": [
+          "webpack",
+          "plugin",
+          "performance"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "zizzamia/perfume.js",
+    [
+      {
+        "date": "2020-07-18T02:23:51.404Z",
+        "title": "Zizzamia/perfume.js: Web performance library for measuring all User-centric performance metrics",
+        "url": "https://github.com/zizzamia/perfume.js",
+        "content": "ブラウザのさまざまなパフォーマンスメトリクスを取得できるJavaScriptライブラリ。\nNavigation Timing、Element Timing、Web Vitalsなどに対応している",
+        "tags": [
+          "JavaScript",
+          "performance",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "naver/billboard.js",
+    [
+      {
+        "date": "2020-07-20T13:06:41.232Z",
+        "title": "Release 2.0.0 · naver/billboard.js",
+        "url": "https://github.com/naver/billboard.js/releases/tag/2.0.0",
+        "content": "D3.jsベースのチャートライブラリであるbillboard.js 2.0.0リリース。\nTypeScriptでの書き直し、ファイルサイズとパフォーマンスの改善、一部オプションのシグネチャーの変更、`.transform()`の非推奨化など",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "📊 billboard.js 2.0 is out! 🎉🎊, more smaller and faster. | by Jae Sung Park | Jul, 2020 | Medium",
+            "url": "https://medium.com/@alberto.park/billboard-js-2-0-is-out-15e84b52ab11"
+          },
+          {
+            "title": "CHANGELOG v2 · naver/billboard.js Wiki",
+            "url": "https://github.com/naver/billboard.js/wiki/CHANGELOG-v2"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "lukeed/dequal",
+    [
+      {
+        "date": "2020-07-20T16:03:26.599Z",
+        "title": "lukeed/dequal: A tiny (305B) utility for check for deep equality",
+        "url": "https://github.com/lukeed/dequal",
+        "content": "deep-equalライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lukeed/klona",
+    [
+      {
+        "date": "2020-07-20T16:03:40.621Z",
+        "title": "lukeed/klona: A tiny (423B) and fast utility to \"deep clone\" Objects, Arrays, Dates, RegExps, and more!",
+        "url": "https://github.com/lukeed/klona",
+        "content": "deep-cloneライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "returntocorp/semgrep",
+    [
+      {
+        "date": "2020-07-26T13:53:40.449Z",
+        "title": "returntocorp/semgrep: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+        "url": "https://github.com/returntocorp/semgrep",
+        "content": "ASTベースのコード検索ツール。\nPython/JavaScript/Go/Java/C/JSONなどに対してパターンマッチでの検索ができる",
+        "tags": [
+          "console",
+          "Tools",
+          "search"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "wixplosives/pleb",
+    [
+      {
+        "date": "2020-07-26T14:33:01.958Z",
+        "title": "wixplosives/pleb: a casual publisher",
+        "url": "https://github.com/wixplosives/pleb",
+        "content": "monorepoのnpm publishで行うツール。\ngitコミットハッシュベースのcanaryリリースを行うこともできる",
+        "tags": [
+          "npm",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "hugojosefson/minimum-node-version",
+    [
+      {
+        "date": "2020-07-27T15:45:42.597Z",
+        "title": "hugojosefson/minimum-node-version: Figures out the lowest version of Node.js that satisfies engines.node in package.json.",
+        "url": "https://github.com/hugojosefson/minimum-node-version",
+        "content": "依存してるライブラリの`engines`フィールドを満たす最小のNode.jsバージョンを検索するツール",
+        "tags": [
+          "node.js",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "CyberAgentHack/web-speed-hackathon-online",
+    [
+      {
+        "date": "2020-07-27T15:59:17.490Z",
+        "title": "Web Speed Hackathon Online 出題のねらいと解説 · CyberAgentHack/web-speed-hackathon-online Wiki",
+        "url": "https://github.com/CyberAgentHack/web-speed-hackathon-online/wiki/Web-Speed-Hackathon-Online-%E5%87%BA%E9%A1%8C%E3%81%AE%E3%81%AD%E3%82%89%E3%81%84%E3%81%A8%E8%A7%A3%E8%AA%AC",
+        "content": "ウェブアプリケーションのパフォーマンス改善ハッカソンの解説。\nフロントエンド、バックエンド、ビルド処理での最適化についてハッカソンのアプリを題材に解説している",
+        "tags": [
+          "performance",
+          "article",
+          "webpack",
+          "babel",
+          "CSS"
+        ],
+        "relatedLinks": [
+          {
+            "title": "CyberAgentHack/web-speed-hackathon-online",
+            "url": "https://github.com/CyberAgentHack/web-speed-hackathon-online"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "ykzts/node-xmlhttprequest",
+    [
+      {
+        "date": "2020-08-03T03:47:10.399Z",
+        "title": "Release v3.0.0 · ykzts/node-xmlhttprequest",
+        "url": "https://github.com/ykzts/node-xmlhttprequest/releases/tag/v3.0.0",
+        "content": "Node.jsでのXMLHttpRequestの実装ライブラリであるnode-xmlhttprequest 3.0.0リリース",
+        "tags": [
+          "node.js",
+          "XHR",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lamplightdev/aeon",
+    [
+      {
+        "date": "2020-08-03T14:34:55.958Z",
+        "title": "lamplightdev/aeon: A lightweight date picker built with web components that can be used anywhere",
+        "url": "https://github.com/lamplightdev/aeon",
+        "content": "Date PickerのWeb Componentsライブラリ",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "apoorv-mishra/moment-guess",
+    [
+      {
+        "date": "2020-08-03T14:55:24.988Z",
+        "title": "apoorv-mishra/moment-guess: A utility package for guessing date's format",
+        "url": "https://github.com/apoorv-mishra/moment-guess",
+        "content": "多種多様な日付文字列をパースして、その日付にマッチするフォーマットを返すツール",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "indexeddbshim/IndexedDBShim",
+    [
+      {
+        "date": "2020-08-06T15:46:12.463Z",
+        "title": "indexeddbshim/IndexedDBShim: A polyfill for IndexedDB using WebSql",
+        "url": "https://github.com/indexeddbshim/IndexedDBShim",
+        "content": "WebSQL、SQLiteを使ったブラウザとNode.jsで動くIndexedDBのpolyfill",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "shikijs/shiki",
+    [
+      {
+        "date": "2020-08-10T08:19:12.892Z",
+        "title": "shikijs/shiki: A beautiful Syntax Highlighter.",
+        "url": "https://github.com/shikijs/shiki",
+        "content": "TextMateの構文を使ったシンタックスハイライトをしたHTMLを出力できるライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "phodal/microfrontends",
+    [
+      {
+        "date": "2020-08-10T09:47:04.127Z",
+        "title": "microfrontends/english.md at master · phodal/microfrontends",
+        "url": "https://github.com/phodal/microfrontends/blob/master/english.md",
+        "content": "Microfrontendについての記事。\nMicroServiceがサービス間の依存を切り離すのに対して、MicroFrontendは複数のアプリケーションを1つのアプリケーションに見えるように集約する。\nルーティングによる分散/iframeのコンテナの利用/MicroFrontEnd/アプリケーションをモジュール化/Web Componentsでの実装についての比較。\nMicroFrontendのコンセプト、mooaでのMicroFrontend設計について。\nLazy LoadingとRoutingだけでビルド時に統合をすると個別のアプリケーションをデプロイできなくなる問題、サブアプリケーションモデルでの複数チームの並行開発について　　 \n",
+        "tags": [
+          "MicroFrontend",
+          "article",
+          "opinion"
+        ],
+        "relatedLinks": [
+          {
+            "title": "phodal/microfrontends: Micro-frontend Architecture in Action-微前端的那些事儿",
+            "url": "https://github.com/phodal/microfrontends"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "storybookjs/storybook",
+    [
+      {
+        "date": "2020-08-11T13:24:03.460Z",
+        "title": "Release v6.0.0 · storybookjs/storybook",
+        "url": "https://github.com/storybookjs/storybook/releases/tag/v6.0.0",
+        "content": "Storybook 6.0.0リリース。\nTypeScriptのビルトインサポート、ストーリー関数の最初の引数にArgsオブジェクトを渡すように、addon-knobsの代わりとなるaddon-controlsの導入。\n複数のStoryboardを1つのStorybookにまとめることができるようになるなど。\nまた5.3から6.0へのマイグレーションガイドも公開されている",
+        "tags": [
+          "JavaScript",
+          "UI",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "storybook/CHANGELOG.md at next · storybookjs/storybook",
+            "url": "https://github.com/storybookjs/storybook/blob/next/CHANGELOG.md#600-august-10-2020"
+          },
+          {
+            "title": "storybook/MIGRATION.md at next · storybookjs/storybook",
+            "url": "https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#from-version-53x-to-60x"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "acornjs/acorn",
+    [
+      {
+        "date": "2020-08-15T04:15:06.350Z",
+        "title": "Release Version 8.0.0 · acornjs/acorn",
+        "url": "https://github.com/acornjs/acorn/releases/tag/8.0.0",
+        "content": "JavaScriptパーサであるAcorn 8.0.0リリース。\nECMAScript moduleとしてロードできるように、`ecmaVersion`オプションが必須となった",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "twilco/kosmonaut",
+    [
+      {
+        "date": "2020-08-16T09:44:17.169Z",
+        "title": "twilco/kosmonaut: A web browser engine for the space age",
+        "url": "https://github.com/twilco/kosmonaut",
+        "content": "ServoをインスパイアしたRust製のブラウザエンジン。",
+        "tags": [
+          "Rust",
+          "browser"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Shopify/web-foundation",
+    [
+      {
+        "date": "2020-08-16T14:15:11.629Z",
+        "title": "Shopify/web-foundation: Principles, decision logs, best practices, and common configuration for building web apps at Shopify",
+        "url": "https://github.com/Shopify/web-foundation",
+        "content": "Shopifyのウェブ開発における設定やその解説ドキュメントをまとめたリポジトリ",
+        "tags": [
+          "document"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "emscripten-core/emscripten",
+    [
+      {
+        "date": "2020-08-18T00:47:28.299Z",
+        "title": "emscripten/ChangeLog.md at master · emscripten-core/emscripten",
+        "url": "https://github.com/emscripten-core/emscripten/blob/master/ChangeLog.md#200-08102020",
+        "content": "C/C++などをWebAssemblyにコンパイルするEmscripten 2.0リリース。\nfastcomp backendの削除、Python 2のサポートを削除。\nまた例外情報のメタデータをJSではなく`WebAssembly.Memory`に保存することで例外処理がスレッドセーフになるような変更など",
+        "tags": [
+          "WebAssembly",
+          "JavaScript",
+          "library",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Remove fastcomp · Issue #11319 · emscripten-core/emscripten",
+            "url": "https://github.com/sbc100"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "qunitjs/qunit",
+    [
+      {
+        "date": "2020-08-18T00:53:11.066Z",
+        "title": "Release 2.11.0 · qunitjs/qunit",
+        "url": "https://github.com/qunitjs/qunit/releases/tag/2.11.0",
+        "content": "QUnit 2.11.0リリース。\nNode.js 10未満のサポートを削除、`assert.true`と`assert.false`の追加、HTMLレポートの検索改善など",
+        "tags": [
+          "JavaScript",
+          "test",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Polymer/lit-html",
+    [
+      {
+        "date": "2020-08-20T10:34:19.014Z",
+        "title": "Release v1.3.0 · Polymer/lit-html",
+        "url": "https://github.com/Polymer/lit-html/releases/tag/v1.3.0",
+        "content": "lit-html 1.3.0リリース。\nTrusted Typesのサポートなど",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "axios/axios",
+    [
+      {
+        "date": "2020-08-21T15:18:14.141Z",
+        "title": "axios/CHANGELOG.md at master · axios/axios",
+        "url": "https://github.com/axios/axios/blob/master/CHANGELOG.md#0200-august-20-2020",
+        "content": "Axios 0.20.0リリース。\nBOMを含むJSONに対応、`maxBodyLength`オプションの追加、`decompress`オプションの追加など",
+        "tags": [
+          "HTTP",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "azu/kvs",
+    [
+      {
+        "date": "2020-08-22T08:01:54.026Z",
+        "title": "azu/kvs: Key-Value storage library for Browser, Node.js, and In-Memory.",
+        "url": "https://github.com/azu/kvs",
+        "content": "ブラウザとNode.jsで動作するUniversalなKey-ValueなStorageライブラリ。\n同じインターフェイスをもつIndexedDBやファイルベースなどの実装があり、マイグレーションをサポートしている。\nそれぞれの実装は個別に分かれていて、それぞれのパッケージは1kb(gzip)程度のサイズとなっている。\n",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cypress-io/cypress",
+    [
+      {
+        "date": "2020-08-23T15:00:35.699Z",
+        "title": "Release 5.0.0 · cypress-io/cypress",
+        "url": "https://github.com/cypress-io/cypress/releases/tag/v5.0.0",
+        "content": "Cypress 5.0.0リリース。\n`cypress-plugin-retries`が非推奨化され、Cypress自体でリトライの設定できるように。\nサポート対象をTypeScript 3.4+、Node.js 10+に変更、`__dirname`と`__filename`の末尾に`/`が含まれなくなるなど",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "ReleaseNote",
+          "testing"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release 5.0.0 · cypress-io/cypress",
+            "url": "https://github.com/cypress-io/cypress/releases/tag/v5.0.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "elderjs/elderjs",
+    [
+      {
+        "date": "2020-08-23T15:42:40.153Z",
+        "title": "Elderjs/elderjs: Elder.js is an opinionated static site generator and web framework for Svelte built with SEO in mind.",
+        "url": "https://github.com/elderjs/elderjs",
+        "content": "Svelteを使った静的サイトジェネレーター。\n規約ではなく`route.js`による柔軟なパーマネントリンクの生成、`data.js`でビルドに必要なものをまとめて取得して、静的なサイトを生成するためのツール。",
+        "tags": [
+          "JavaScript",
+          "Svelte",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "keiya01/react-performance-testing",
+    [
+      {
+        "date": "2020-08-24T10:23:19.391Z",
+        "title": "keiya01/react-performance-testing: A library to test runtime performance in React",
+        "url": "https://github.com/keiya01/react-performance-testing",
+        "content": "Reactコンポーネントのレンダリング回数やレンダリング時間を計測できるライブラリ。\nReactにmonkey patchを当てて計測している。",
+        "tags": [
+          "React",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Reactでレンダリング回数やレンダリングにかかる時間をユニットテストでテストできるライブラリを開発しました - Qiita",
+            "url": "https://qiita.com/keiya01/items/93d83911fb44170717c2"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "electron/electron",
+    [
+      {
+        "date": "2020-08-25T02:39:19.801Z",
+        "title": "Release electron v10.0.0 · electron/electron",
+        "url": "https://github.com/electron/electron/releases/tag/v10.0.0",
+        "content": "Electron 10.0.0リリース。\nChromium 85、V8 8.5、Node.js 12.16へアップデート。\n`enableRemoteModule`を`false`に変更、`app.allowRendererProcessReuse`を`true`に変更。\n`contents.backgroundThrottling`プロパティの追加、`sameSite`情報を取得できるように、`worldSafeExecuteJavaScript`オプションの追加など",
+        "tags": [
+          "Electron",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "dsherret/ts-morph",
+    [
+      {
+        "date": "2020-08-25T14:23:06.670Z",
+        "title": "dsherret/ts-morph: TypeScript Compiler API wrapper for static analysis and programmatic code changes.",
+        "url": "https://github.com/dsherret/ts-morph",
+        "content": "TypeScript Compiler APIのラッパーライブラリ。\nTypeScriptのAST操作やファイル操作などを扱えるAPIを提供する",
+        "tags": [
+          "TypeScript",
+          "AST",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "d3/d3",
+    [
+      {
+        "date": "2020-08-27T12:02:56.407Z",
+        "title": "Release v6.0.0 · d3/d3",
+        "url": "https://github.com/d3/d3/releases/tag/v6.0.0",
+        "content": "D3.js 6.0.0リリース。\nES2015のIteraable、Map、Setを利用するように、bowerの対応を削除。\n`d3-selection`などのイベントの仕組みを変更、`d3-collection`の非推奨化など",
+        "tags": [
+          "d3.js",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "d3/CHANGES.md at master · d3/d3",
+            "url": "https://github.com/d3/d3/blob/master/CHANGES.md#changes-in-d3-60"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "gluesql/gluesql",
+    [
+      {
+        "date": "2020-08-27T23:57:09.214Z",
+        "title": "gluesql/gluesql: GlueSQL is quite sticky, it attaches to anywhere.",
+        "url": "https://github.com/gluesql/gluesql",
+        "content": "ライブラリとしてのSQLデータベース。\nRustとWebAssembly(JavaScript)での実装が提供されている。\nJavaScript版はInMemoery、LocalStorageなどで動作する",
+        "tags": [
+          "Rust",
+          "JavaScript",
+          "DB "
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "davidkpiano/xactor",
+    [
+      {
+        "date": "2020-08-27T23:58:23.095Z",
+        "title": "davidkpiano/xactor: Actors for the modern web",
+        "url": "https://github.com/davidkpiano/xactor",
+        "content": "TypeScriptでのActorモデルの実装ライブラリ",
+        "tags": [
+          "JavaScript",
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "testimio/root-cause",
+    [
+      {
+        "date": "2020-08-31T08:10:24.694Z",
+        "title": "testimio/root-cause",
+        "url": "https://github.com/testimio/root-cause",
+        "content": "PuppeteerとPlaywrightを使ったE2Eテストの補助ツール。\nそれぞれの実行ステップをスクリーンショットで保存、コンソールログやネットワーク(HAR)ファイルの保存してレポートからテストが失敗した原因を検証できる。\n単独で動かす方法とJestやMochaなどのテストフレームワークに統合するライブラリを提供している。",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "library",
+          "Tools",
+          "testing"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Root Cause - Fast authoring of AI-stabilized end-to-end tests—codeless, coded, or both",
+            "url": "https://www.testim.io/root-cause/"
+          },
+          {
+            "title": "Testim Root Cause overview",
+            "url": "https://help.testim.io/docs/root-cause"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Bnaya/objectbuffer",
+    [
+      {
+        "date": "2020-08-31T08:42:06.401Z",
+        "title": "Bnaya/objectbuffer: JavaScript Object like api, backed by an arraybuffer",
+        "url": "https://github.com/Bnaya/objectbuffer",
+        "content": "`ArrayBuffer`をバックエンドに使ったオブジェクトデータライブラリ。\n通常のオブジェクトはWeb Workerなどに渡す際にコピーされるが、`ArrayBuffer`などのTransferableなオブジェクトならコピーせずに渡せるのを目的にしている。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "webworker"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "edwinm/carbonium",
+    [
+      {
+        "date": "2020-08-31T08:49:38.929Z",
+        "title": "edwinm/carbonium: Carbonium, for easy manipulation of the DOM",
+        "url": "https://github.com/edwinm/carbonium",
+        "content": "Proxyを使ったDOM操作ライブラリ。\nセレクタで要素選択し、選択した複数の要素に対してまとめて`style`や`classList`などのDOM APIでの操作を行えるライブラリ",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "stylelint/stylelint",
+    [
+      {
+        "date": "2020-09-01T13:24:49.356Z",
+        "title": "Release 13.7.0 · stylelint/stylelint",
+        "url": "https://github.com/stylelint/stylelint/releases/tag/13.7.0",
+        "content": "stylelint 13.7.0リリース。\n`*-blacklist`、`*-requirelist`, `*-whitelist`を非推奨化し、` *-disallowed-list`, `*-required-list`にリネーム。\n`stylelint-disable`コメントに説明を書けるように",
+        "tags": [
+          "JavaScript",
+          "CSS",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "andnp/SimplyTyped",
+    [
+      {
+        "date": "2020-09-04T13:14:02.997Z",
+        "title": "andnp/SimplyTyped: yet another Typescript type library for advanced types",
+        "url": "https://github.com/andnp/SimplyTyped",
+        "content": "TypeScriptの型ユーティリティライブラリ。\n型定義の補助やランタイムでの補助関数などを提供する",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mizchi/minlink",
+    [
+      {
+        "date": "2020-09-08T03:24:11.218Z",
+        "title": "mizchi/minlink: Minimum(> 1kb) and isomorphic worker wrapper with comlink like rpc.",
+        "url": "https://github.com/mizchi/minlink",
+        "content": "Web Worker/Node.jsの`worker_thread`でRPCをするためのライブラリ。\ncomlinkのように関数呼び出しで`postMessage`のやりとりをする",
+        "tags": [
+          "JavaScript",
+          "webworker",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "minlink - browser/node で使える Worker ラッパー - mizdev",
+            "url": "https://mizchi.dev/202009061729-minlink-and-minify-tech"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "asciidwango/js-primer",
+    [
+      {
+        "date": "2020-09-08T03:27:04.475Z",
+        "title": "Release 2.0.0: ECMAScript 2020対応 · asciidwango/js-primer",
+        "url": "https://github.com/asciidwango/js-primer/releases/tag/v2.0.0",
+        "content": "JavaScript入門書のJavaScript Primer 2.0.0リリース。\nES2020の`String.prototype.matchAll`、`globalThis`、BigInt、Nullish coalescing(`??`)、Optional chainin（`?.`）に対応など",
+        "tags": [
+          "JavaScript",
+          "ECMAScript",
+          "book",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "JavaScript Primer 2.0 - ECMAScript 2020に対応した入門書を公開しました | Web Scratch",
+            "url": "https://efcl.info/2020/09/01/jsprimer-2.0/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "type-challenges/type-challenges",
+    [
+      {
+        "date": "2020-09-08T13:59:05.878Z",
+        "title": "type-challenges/type-challenges: Collection of TypeScript type challenges with online judge",
+        "url": "https://github.com/type-challenges/type-challenges",
+        "content": "TypeScriptの型定義の問題に挑戦できる問題集",
+        "tags": [
+          "TypeScript",
+          "tutorial"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "brahmosjs/brahmos",
+    [
+      {
+        "date": "2020-09-09T15:26:17.382Z",
+        "title": "brahmosjs/brahmos: Super charged JavaScript library with modern React API and native templates.",
+        "url": "https://github.com/brahmosjs/brahmos",
+        "content": "ReactのようなAPIとJSXで記述できるUIライブラリ。\nBabel pluginでJSXをTagged Template Literalに変換し、lit-htmlのような形でレンダリングする",
+        "tags": [
+          "React",
+          "jsx",
+          "library",
+          "babel"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "serverless/serverless",
+    [
+      {
+        "date": "2020-09-11T12:11:45.598Z",
+        "title": "Release 2.0.0 (2020-09-10) · serverless/serverless",
+        "url": "https://github.com/serverless/serverless/releases/tag/v2.0.0",
+        "content": "Serverless Frameworkのserverless 2.0リリース。\nNode.js 10未満のサポート終了、`slss`のaliasを削除、AWSの`httoApi`の`timeout`設定の削除など",
+        "tags": [
+          "node.js",
+          "library",
+          "ReleaseNote",
+          "serverless"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microcipcip/cookie-universal",
+    [
+      {
+        "date": "2020-09-12T10:21:18.656Z",
+        "title": "cookie-universal/packages/cookie-universal at master · microcipcip/cookie-universal",
+        "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal",
+        "content": "ブラウザとNode.jsで動くCookieを扱うライブラリ。\n",
+        "tags": [
+          "browser",
+          "node.js",
+          "library",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/playwright-cli",
+    [
+      {
+        "date": "2020-09-13T07:35:20.568Z",
+        "title": "microsoft/playwright-cli: CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+        "url": "https://github.com/microsoft/playwright-cli",
+        "content": "PlaywrightのCLI。\n操作を記録して再生するコードの生成、要素のInspect、スクリーンショット、PDFの生成などの機能をもっている",
+        "tags": [
+          "node.js",
+          "browser",
+          "console",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ngneat/edit-in-place",
+    [
+      {
+        "date": "2020-09-14T07:49:53.829Z",
+        "title": "ngneat/edit-in-place: A flexible and unopinionated edit in place library for Angular applications",
+        "url": "https://github.com/ngneat/edit-in-place",
+        "content": "クリックしたらその場で編集できるedit in placeを提供するAngular向けのライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Angular"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sabljakovich/mongoose-execution-time",
+    [
+      {
+        "date": "2020-09-14T14:55:14.023Z",
+        "title": "sabljakovich/mongoose-execution-time: Mongoose plugin for measuring and logging query execution time",
+        "url": "https://github.com/sabljakovich/mongoose-execution-time",
+        "content": "mongooseでqueryの実行時間をログ出力するライブラリ",
+        "tags": [
+          "MongoDB",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/FluidFramework",
+    [
+      {
+        "date": "2020-09-15T01:58:41.438Z",
+        "title": "microsoft/FluidFramework: Library for building distributed, real-time collaborative web applications",
+        "url": "https://github.com/microsoft/FluidFramework",
+        "content": "分散型リアルタイムコラボレーションのためのウェブアプリケーションフレームワーク。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "webservice"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ten1seven/what-input",
+    [
+      {
+        "date": "2020-09-15T02:38:17.716Z",
+        "title": "ten1seven/what-input: A global utility for tracking the current input method (mouse/pointer, keyboard or touch).",
+        "url": "https://github.com/ten1seven/what-input",
+        "content": "ユーザーの入力状態をトラッキングするライブラリ。\n現在の入力状態がmouse, keyboard, touchなのかを判定できる",
+        "tags": [
+          "JavaScript",
+          "library",
+          "browser",
+          "DOM"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "flareact/flareact",
+    [
+      {
+        "date": "2020-09-16T14:19:45.362Z",
+        "title": "flareact/flareact: Edge-rendered React framework built for Cloudflare Workers",
+        "url": "https://github.com/flareact/flareact",
+        "content": "Cloudflare WorkerのEdgeで動くReactフレームワーク",
+        "tags": [
+          "React",
+          "cdn",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Rendering React on the Edge with Flareact and Cloudflare Workers",
+            "url": "https://blog.cloudflare.com/rendering-react-on-the-edge-with-flareact-and-cloudflare-workers/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "postcss/postcss",
+    [
+      {
+        "date": "2020-09-17T13:09:34.952Z",
+        "title": "Release 8.0 “President Ose” · postcss/postcss",
+        "url": "https://github.com/postcss/postcss/releases/tag/8.0.0",
+        "content": "PostCSS 8.0リリース。\nNode.js 8以下のサポート終了、ES2015のコードをそのまま配布するように、`postcss.vendor` APIの削除。\nPostCSS Plugin APIの変更、パーサの改善、Source Mapサポートの改善、TypeScriptのサポートなど",
+        "tags": [
+          "CSS",
+          "library",
+          "ReleaseNote",
+          "JavaScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Release 10.0 “Alis volat propriis” · postcss/autoprefixer",
+            "url": "https://github.com/postcss/autoprefixer/releases/tag/10.0.0"
+          },
+          {
+            "title": "PostCSS 8.0: Plugin migration guide — Martian Chronicles, Evil Martians’ team blog",
+            "url": "https://evilmartians.com/chronicles/postcss-8-plugin-migration"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "vuejs/vue-next",
+    [
+      {
+        "date": "2020-09-19T07:12:11.107Z",
+        "title": "Release v3.0.0 One Piece · vuejs/vue-next",
+        "url": "https://github.com/vuejs/vue-next/releases/tag/v3.0.0",
+        "content": "Vue 3.0.0リリース。\nコードベースをTypeScriptで書き直し、コアモジュールのパッケージ化。\nComposition API、Teleport、Fragmentsのサポート。\n実験的なAPIとして`<script setup>`と`<style vars>`のサポート。\n破壊的な変更として`Vue.*`以下のグローバルAPIをインスタンスAPIに移動、Template Directiveの挙動の変更、ライフサイクルオプション名のリネーム、Filterの削除など。\nまた、Vue 3.0.0時点ではIE 11のサポートは含まれていない。",
+        "tags": [
+          ""
+        ],
+        "relatedLinks": [
+          {
+            "title": "Evan You // Keynote: Live Free Online Announcement // Vuejs Global Online - YouTube",
+            "url": "https://www.youtube.com/watch?v=Vp5ANvd88x0"
+          },
+          {
+            "title": "Introduction | Vue.js",
+            "url": "https://v3.vuejs.org/guide/migration/introduction.html"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "nextauthjs/next-auth",
+    [
+      {
+        "date": "2020-09-19T15:42:03.389Z",
+        "title": "nextauthjs/next-auth: Authentication for Next.js",
+        "url": "https://github.com/nextauthjs/next-auth",
+        "content": "Next.js向けのAuthentication library。\nAuth0、Apple、Facebook、Googleなどいろいろなプロバイダーに対応している。",
+        "tags": [
+          "React",
+          "library",
+          "OAuth"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "web-padawan/vanilla-colorful",
+    [
+      {
+        "date": "2020-09-20T13:16:50.465Z",
+        "title": "web-padawan/vanilla-colorful: A tiny color picker custom element for modern web apps",
+        "url": "https://github.com/web-padawan/vanilla-colorful",
+        "content": "依存がないカラーピッカーの実装ライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "color"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "pmndrs/jotai",
+    [
+      {
+        "date": "2020-09-21T06:33:51.628Z",
+        "title": "pmndrs/jotai: 👻 Primitive, flexible state management for React",
+        "url": "https://github.com/pmndrs/jotai",
+        "content": "RecoilインスパイアなReact向けのステート管理ライブラリ。\nプリミティブな値をAtomでwrap、unwrapするAPIをもつ。\nUtilsとしてAtomを使ったHigh Level APIを提供する",
+        "tags": [
+          "JavaScript",
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cure53/DOMPurify",
+    [
+      {
+        "date": "2020-09-24T13:39:30.313Z",
+        "title": "Release DOMPurify 2.1.0 · cure53/DOMPurify",
+        "url": "https://github.com/cure53/DOMPurify/releases/tag/2.1.0",
+        "content": "DOMpurify 2.1.0リリース。\njQueryのメソッドはデフォルトで対応したため`SAFE_FOR_JQUERY`フラグを削除、mXSSの修正とコード整理など",
+        "tags": [
+          "DOM",
+          "XSS",
+          "library",
+          "JavaScript",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "balazsbotond/urlcat",
+    [
+      {
+        "date": "2020-09-24T15:19:35.715Z",
+        "title": "balazsbotond/urlcat: A URL builder library for JavaScript.",
+        "url": "https://github.com/balazsbotond/urlcat",
+        "content": "URLの結合(join)、パラメータクエリの生成(query)、置換(subst)するライブラリ。\n",
+        "tags": [
+          "JavaScript",
+          "URL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "codemix/ts-sql",
+    [
+      {
+        "date": "2020-09-25T09:57:49.420Z",
+        "title": "codemix/ts-sql: A SQL database implemented purely in TypeScript type annotations.",
+        "url": "https://github.com/codemix/ts-sql",
+        "content": "TypeScript 4.1のTemplate Literal Typeを使ってSQL構文からクエリ結果の型を返す型ライブラリ",
+        "tags": [
+          "TypeScript",
+          "SQL",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sumup-oss/performance-observer",
+    [
+      {
+        "date": "2020-09-26T07:04:23.904Z",
+        "title": "sumup-oss/performance-observer: Generic interface for PerformanceObserver API.",
+        "url": "https://github.com/sumup-oss/performance-observer",
+        "content": "Performance Observerのラッパーライブラリ。\n指定したメトリクスを取得するAPIを提供する",
+        "tags": [
+          "JavaScript",
+          "performance",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jtbennett/create-ts-project",
+    [
+      {
+        "date": "2020-09-27T03:38:45.501Z",
+        "title": "jtbennett/create-ts-project: Create Typescript monorepo projects with project references, jest, eslint and prettier configured and ready for development.",
+        "url": "https://github.com/jtbennett/create-ts-project",
+        "content": "TypeScript monorepo向けの管理ツール。\nTypeScript Project References、Yarn、Jest、ESLint、Pretitterなどが入ったCreact React Appのようなツールを目指している",
+        "tags": [
+          "TypeScript",
+          "monorepo",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mobxjs/mobx",
+    [
+      {
+        "date": "2020-10-01T13:39:26.334Z",
+        "title": "mobx/CHANGELOG.md at mobx6 · mobxjs/mobx",
+        "url": "https://github.com/mobxjs/mobx/blob/mobx6/CHANGELOG.md#600",
+        "content": "MobX 6.0.0リリース。\n`decorate`を削除し`makeObservable`と`makeAutoObservable`の追加。\nProxy APIなしでも動作するようになるなど。\nDecoratorを使ったコードをマイグレーションするツールとして`mobx-undecorate`も公開している。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Migrating from MobX 4/5 · MobX",
+            "url": "https://mobx.js.org/migrating-from-4-or-5.html#migrating-from-mobx-45-"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "yamalight/graffiti",
+    [
+      {
+        "date": "2020-10-01T14:20:11.238Z",
+        "title": "yamalight/graffiti: Minimalistic GraphQL framework",
+        "url": "https://github.com/yamalight/graffiti/",
+        "content": "fastify/graphql-compose/Mongooseを使ったGraphQLフレームワーク",
+        "tags": [
+          "GraphQL",
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bytedance/IconPark",
+    [
+      {
+        "date": "2020-10-01T16:17:54.666Z",
+        "title": "bytedance/IconPark: Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons",
+        "url": "https://github.com/bytedance/IconPark",
+        "content": "SVGアイコン集。\nReact、Vueのコンポーネントとしても利用できる。",
+        "tags": [
+          "SVG",
+          "Vue",
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "happykit/flags",
+    [
+      {
+        "date": "2020-10-05T15:54:32.160Z",
+        "title": "happykit/flags: 🏳 Feature Flags for Next.js",
+        "url": "https://github.com/happykit/flags",
+        "content": "Next.js向けのFeature Flag管理ライブラリとウェブサービス",
+        "tags": [
+          "JavaScript",
+          "Next.js",
+          "library",
+          "webservice"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ffmpegwasm/ffmpeg.wasm",
+    [
+      {
+        "date": "2020-10-06T03:21:44.003Z",
+        "title": "ffmpegwasm/ffmpeg.wasm: FFmpeg for browser and node, powered by WebAssembly",
+        "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+        "content": "ffmpegをWebAssemblyとして動かすライブラリ",
+        "tags": [
+          "JavaScript",
+          "Image",
+          "library",
+          "WebAssembly"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "doc22940/browserslist-user-agent-regexp",
+    [
+      {
+        "date": "2020-10-08T08:46:49.958Z",
+        "title": "doc22940/browserslist-user-agent-regexp",
+        "url": "https://github.com/doc22940/browserslist-user-agent-regexp",
+        "content": "`browserslist`の定義からサポートするブラウザのUser Agentにマッチする正規表現を出力するツール",
+        "tags": [
+          "JavaScript",
+          "browser",
+          "library",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "boa-dev/boa",
+    [
+      {
+        "date": "2020-10-08T08:58:51.515Z",
+        "title": "boa-dev/boa: Boa is an embeddable and experimental Javascript engine written in Rust. Currently, it has support for some of the language.",
+        "url": "https://github.com/boa-dev/boa",
+        "content": "Rustで書かれたJavaScriptエンジン。\nRustのプロジェクトに組み込んだり、JavaScriptインタープリタをWebAssemblyとして動かすことができる",
+        "tags": [
+          "JavaScript",
+          "Rust",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vercel/next.js",
+    [
+      {
+        "date": "2020-10-08T13:51:55.113Z",
+        "title": "Release v9.5.4 · vercel/next.js",
+        "url": "https://github.com/vercel/next.js/releases/tag/v9.5.4",
+        "content": "Next.js 9.5.4リリース。\nオープンリダイレクト脆弱性のセキュリティ修正",
+        "tags": [
+          "Next.js",
+          "React",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "awslabs/diagram-maker",
+    [
+      {
+        "date": "2020-10-08T14:16:42.236Z",
+        "title": "awslabs/diagram-maker: A library to display an interactive editor for any graph-like data.",
+        "url": "https://github.com/awslabs/diagram-maker",
+        "content": "AWSのダイアグラムエディタ。\nライブラリとして利用でき、プラグインで拡張可能になっていて、UIはPreactとReduxを使って書かれている。",
+        "tags": [
+          "aws",
+          "JavaScript"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Diagram Maker: Open sourcing IoT visualization | AWS Open Source Blog",
+            "url": "https://aws.amazon.com/jp/blogs/opensource/diagram-maker-open-sourcing-iot-visualization/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "tuananh/camaro",
+    [
+      {
+        "date": "2020-10-10T06:56:40.729Z",
+        "title": "tuananh/camaro: camaro is an utility to transform XML to JSON, using Node.js binding to native XML parser pugixml, one of the fastest XML parser around.",
+        "url": "https://github.com/tuananh/camaro",
+        "content": "XMLをJSONに変換するライブラリ。\nC++で書かれていてWebAssemblyにコンパイルしたものを利用するライブラリ",
+        "tags": [
+          "JavaScript",
+          "XML",
+          "JSON",
+          "library",
+          "WebAssembly"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "browserify/browserify",
+    [
+      {
+        "date": "2020-10-10T12:51:47.410Z",
+        "title": "Release v17.0.0 · browserify/browserify",
+        "url": "https://github.com/browserify/browserify/releases/tag/v17.0.0",
+        "content": "Browserify 17.0.0リリース。\nshimライブラリの`events`、`path`、`stream`、`util`をNode.js 10+互換となるようにアップデート。\n`.json`ファイルのrequire時にJSONのバリデーションを行うように",
+        "tags": [
+          "browserify",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "RDambrosio016/RSLint",
+    [
+      {
+        "date": "2020-10-10T13:54:11.909Z",
+        "title": "RDambrosio016/RSLint: A (WIP) Extremely fast JavaScript linter and Rust crate",
+        "url": "https://github.com/RDambrosio016/RSLint",
+        "content": "Rustで書かれたJavaScript Lintツール。",
+        "tags": [
+          "Rust",
+          "JavaScript",
+          "eslinn"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "webpack/webpack-cli",
+    [
+      {
+        "date": "2020-10-12T12:36:39.090Z",
+        "title": "webpack-cli/CHANGELOG.md at master · webpack/webpack-cli",
+        "url": "https://github.com/webpack/webpack-cli/blob/master/CHANGELOG.md#400-2020-10-10",
+        "content": "webpack-cli 4.0.0リリース。\nwebpack 5に対応、Webpack Bundle Analyzerを実行する`--analyze`フラグの追加、`--env`フラグの追加、`init`コマンドの追加など",
+        "tags": [
+          "webpack",
+          "console",
+          "Tools"
+        ],
+        "relatedLinks": [
+          {
+            "title": "webpack-cli/packages/webpack-cli at master · webpack/webpack-cli",
+            "url": "https://github.com/webpack/webpack-cli/tree/master/packages/webpack-cli"
+          },
+          {
+            "title": "webpack-contrib/webpack-bundle-analyzer: Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
+            "url": "https://github.com/webpack-contrib/webpack-bundle-analyzer"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "RocktimSaikia/meta-fetcher",
+    [
+      {
+        "date": "2020-10-12T13:51:17.880Z",
+        "title": "RocktimSaikia/meta-fetcher: 🔎 Tiny URL meta-data fetcher(scrapper) for Node.js",
+        "url": "https://github.com/RocktimSaikia/meta-fetcher",
+        "content": "ウェブサイトのメタ情報を取得するすnode-fetchベースのスクレイピングライブラリ",
+        "tags": [
+          "node.js",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mljs/ml",
+    [
+      {
+        "date": "2020-10-12T14:13:19.157Z",
+        "title": "mljs/ml: Machine learning tools in JavaScript",
+        "url": "https://github.com/mljs/ml",
+        "content": "機械学習向けのツールを集めたライブラリ",
+        "tags": [
+          "MachineLearning",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Schniz/fnm",
+    [
+      {
+        "date": "2020-10-13T01:07:22.070Z",
+        "title": "Schniz/fnm: 🚀 Fast and simple Node.js version manager, built in Rust",
+        "url": "https://github.com/Schniz/fnm",
+        "content": "Rustで書かれたNode.jsのバージョン管理ツール。",
+        "tags": [
+          "node.js",
+          "Tools",
+          "Rust"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "samizdatco/skia-canvas",
+    [
+      {
+        "date": "2020-10-13T04:51:46.558Z",
+        "title": "samizdatco/skia-canvas: A canvas environment for Node.js",
+        "url": "https://github.com/samizdatco/skia-canvas",
+        "content": "Skiaを使ったNode.jsでのCanvas実装",
+        "tags": [
+          "node.js",
+          "canvas",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "MTG/essentia.js",
+    [
+      {
+        "date": "2020-10-19T11:45:14.599Z",
+        "title": "MTG/essentia.js: JavaScript library for music/audio analysis and processing powered by WebAssembly",
+        "url": "https://github.com/MTG/essentia.js",
+        "content": "C++で書かれた音声/音楽処理ライブラリであるEssentiaをWebAssemblyにコンパイルしたJavaScriptラッパーライブラリ。",
+        "tags": [
+          "JavaScript",
+          "WebAssembly",
+          "C++",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Essentia",
+            "url": "https://essentia.upf.edu/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "TimvanScherpenzeel/detect-gpu",
+    [
+      {
+        "date": "2020-10-19T11:47:41.797Z",
+        "title": "TimvanScherpenzeel/detect-gpu: Classifies GPUs based on their 3D rendering benchmark score allowing the developer to provide sensible default settings for graphically intensive applications.",
+        "url": "https://github.com/TimvanScherpenzeel/detect-gpu",
+        "content": "WebGLを使った3DレンダリングのベンチマークからGPUの判定、クラス分けをするライブラリ",
+        "tags": [
+          "JavaScript",
+          "WebGL",
+          "library",
+          "performance"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "bytedance/bytemd",
+    [
+      {
+        "date": "2020-10-20T05:33:31.924Z",
+        "title": "bytedance/bytemd: A hackable Markdown editor component built with Svelte",
+        "url": "https://github.com/bytedance/bytemd",
+        "content": "Svelteで書かれたmarkdownエディタライブラリ。UIフレームワークなしで動かすことができ、React、Vue向けのバインディングが用意されている",
+        "tags": [
+          "JavaScript",
+          "Markdown",
+          "editor",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sinclairzx81/typebox",
+    [
+      {
+        "date": "2020-10-22T08:30:22.572Z",
+        "title": "sinclairzx81/typebox: JSON Schema Type Builder with Static Type Resolution for TypeScript",
+        "url": "https://github.com/sinclairzx81/typebox",
+        "content": "JSON SchemaをTypeScriptで定義するbuilder関数を提供するライブラリ",
+        "tags": [
+          "TypeScript",
+          "JSON",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sysgears/webpack-virtual-modules",
+    [
+      {
+        "date": "2020-10-22T13:55:54.234Z",
+        "title": "sysgears/webpack-virtual-modules: Webpack Virtual Modules is a webpack plugin that lets you create, modify, and delete in-memory files in a way that webpack treats them as if they were physically presented in the file system.",
+        "url": "https://github.com/sysgears/webpack-virtual-modules",
+        "content": "webpackでビルド時に特定のパスに特定のコードがあるように見せるwebpack plugin。\nwebpackのビルド中に仮想的なモジュールを追加できる",
+        "tags": [
+          "webpack",
+          "plugin"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "developit/snarkdown",
+    [
+      {
+        "date": "2020-10-22T22:34:28.572Z",
+        "title": "developit/snarkdown: A snarky 1kb Markdown parser written in JavaScript",
+        "url": "https://github.com/developit/snarkdown",
+        "content": "ファイルサイズが小さなMarkdown to HTMLライブラリ",
+        "tags": [
+          "Markdown",
+          "JavaScript",
+          "library",
+          "HTML"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "npm/roadmap",
+    [
+      {
+        "date": "2020-10-23T11:20:00.563Z",
+        "title": "npm public roadmap",
+        "url": "https://github.com/npm/roadmap/projects/1",
+        "content": "npmのロードマップ",
+        "tags": [
+          "npm",
+          "Github",
+          "document"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Introducing the npm public roadmap and a new feedback process - The GitHub Blog",
+            "url": "https://github.blog/2020-10-22-introducing-the-npm-public-roadmap-and-a-new-feedback-process/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "facebook/create-react-app",
+    [
+      {
+        "date": "2020-10-24T08:35:43.740Z",
+        "title": "Release v4.0.0 · facebook/create-react-app",
+        "url": "https://github.com/facebook/create-react-app/releases/tag/v4.0.0",
+        "content": "create-react-app 4.0.0リリース。\nReact 17/新しいJSXの変換の対応、TypeScript 4、ESLint 6、Jest 26へアップデート。\nFast Refresh、workboxの対応改善、Web Vitalsレポート対応の追加など",
+        "tags": [
+          "React",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "openplayerjs/openplayerjs",
+    [
+      {
+        "date": "2020-10-24T13:47:19.246Z",
+        "title": "openplayerjs/openplayerjs: Lightweight HTML5 video/audio player with smooth controls and ability to play VAST/VPAID/VMAP ads",
+        "url": "https://github.com/openplayerjs/openplayerjs",
+        "content": "動画/音楽プレイヤーライブラリ。\nIE11+のサポート、キャプション、VAST/VPAIDの動画広告のサポート、カスタマイズができるようになっている。\nHLSはhls.js、MPEG-DASHはdash.jsを使いサポートしている",
+        "tags": [
+          "JavaScript",
+          "video",
+          "audio",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "piscinajs/piscina",
+    [
+      {
+        "date": "2020-10-26T12:22:26.390Z",
+        "title": "piscinajs/piscina: A fast, efficient Node.js Worker Thread Pool implementation",
+        "url": "https://github.com/piscinajs/piscina",
+        "content": "Node.js向けのworker poolライブラリ。\nmjsのサポート、AbortControllerを使ったキャンセルのサポート、バックプレッシャーなどをサポートしている",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Learning to Swim with Piscina, the node.js worker pool",
+            "url": "https://www.nearform.com/blog/learning-to-swim-with-piscina-the-node-js-worker-pool/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "mongodb-js/boxednode",
+    [
+      {
+        "date": "2020-10-31T04:16:10.254Z",
+        "title": "mongodb-js/boxednode: 📦 boxednode – Ship a JS file with Node.js in a box",
+        "url": "https://github.com/mongodb-js/boxednode",
+        "content": "Node.jsアプリケーションをシングルバイナリ化するツール",
+        "tags": [
+          "node.js",
+          "library",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "dbohdan/classless-css",
+    [
+      {
+        "date": "2020-11-02T04:32:27.541Z",
+        "title": "dbohdan/classless-css: A list of classless CSS themes/frameworks with screenshots",
+        "url": "https://github.com/dbohdan/classless-css",
+        "content": "クラスをつけないでHTML要素自体にスタイルをあてるCSSテーマ/フレームワークのまとめ",
+        "tags": [
+          "CSS",
+          "library",
+          "links"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "aidenybai/lucia",
+    [
+      {
+        "date": "2020-11-02T14:31:53.751Z",
+        "title": "aidenybai/lucia: 🟪 Tiny library for tiny web apps.",
+        "url": "https://github.com/aidenybai/lucia",
+        "content": "VueやAlpine.jsのようにDOMにテンプレートを書いてデータバインディングするViewライブラリ",
+        "tags": [
+          "JavaScript",
+          "DOM",
+          "UI",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "jlfwong/speedscope",
+    [
+      {
+        "date": "2020-11-02T14:35:52.489Z",
+        "title": "jlfwong/speedscope: 🔬 A fast, interactive web-based viewer for performance profiles.",
+        "url": "https://github.com/jlfwong/speedscope",
+        "content": "flamegraphビューアー。\nブラウザの開発者ツールのプロファイル、Ruby/Python/Goなどのプロファイルの読み込みに対応している",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "performance"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "slevithan/xregexp",
+    [
+      {
+        "date": "2020-11-02T14:39:01.710Z",
+        "title": "Release v4.4.0 · slevithan/xregexp",
+        "url": "https://github.com/slevithan/xregexp/releases/tag/v4.4.0",
+        "content": "xRegExp v4.4.0 リリース。\nUnicode 13.0.0にアップデート、TypeScriptに対応、IE11 + core-js 3.6.0+での無限ループの修正",
+        "tags": [
+          "JavaScript",
+          "RegExp",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "krzkaczor/ts-essentials",
+    [
+      {
+        "date": "2020-11-03T06:01:25.499Z",
+        "title": "krzkaczor/ts-essentials: All basic TypeScript types in one place 🤙",
+        "url": "https://github.com/krzkaczor/ts-essentials",
+        "content": "TypeScriptの型ユーティリティライブラリ。\n",
+        "tags": [
+          "TypeScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "sql-js/sql.js",
+    [
+      {
+        "date": "2020-11-07T08:19:07.833Z",
+        "title": "sql-js/sql.js: A javascript library to run SQLite on the web.",
+        "url": "https://github.com/sql-js/sql.js/",
+        "content": "SQLiteをWebAssemblyにコンパイルしてJavaScriptで動かすライブラリ。\n既存のsqliteファイルをimport/exportできる。",
+        "tags": [
+          "SQLite",
+          "WebAssembly",
+          "library",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mattpocock/sextant",
+    [
+      {
+        "date": "2020-11-07T08:37:43.851Z",
+        "title": "mattpocock/sextant: A development tool to chart application flows, then implement them in code",
+        "url": "https://github.com/mattpocock/sextant",
+        "content": "シーケンス図のGUIエディタでデータフローとGraphQLのPayloadを入力し、対応するTypeScriptの型を生成するツール。",
+        "tags": [
+          "JavaScript",
+          "Tools",
+          "graphic",
+          "GraphQL"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "socketio/socket.io-client",
+    [
+      {
+        "date": "2020-11-09T15:44:15.031Z",
+        "title": "Release 3.0.0 · socketio/socket.io-client",
+        "url": "https://github.com/socketio/socket.io-client/releases/tag/3.0.0",
+        "content": "Socket.IO 3.0リリース。\n`maxHttpBufferSize`が100MBから1MBに変更、CORSの設定がオプション化、Cookieをデフォルトでは使わないように、APIの変更など。\nまたコードベースをTypeScriptで書き直し、`onAny`/`offAny`の追加、socket.io-msgpack-parserを同梱など",
+        "tags": [
+          "WebSocket",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Socket.IO 3 Release | Socket.IO",
+            "url": "https://socket.io/blog/socket-io-3-release/"
+          },
+          {
+            "title": "Migrating from 2.x to 3.0 | Socket.IO",
+            "url": "https://socket.io/docs/migrating-from-2-x-to-3-0/"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "gajus/http-terminator",
+    [
+      {
+        "date": "2020-11-09T15:49:23.658Z",
+        "title": "gajus/http-terminator: Gracefully terminates HTTP(S) server.",
+        "url": "https://github.com/gajus/http-terminator",
+        "content": "expressなどのNode.jsの`http.Server`の実装に対してgraceful shutdownを行うライブラリ",
+        "tags": [
+          "node.js",
+          "library",
+          "server"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "trivago/prettier-plugin-sort-imports",
+    [
+      {
+        "date": "2020-11-11T23:34:29.285Z",
+        "title": "trivago/prettier-plugin-sort-imports: A prettier plugin to sort imports in typescript and javascript files by the provided RegEx order.",
+        "url": "https://github.com/trivago/prettier-plugin-sort-imports",
+        "content": "import文の順番をソートするprettier plugin",
+        "tags": [
+          "JavaScript",
+          "plugin"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "open-source-labs/Recoilize",
+    [
+      {
+        "date": "2020-11-14T00:30:51.369Z",
+        "title": "open-source-labs/Recoilize: Recoil developer tool",
+        "url": "https://github.com/open-source-labs/Recoilize",
+        "content": "recoilのデバッグツール",
+        "tags": [
+          "JavaScript",
+          "debug",
+          "Tools",
+          "React"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "vinissimus/next-translate",
+    [
+      {
+        "date": "2020-11-14T05:50:06.043Z",
+        "title": "vinissimus/next-translate: i18n tool for Next.js 10 🌍 - Load page translations and use them in an easy way!",
+        "url": "https://github.com/vinissimus/next-translate",
+        "content": "Next.js向けのi18nツール",
+        "tags": [
+          "Next.js",
+          "i18n",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "angular-eslint/angular-eslint",
+    [
+      {
+        "date": "2020-11-14T13:24:45.699Z",
+        "title": "angular-eslint/angular-eslint: Monorepo for all the tooling related to using ESLint with Angular",
+        "url": "https://github.com/angular-eslint/angular-eslint",
+        "content": "Angular向けのESLintプラグインセット。\nCodelyzer/TSLintからのマイグレーションを目的にしている",
+        "tags": [
+          "Angular",
+          "ESLint"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "felixfbecker/dom-to-svg",
+    [
+      {
+        "date": "2020-11-15T01:12:42.500Z",
+        "title": "felixfbecker/dom-to-svg: Library to convert a given HTML DOM node into an accessible SVG \"screenshot\".",
+        "url": "https://github.com/felixfbecker/dom-to-svg",
+        "content": "`<foreignObject>`を使わずに、DOMからSVGを作成するライブラリ。\nDOM上のWAI-ARIAやリンクなども維持した状態のSVGを作成する",
+        "tags": [
+          "DOM",
+          "SVG",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/TypeScript",
+    [
+      {
+        "date": "2020-11-15T14:23:37.093Z",
+        "title": "Performance · microsoft/TypeScript Wiki",
+        "url": "https://github.com/microsoft/TypeScript/wiki/Performance",
+        "content": "TypeScriptのコンパイルパフォーマンスについてまとめられているページ。\n`type`と`interface`、Base TypeとUnion Type、Project Reference、tsconfig.jsonの設定による最適化について",
+        "tags": [
+          "TypeScript",
+          "performance",
+          "article"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "davnicwil/react-frontload",
+    [
+      {
+        "date": "2020-11-15T14:28:20.402Z",
+        "title": "davnicwil/react-frontload: Async data loading for React components, on client & server",
+        "url": "https://github.com/davnicwil/react-frontload",
+        "content": "React向けのData Loaderライブラリ。\nコンポーネントでAPIを叩いてデータの取得、取得中の表示を扱える。クライアントとサーバでそれぞれ対応するAPIを用意してhydrationも扱える",
+        "tags": [
+          "React",
+          "library",
+          "server"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "acot-a11y/acot",
+    [
+      {
+        "date": "2020-11-15T14:30:55.887Z",
+        "title": "acot-a11y/acot: More accessible web, all over the world.",
+        "url": "https://github.com/acot-a11y/acot",
+        "content": "ESLintライクなプラグインシステムをもったAccessibilityテストフレームワーク。",
+        "tags": [
+          "ESLint",
+          "accessibility",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Lunuy/iterable-weak",
+    [
+      {
+        "date": "2020-11-16T00:20:27.677Z",
+        "title": "Lunuy/iterable-weak: Iterable WeakSet / WeakMap using ES2021 WeakRef",
+        "url": "https://github.com/Lunuy/iterable-weak",
+        "content": "WeakRefを使ったIterableなWeakMap/WeakSetの実装ライブラリ。\nIterateできるように要素を参照するが、WeakRefのFinalizationRegistryを使って参照を解放するようになっている",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ECMAScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "alephjs/aleph.js",
+    [
+      {
+        "date": "2020-11-16T00:23:36.791Z",
+        "title": "alephjs/aleph.js: The React Framework in Deno.",
+        "url": "https://github.com/alephjs/aleph.js",
+        "content": "Deno向けのReactを使ったNext.jsライクなフレームワーク",
+        "tags": [
+          "deno",
+          "React",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/Web-Dev-For-Beginners",
+    [
+      {
+        "date": "2020-11-16T00:27:20.738Z",
+        "title": "microsoft/Web-Dev-For-Beginners: 24 Lessons, 12 Weeks, Get Started as a Web Developer",
+        "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+        "content": "ウェブ開発のチュートリアル集、レッスン。HTML/CSS/JSについてやアプリ開発についての学習コンテンツ",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "tutorial"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "BlackFan/client-side-prototype-pollution",
+    [
+      {
+        "date": "2020-11-17T12:46:58.823Z",
+        "title": "BlackFan/client-side-prototype-pollution: Prototype Pollution and useful Script Gadgets",
+        "url": "https://github.com/BlackFan/client-side-prototype-pollution",
+        "content": "Prototype Pollution攻撃の事例を集めたリポジトリ。\nさまざまなライブラリに対してのPrototype Pollutionのコード例をまとめている",
+        "tags": [
+          "JavaScript",
+          "security",
+          "XSS"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "mkay581/cookie-store",
+    [
+      {
+        "date": "2020-11-18T23:16:18.522Z",
+        "title": "mkay581/cookie-store: A polyfill for the Cookie Store API",
+        "url": "https://github.com/mkay581/cookie-store",
+        "content": "Cookie Store API のPolyfillライブラリ",
+        "tags": [
+          "JavaScript",
+          "library",
+          "polyfill"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "101arrowz/fflate",
+    [
+      {
+        "date": "2020-11-18T23:51:16.418Z",
+        "title": "101arrowz/fflate: High performance (de)compression in an 8kB package",
+        "url": "https://github.com/101arrowz/fflate",
+        "content": "deflate,gzip,zlibのcompress/decompressをサポートしているライブラリ。\nファイルサイズの小ささとパフォーマンスを主な目的としていて、Workerでの非同期処理にも対応している",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "microsoft/playwright-test",
+    [
+      {
+        "date": "2020-11-20T13:09:53.940Z",
+        "title": "microsoft/playwright-test: Build a cross-browser end-to-end test suite with Playwright.",
+        "url": "https://github.com/microsoft/playwright-test",
+        "content": "Playwrightを使ったE2Eテストフレームワーク。\nJestライクなAssertion、PlaywrightとFolioを使ったテスト、Snapshotテストとしてビジュアルテスティングをサポートしている。",
+        "tags": [
+          "E2E",
+          "browser",
+          "test",
+          "library"
+        ],
+        "relatedLinks": [
+          {
+            "title": "microsoft/folio: A customizable test framework to build your own test frameworks",
+            "url": "https://github.com/microsoft/folio"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "microsoft/folio",
+    [
+      {
+        "date": "2020-11-20T13:12:27.489Z",
+        "title": "microsoft/folio: A customizable test framework to build your own test frameworks",
+        "url": "https://github.com/microsoft/folio",
+        "content": "テストフレームワークを作るためのテストフレームワーク。\nTest Fixture、Annotation APIでFlaky Testsの宣言やリトライ、テストの生成などを行える",
+        "tags": [
+          "JavaScript",
+          "library",
+          "testing"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kuu/hls-parser",
+    [
+      {
+        "date": "2020-11-20T13:15:16.708Z",
+        "title": "kuu/hls-parser: A simple library to read/write HLS playlists",
+        "url": "https://github.com/kuu/hls-parser",
+        "content": "HLS playlistのパーサ、ジェネレーターライブラリ。\nApple Low-Latency HLS形式もサポートしている",
+        "tags": [
+          "HLS",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "ceifa/wasmoon",
+    [
+      {
+        "date": "2020-11-20T13:17:53.552Z",
+        "title": "ceifa/wasmoon: A real lua VM with JS bindings made with webassembly",
+        "url": "https://github.com/ceifa/wasmoon",
+        "content": "Lua VMをWebAssemblyに変換して、JavaScriptからLuaのコードを実行するライブラリ。",
+        "tags": [
+          "JavaScript",
+          "library",
+          "Lua"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "typicode/husky",
+    [
+      {
+        "date": "2020-11-22T14:44:02.979Z",
+        "title": "Release v5.0.0 · typicode/husky",
+        "url": "https://github.com/typicode/husky/releases/tag/v5.0.0",
+        "content": "git hook管理ツールのhusky 5.0.0リリース。`npm install husky@next`でインストールできる。\nライセンスをMITからLicense Zero Parity + MITに変更。\nGit 2.9+の`core.hooksPath`を使ったGit Hookの仕組みに変更、インストール時に自動でHook有効化はせずに明示的に`husky install`で有効化するように変更など",
+        "tags": [
+          "JavaScript",
+          "git ",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Patron License 1.0.0",
+            "url": "https://patronlicense.com/versions/1.0.0"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "Typescript-TDD/ts-auto-mock",
+    [
+      {
+        "date": "2020-11-24T00:45:07.837Z",
+        "title": "Typescript-TDD/ts-auto-mock: Typescript transformer to unlock automatic mock creation for interfaces and classes",
+        "url": "https://github.com/Typescript-TDD/ts-auto-mock",
+        "content": "TypeScriptの型定義から自動的にモックをつくるTypeScript Plugin。\nttypescriptとts-patchを経由したTypeSriptのtransformとして動作する",
+        "tags": [
+          "TypeScript",
+          "plugin",
+          "test"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "optoolco/tonic",
+    [
+      {
+        "date": "2020-11-26T12:32:18.735Z",
+        "title": "optoolco/tonic: A Low Profile Component Framework. Stable, Minimal, Auditable, and Build-Tool-Free.",
+        "url": "https://github.com/optoolco/tonic",
+        "content": "Web Componentsフレームワーク。\nコンポーネントの作成、`html`メソッドでのJSXライクなテンプレート、Proposでの値渡し、State、ライフサイクルイベントをもつ。\nビルドせずに使える。",
+        "tags": [
+          "WebComponents",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "lukeed/uvu",
+    [
+      {
+        "date": "2020-11-27T13:39:34.714Z",
+        "title": "lukeed/uvu: uvu is an extremely fast and lightweight test runner for Node.js and the browser",
+        "url": "https://github.com/lukeed/uvu",
+        "content": "実行速度を目的にしたテストフレームワーク。\nテストファイル自体が実行でき、Native ES Modulesのサポート、ブラウザでも動作する。\n`test`と`suite`メソッド、`uvu/assert`モジュールを持っている",
+        "tags": [
+          "node.js",
+          "JavaScript",
+          "browser",
+          "testing",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "FormidableLabs/urql",
+    [
+      {
+        "date": "2020-11-29T15:54:02.458Z",
+        "title": "FormidableLabs/urql: The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
+        "url": "https://github.com/FormidableLabs/urql",
+        "content": "GraphQLクライアントライブラリ。\nGraphQLへのリクエスト、キャッシュ、Reactなどのライブラリに対応している。\nExchangesという拡張の仕組みやデバッグ用の開発者ツールを持っている",
+        "tags": [
+          "GraphQL",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "funbox/harold",
+    [
+      {
+        "date": "2020-11-29T15:58:30.114Z",
+        "title": "funbox/harold: Compares frontend project bundles",
+        "url": "https://github.com/funbox/harold",
+        "content": "プロジェクトのフロントエンド周りのファイルサイズなどのスナップショットを取り、スナップショット同士を比較できるツール。\nプロジェクトのファイルサイズやビルド時間の変化などを計測できる",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "panva/jose",
+    [
+      {
+        "date": "2020-11-29T16:00:42.136Z",
+        "title": "panva/jose: Universal \"JSON Web Almost Everything\" - JWA, JWS, JWE, JWT, JWK with no dependencies",
+        "url": "https://github.com/panva/jose",
+        "content": "UniversalなJWA, JWS, JWE, JWT, JWKの実装ライブラリ。\nブラウザではWeb Cryptography APIを利用している。",
+        "tags": [
+          "JWT",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "GoogleChrome/workbox",
+    [
+      {
+        "date": "2020-12-01T02:13:06.784Z",
+        "title": "Release Workbox v6.0.0 · GoogleChrome/workbox",
+        "url": "https://github.com/GoogleChrome/workbox/releases/tag/v6.0.0",
+        "content": "Workbox 6.0.0リリース。\nwebpack 5の対応、Strategy/Pluginの仕組みの変更、`workbox-recipes`パッケージの追加など。\nWorkboxの`skipWaiting`はDeprecatedとなり、Service Workerの`self.skipWaiting()`を使うのを推奨するようになるなど",
+        "tags": [
+          "ServiceWorker",
+          "ReleaseNote",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "talentlessguy/tinyhttp",
+    [
+      {
+        "date": "2020-12-01T02:25:19.777Z",
+        "title": "talentlessguy/tinyhttp: ⚡ 0-legacy, tiny & fast web framework as a replacement of Express",
+        "url": "https://github.com/talentlessguy/tinyhttp",
+        "content": "express-likeなAPIを持つNode.jsウェブフレームワーク。\nexpress middlewareとの互換性を持ち、async functionをサポートしている",
+        "tags": [
+          "express",
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "yeonjuan/html-eslint",
+    [
+      {
+        "date": "2020-12-02T14:04:54.065Z",
+        "title": "yeonjuan/html-eslint: ESLint plugin for linting HTML",
+        "url": "https://github.com/yeonjuan/html-eslint",
+        "content": "ESLint上でHTMLのLintをするプラグインとルール",
+        "tags": [
+          "ESLint",
+          "HTML",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "preactjs/wmr",
+    [
+      {
+        "date": "2020-12-04T05:59:53.954Z",
+        "title": "preactjs/wmr: 👩‍🚀 The tiny all-in-one development tool for modern web apps.",
+        "url": "https://github.com/preactjs/wmr",
+        "content": "RollupベースのJSやCSSのビルド、開発サーバ、Prerenderなどの機能を持ったウェブフロント開発ツールキット",
+        "tags": [
+          "React",
+          "Tools",
+          "JavaScript"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "naugtur/debugging-aid",
+    [
+      {
+        "date": "2020-12-07T13:02:18.566Z",
+        "title": "naugtur/debugging-aid: Experimental tools for debugging Node.js apps without pausing",
+        "url": "https://github.com/naugtur/debugging-aid",
+        "content": "Node.jsの`perf_hooks`などを使ったrequireするだけでinstrumentsを仕込めるモジュール集",
+        "tags": [
+          "node.js",
+          "debug",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "aframevr/aframe",
+    [
+      {
+        "date": "2020-12-07T13:10:28.449Z",
+        "title": "Release v1.1.0 · aframevr/aframe",
+        "url": "https://github.com/aframevr/aframe/releases/tag/v1.1.0",
+        "content": "WebXRフレームワークのAFrame v1.1.0リリース。\nWebXR compositor layers、WebXR DOM Overlays、WebXR immersive navigation、WebXR hand trackingのサポート。\nOculus Quest 2のコントローラーのサポートなど",
+        "tags": [
+          "WebXR",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "gildas-lormeau/SingleFile",
+    [
+      {
+        "date": "2020-12-11T12:49:24.322Z",
+        "title": "gildas-lormeau/SingleFile: Web Extension for Firefox/Chrome/MS Edge and CLI tool to save a faithful copy of an entire web page in a single HTML file",
+        "url": "https://github.com/gildas-lormeau/SingleFile",
+        "content": "ウェブサイトをシングルファイルのHTMLとして保存できるブラウザ拡張とCLI",
+        "tags": [
+          "Firefox",
+          "Chrome",
+          "Extension",
+          "console",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "tannerlinsley/react-query",
+    [
+      {
+        "date": "2020-12-16T08:12:00.902Z",
+        "title": "Release v3! (But technically 3.2.0 😂) · tannerlinsley/react-query",
+        "url": "https://github.com/tannerlinsley/react-query/releases/tag/v3.2.0",
+        "content": "React Query 3リリース。\n`QueryCache`と`QueryClient`の分離、`useInfiniteQuery`が両方向をサポート、`react-query-devtools`は`react-query`パッケージに同梱されるように",
+        "tags": [
+          "React",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "viaURL": "https://blog.willnet.in/entry/2020/12/11/100000",
+        "relatedLinks": [
+          {
+            "title": "Migrating to React Query 3 | React Query | TanStack",
+            "url": "https://react-query.tanstack.com/guides/migrating-to-react-query-3"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "facebook/flux",
+    [
+      {
+        "date": "2020-12-16T14:38:34.003Z",
+        "title": "Release 4.0.0 · facebook/flux",
+        "url": "https://github.com/facebook/flux/releases/tag/4.0.0",
+        "content": "flux 4.0.0リリース。\nflux自体はメンテナンスモードとなっている。\nfbjsのアップデート、Babel 7との互換性に関する周ウエイ、React 17をPeerDependenciesに追加",
+        "tags": [
+          "Flux",
+          "JavaScript",
+          "library",
+          "ReleaseNote"
+        ],
+        "viaURL": "https://blog.willnet.in/entry/2020/12/11/100000",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "rafgraph/rollpkg",
+    [
+      {
+        "date": "2020-12-17T02:58:58.259Z",
+        "title": "rafgraph/rollpkg: Convention over configuration way to create packages with Rollup and TypeScript",
+        "url": "https://github.com/rafgraph/rollpkg",
+        "content": "TypeScriptとRollupを使ったパッケージ開発のためツールキット。\nCJS、ESMなどの各種モジュールのビルド、tsconfigやprettierなどのプリセット、ビルド時に開発向けのコードを取り除く仕組みなどをもつ",
+        "tags": [
+          "JavaScript",
+          "bundler",
+          "TypeScript",
+          "Tools"
+        ],
+        "viaURL": "https://blog.willnet.in/entry/2020/12/11/100000",
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "cincheo/jsweet",
+    [
+      {
+        "date": "2020-12-19T01:00:19.824Z",
+        "title": "cincheo/jsweet: A Java to JavaScript transpiler.",
+        "url": "https://github.com/cincheo/jsweet",
+        "content": "JavaのコードからTypeScript/JavaScriptのコードに変換するTranspiler",
+        "tags": [
+          "Java",
+          "JavaScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "less/less.js",
+    [
+      {
+        "date": "2020-12-19T01:23:02.063Z",
+        "title": "Release v4.0.0 · less/less.js",
+        "url": "https://github.com/less/less.js/releases/tag/v4.0.0",
+        "content": "Less 4.0.0リリース。\n破壊的な変更としてmixinの呼び出し方のチェックをより厳密に変更、`math`オプションの初期値を`parens-division`に変更など。\n`min()`/`max()`のサポート改善、`isdefined()`の追加など",
+        "tags": [
+          "CSS",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "f/honst",
+    [
+      {
+        "date": "2020-12-21T15:07:00.732Z",
+        "title": "f/honst: Fixes your dataset according to your rules.",
+        "url": "https://github.com/f/honst",
+        "content": "オブジェクトの配列に対してルールを元にデータを編集するライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fb55/htmlparser2",
+    [
+      {
+        "date": "2020-12-21T15:32:33.844Z",
+        "title": "Release v6.0.0 · fb55/htmlparser2",
+        "url": "https://github.com/fb55/htmlparser2/releases/tag/v6.0.0",
+        "content": "htmlparser2 6.0.0リリース",
+        "tags": [
+          "HTML",
+          "library",
+          "ReleaseNote"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "Agamnentzar/ag-psd",
+    [
+      {
+        "date": "2020-12-21T15:39:09.598Z",
+        "title": "Agamnentzar/ag-psd: Javascript library for reading and writing PSD files",
+        "url": "https://github.com/Agamnentzar/ag-psd",
+        "content": "PSDファイルの読み書きをするライブラリ",
+        "tags": [
+          "JavaScript",
+          "library"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "asos-craigmorten/opine",
+    [
+      {
+        "date": "2020-12-21T16:17:55.833Z",
+        "title": "asos-craigmorten/opine: Fast, minimalist web framework for Deno ported from ExpressJS.",
+        "url": "https://github.com/asos-craigmorten/opine",
+        "content": "expressをDeno向けのポートしたウェブサーバライブラリ",
+        "tags": [
+          "deno",
+          "library",
+          "express"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "developit/microbundle",
+    [
+      {
+        "date": "2020-12-21T16:51:19.969Z",
+        "title": "Release v0.13.0 · developit/microbundle",
+        "url": "https://github.com/developit/microbundle/releases/tag/v0.13.0",
+        "content": "ライブラリを配布用にbundleするmicrobundle 0.13.0リリース。\n`--css`フラグを追加し、CSSをデフォルトでは外部ファイル(`external`)として出力し、`inline`でインライン化できるように。\n",
+        "tags": [
+          "JavaScript",
+          "library",
+          "ReleaseNote",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "msn0/mdn-polyfills",
+    [
+      {
+        "date": "2020-12-23T02:36:14.217Z",
+        "title": "msn0/mdn-polyfills: MDN polyfills - from, forEach, filter, find, findIndex, assign, includes, create, entries, of, repeat, startsWith, endsWith, toggleAttribute, bind, MouseEvent, CustomEvent, padEnd, padStart",
+        "url": "https://github.com/msn0/mdn-polyfills",
+        "content": "MDNに載っているJavaScriptやDOM APIのpolyfillをまとめたパッケージ",
+        "tags": [
+          "JavaScript",
+          "mdn",
+          "library",
+          "polyfill"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "fuse-box/fuse-box",
+    [
+      {
+        "date": "2020-12-25T23:46:06.896Z",
+        "title": "Release 4.0.0 · fuse-box/fuse-box",
+        "url": "https://github.com/fuse-box/fuse-box/releases/tag/v4.0.0",
+        "content": "FuseBox 4.0リリース。\n破壊的な変更として`homeDir`、`output`、`useSigleBundle`の削除。\n`watch`オプションを`watcher`にリネーム、\n`output`オプションの代わりに`bundles.distRoot`を使うように変更など\n",
+        "tags": [
+          "bundler",
+          "Tools",
+          "ReleaseNote"
+        ],
+        "relatedLinks": [
+          {
+            "title": "Changelog fuse 3 to 4 · FuseBox",
+            "url": "https://fuse-box.org/docs/development/changelog-fuse-compiler"
+          }
+        ]
+      }
+    ]
+  ],
+  [
+    "jameslittle230/stork",
+    [
+      {
+        "date": "2020-12-28T12:18:32.027Z",
+        "title": "jameslittle230/stork: 🔎 Impossibly fast web search, made for static sites.",
+        "url": "https://github.com/jameslittle230/stork",
+        "content": "Rustで書かれたindexerとWebAssemblyを使った検索ライブラリ。\n検索対象のファイルからインデックスファイルを作り、それを元にした検索機能/UIを提供するライブラリ",
+        "tags": [
+          "JavaScript",
+          "Rust",
+          "WebAssembly"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "devbridge/js-unused-exports",
+    [
+      {
+        "date": "2020-12-28T12:26:35.346Z",
+        "title": "devbridge/js-unused-exports",
+        "url": "https://github.com/devbridge/js-unused-exports",
+        "content": "JavaScriptのファイルから使われてない関数、ファイルを抽出するツール。\n細かい無視オプションやaliasの対応などのオプションをもっている。\n",
+        "tags": [
+          "JavaScript",
+          "Tools"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ],
+  [
+    "kentcdodds/cross-env",
+    [
+      {
+        "date": "2020-12-29T03:00:33.622Z",
+        "title": "cross-env is \"finished\" (now in maintenance mode) · Issue #257 · kentcdodds/cross-env",
+        "url": "https://github.com/kentcdodds/cross-env/issues/257",
+        "content": "cross-envがメンテナンスモードとなりアーカイブされた。\n機能として完成しているため、これ以上機能追加することはないため。セキュリティアップデートと新しいNode.jsへの対応は続けるメンテナンスモードとなった",
+        "tags": [
+          "node.js",
+          "library",
+          "news"
+        ],
+        "relatedLinks": []
+      }
+    ]
+  ]
+]
